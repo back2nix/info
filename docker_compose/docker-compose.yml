@@ -1,0 +1,55 @@
+version: "3.9"
+services:
+  # docker run --rm --privileged multiarch/qemu-user-static:register --reset
+  # docker-compose run --rm ubuntu_arm
+  ubuntu_arm:
+    deploy:
+      resources:
+        limits:
+          cpus: '24.0'
+    # image: multiarch/ubuntu-core:arm64-bionic
+    image: REPO_DEPRECATED/opencv_4.3_ubuntu_18.04_arm64_sys_small
+    #build:
+      #context: .
+      #dockerfile: ./docker/dockerfile.18.04
+    container_name: ubuntu_arm
+    platform: linux/arm64/v7
+    volumes:
+      - type: bind
+        source: ./bind
+        target: /bind
+  # docker-compose run --rm alpine_test
+  alpine_test:
+    image: amd64/alpine
+    container_name: alpine_test
+    volumes:
+      - type: bind
+        source: ./bind
+        target: /bind
+  # docker-compose run --rm ubuntu20.04
+  ubuntu20.04:
+    #deploy:
+        #resources:
+            #limits:
+              #cpus: 1.00
+              #memory: 512M
+            #reservations:
+              #cpus: 0.25
+              #memory: 128M
+    image: ubuntu:20.04
+    build:
+      context: .
+      dockerfile: ./docker/nvim.dockerfile
+    #container_name: ubuntu20.04
+    volumes:
+      - type: bind
+        source: ./bind
+        target: /bind
+    privileged: true
+    cap_add:
+      - SYS_ADMIN
+    devices:
+      - /dev/fuse
+      #- '/dev:/dev'
+    #environment:
+      #- UDEV=1

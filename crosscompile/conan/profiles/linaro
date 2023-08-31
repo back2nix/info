@@ -1,0 +1,29 @@
+target_host=arm-linux-gnueabih
+standalone_toolchain=/home/bg/Downloads/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabih
+cc_compiler=gcc
+cxx_compiler=g++
+
+[settings]
+os=Linux
+arch=armv7hf
+compiler=gcc
+compiler.version=6.3
+compiler.libcxx=libstdc++11
+build_type=Release
+
+[env]
+CONAN_CMAKE_FIND_ROOT_PATH=$standalone_toolchain/$target_host
+CONAN_CMAKE_SYSROOT=$standalone_toolchain/$target_host/libc
+QEMU_LD_PREFIX=$standalone_toolchain/$target_host/libc
+PATH=[$standalone_toolchain/bin]
+CHOST=$target_host
+AR=$target_host-ar
+AS=$target_host-as
+RANLIB=$target_host-ranlib
+LD=$target_host-ld
+STRIP=$target_host-strip
+CC=$target_host-$cc_compiler
+CXX=$target_host-$cxx_compiler
+CFLAGS=-B$standalone_toolchain/$target_host/libc/usr/lib -I$standalone_toolchain/$target_host/libc/usr/include --sysroot=$standalone_toolchain/$target_host/libc
+LIBPATH=$standalone_toolchain/$target_host/libc/lib
+CXXFLAGS=-B$standalone_toolchain/$target_host/libc/usr/lib -I$standalone_toolchain/$target_host/libc/usr/include

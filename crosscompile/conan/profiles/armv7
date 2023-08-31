@@ -1,0 +1,32 @@
+toolchain=arm-linux-gnueabihf
+target_host=arm-linux-gnueabihf
+standalone_toolchain=/usr
+cc_compiler=gcc
+cxx_compiler=g++
+
+[env]
+CONAN_CMAKE_FIND_ROOT_PATH=$standalone_toolchain/$target_host
+CONAN_CMAKE_SYSROOT=$standalone_toolchain/$target_host/sysroot
+PATH=[$standalone_toolchain/$target_host/bin]
+CHOST=$target_host
+AR=$target_host-ar
+AS=$target_host-as
+RANLIB=$target_host-ranlib
+LD=$target_host-ld
+STRIP=$target_host-strip
+CC=$target_host-$cc_compiler
+CXX=$target_host-$cxx_compiler
+CXXFLAGS=-I"$standalone_toolchain/$target_host/include"
+LD_LIBRARY_PATH=/usr/arm-linux-gnueabihf/lib
+#PATH=/usr/arm-linux-gnueabihf/include
+
+[settings]
+# We are cross-building to Windows
+os=Linux
+arch=armv7hf
+compiler=gcc
+
+# Adjust to the gcc version of your MinGW package
+compiler.version=5.4
+compiler.libcxx=libstdc++11
+build_type=Release
