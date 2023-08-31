@@ -1,0 +1,14 @@
+[requires]
+opencv/4.5.5
+#poco/1.11.2
+
+[generators]
+cmake
+
+[options]
+opencv:shared=True
+opencv:with_gtk=False
+opencv:with_ffmpeg=False
+#opencv:with_jpeg=True
+opencv:with_tiff=False
+

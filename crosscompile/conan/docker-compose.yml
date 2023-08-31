@@ -1,0 +1,42 @@
+version: "3.9"
+services:
+  # docker-compose run --rm ubuntu_cross_armv7 bash
+  ubuntu_cross_armv7:
+    build:
+      context: .
+      dockerfile: ./docker/armv7.dockerfile
+    container_name: ubuntu_cross_armv7
+    volumes:
+      - type: bind
+        source: .
+        target: /build
+  # docker-compose run --rm ubuntu_conan_armv7_gcc_5 bash
+  ubuntu_conan_armv7_gcc_5:
+    #image: conanio/gcc5-armv7hf
+    build:
+      context: .
+      dockerfile: ./docker/conan_armv7.dockerfile
+    container_name: ubuntu_conan_armv7_gcc_5
+    volumes:
+      - type: bind
+        source: .
+        target: /work
+      - type: bind
+        source: ./profiles
+        target: /home/conan/.conan/profiles
+  # docker-compose run --rm conan_mingw64 bash
+  conan_mingw64:
+    build:
+      context: .
+      dockerfile: ./docker/conan_mingw64.dockerfile
+    container_name: conan_mingw64
+    volumes:
+      - type: bind
+        source: .
+        target: /work
+      - type: bind
+        source: ./conanbrebuild
+        target: /root/.conan/data
+      - type: bind
+        source: ./profiles
+        target: /root/.conan/profiles
