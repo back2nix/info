@@ -30,6 +30,8 @@ nix-env -i --dry-run neovim
 - https://www.youtube.com/watch?v=jXd-hkP4xnU&t=253s&ab_channel=JonRinger
 - чувак компилит пакеты
 - https://www.youtube.com/watch?v=uATCXO6NSoU&ab_channel=ChrisMcDonough
+- mkShell and build общие зависимости
+- https://www.youtube.com/watch?v=_8DS6IqqrBA&ab_channel=Tweag
 
 # command
 
@@ -37,3 +39,8 @@ nix-env -i --dry-run neovim
 # собрать deb пакет со всеми зависимостями
 nix bundle --bundler bundlers#toDEB nixpkgs#hello
 ```
+
+# gist
+
+gh gist create /etc/nixos/* или 
+cat /etc/nixos/configuration.nix | curl -F"file=@-" https://0x0.st
