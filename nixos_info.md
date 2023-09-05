@@ -32,6 +32,8 @@ nix-env -i --dry-run neovim
 - https://www.youtube.com/watch?v=uATCXO6NSoU&ab_channel=ChrisMcDonough
 - mkShell and build общие зависимости
 - https://www.youtube.com/watch?v=_8DS6IqqrBA&ab_channel=Tweag
+- Pinning specific NVidia driver on NixOS
+- https://www.youtube.com/watch?v=j9Z55qkTeS4&ab_channel=junxan
 
 # command
 
