@@ -34,6 +34,8 @@ nix-env -i --dry-run neovim
 - https://www.youtube.com/watch?v=_8DS6IqqrBA&ab_channel=Tweag
 - Pinning specific NVidia driver on NixOS
 - https://www.youtube.com/watch?v=j9Z55qkTeS4&ab_channel=junxan
+- nixos-build switch, test, boot
+- https://www.youtube.com/watch?v=VqUKpNXnRxs&ab_channel=SwitchedtoLinux
 
 # command
 
