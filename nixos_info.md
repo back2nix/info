@@ -26,7 +26,7 @@ nix-env -i --dry-run neovim
 - https://www.youtube.com/watch?v=D_IZ2EfW_8U&ab_channel=JonRinger
 - собирает OpenRGB nix-template
 - https://www.youtube.com/watch?v=bkDYmvKINm8&ab_channel=JonRinger
-- python310Pacage build 
+- python310Pacage build python packaging `src = "./.";`
 - https://www.youtube.com/watch?v=jXd-hkP4xnU&t=253s&ab_channel=JonRinger
 - чувак компилит пакеты
 - https://www.youtube.com/watch?v=uATCXO6NSoU&ab_channel=ChrisMcDonough
@@ -34,8 +34,6 @@ nix-env -i --dry-run neovim
 - https://www.youtube.com/watch?v=_8DS6IqqrBA&ab_channel=Tweag
 - Pinning specific NVidia driver on NixOS
 - https://www.youtube.com/watch?v=j9Z55qkTeS4&ab_channel=junxan
-- python packaging `src = "./.";`
-- https://www.youtube.com/watch?v=jXd-hkP4xnU&ab_channel=JonRinger
 
 # command
 
