@@ -36,6 +36,8 @@ nix-env -i --dry-run neovim
 - https://www.youtube.com/watch?v=j9Z55qkTeS4&ab_channel=junxan
 - nixos-build switch, test, boot
 - https://www.youtube.com/watch?v=VqUKpNXnRxs&ab_channel=SwitchedtoLinux
+- Packaging copier for Nixpkgs 
+- https://www.youtube.com/watch?v=6P5kuRADlb8&ab_channel=JonRinger
 
 # command
 
