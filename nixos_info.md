@@ -50,3 +50,17 @@ nix bundle --bundler bundlers#toDEB nixpkgs#hello
 
 gh gist create /etc/nixos/* или 
 cat /etc/nixos/configuration.nix | curl -F"file=@-" https://0x0.st
+
+
+# venv
+
+```
+    buildInputs = with pkgs.python310Packages; [
+      venvShellHook
+    ];
+    venvDir = "venv310";
+    postShellHook = ''
+      pip install -e .
+    '';
+
+```
