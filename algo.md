@@ -1,1 +1,2 @@
 - https://www.piratekingdom.com/leetcode/cheat-sheet
+- 75 task/20 days - https://leetcode.com/studyplan/leetcode-75/
