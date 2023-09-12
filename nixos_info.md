@@ -64,3 +64,13 @@ cat /etc/nixos/configuration.nix | curl -F"file=@-" https://0x0.st
     '';
 
 ```
+
+# overide shell stdenv gcc11
+
+```nix
+pkgs.mkShell.override { stdenv = pkgs.gcc11Stdenv; } {
+    name = "my-override-shell";
+    buildInputs = with pkgs.python310Packages; [
+    ];
+}
+```
