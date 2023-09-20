@@ -74,3 +74,20 @@ pkgs.mkShell.override { stdenv = pkgs.gcc11Stdenv; } {
     ];
 }
 ```
+# cheat
+
+```bash
+# ldd
+patchelf --print-needed result/bin/hello
+
+- https://nixos.wiki/wiki/Cheatsheetc
+# build static
+nix-build -E 'with (import ./. {}); (curl.override { stdenv = makeStaticLibraries stdenv;}).out'
+# or
+nix-build '<nixpkgs>' -A pkgsStatic.qt5
+# with debug
+nix-build -E 'with import <nixpkgs> {}; enableDebugging st'
+
+# cross build
+nix-build '<nixpkgs>' --arg crossSystem '(import <nixpkgs> {}).lib.systems.examples.aarch64-multiplatform' -A tinc
+```
