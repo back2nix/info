@@ -36,4 +36,8 @@ git-fetch-with-cli = true
 
 
 # golang - rust
-https://programming-idioms.org/cheatsheet/Go/Rust
+- https://programming-idioms.org/cheatsheet/Go/Rust
+
+# python to rust
+
+- https://www.youtube.com/watch?v=jlWhnrk8go0&ab_channel=IsaacHarris-Holt
