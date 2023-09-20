@@ -1,5 +1,10 @@
 ### Postgress
 
+# обучение
+- https://sqlbolt.com/lesson/select_queries_introduction
+- https://techtfq.com/blog/top-20-sql-interview-questions
+- https://www.youtube.com/watch?v=AK7_m-aThfw&t=6s&ab_channel=techTFQ
+
 # pgamdin
 
 ```bash
