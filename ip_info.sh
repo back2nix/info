@@ -36,8 +36,8 @@ lshw -C network
 ss -s
 ss -t -a
 ss -t -a | grep CLOSE-WAIT | wc -l
-netstat -ao|grep 5000
-netstat -ao|grep 7777 | wc -l
+netstat -ao | grep 5000
+netstat -ao | grep 7777 | wc -l
 
 netstat -atunp 5000
 
@@ -46,8 +46,13 @@ ls /proc/7285/fd/
 
 sudo systemclt stop daemon_remote_ssh_v2.service
 
-
 sudo ping -s 1300 -f 192.168.88.1
 ping size=1300 interval=0.1 79.174.188.193
 # Светалан - омега интернет
 89219313709
+
+# check ip address
+#
+- https://webbrowsertools.com/ip-address/
+- Чтобы не моглий определить мой настоящий proxy
+- webrtc disable https://chrome.google.com/webstore/detail/webrtc-leak-shield/bppamachkoflopbagkdoflbgfjflfnfl/related
