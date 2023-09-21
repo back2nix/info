@@ -35,3 +35,7 @@ python3.10 get-pip.py
 update-alternatives --list python
 update-alternatives --install /usr/bin/python3 python /usr/local/bin/python3.10 1
 ```
+
+# tutorial
+
+learnpython.org
