@@ -41,3 +41,8 @@ git-fetch-with-cli = true
 # python to rust
 
 - https://www.youtube.com/watch?v=jlWhnrk8go0&ab_channel=IsaacHarris-Holt
+
+# tutorial
+
+- https://rust-book.cs.brown.edu/ch03-05-control-flow.html
+
