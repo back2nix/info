@@ -91,3 +91,9 @@ nix-build -E 'with import <nixpkgs> {}; enableDebugging st'
 # cross build
 nix-build '<nixpkgs>' --arg crossSystem '(import <nixpkgs> {}).lib.systems.examples.aarch64-multiplatform' -A tinc
 ```
+
+# overlay
+
+- https://github.com/igsha/nix-overlays
+- https://github.com/mozilla/nixpkgs-mozilla
+- https://github.com/back2nix/nix-shell/tree/main/overlay
