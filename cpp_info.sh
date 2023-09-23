@@ -256,3 +256,7 @@ https://www.youtube.com/watch?v=r5JGDiI22s4&list=PL8lrem_tlBtdrAr2Zvg2CUA3iAL8uI
 
 # компялятор для windows tdm-gcc
 https://jmeubank.github.io/tdm-gcc/
+
+
+# decomiler explorer
+https://dogbolt.org/
