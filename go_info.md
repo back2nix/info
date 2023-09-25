@@ -433,3 +433,8 @@ sudo apt install -y libvulkan-dev libxkbcommon-x11-dev
 - https://github.com/sigstore/fulcio/blob/main/.goreleaser.yml
 - https://github.com/sigstore/cosign/blob/main/.goreleaser.yml
 
+
+
+# timer
+
+go run github.com/antonmedv/countdown@latest 25m
