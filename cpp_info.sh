@@ -260,3 +260,6 @@ https://jmeubank.github.io/tdm-gcc/
 
 # decomiler explorer
 https://dogbolt.org/
+
+#  "Clean" Code, Horrible Performance
+- https://www.youtube.com/watch?v=tD5NrevFtbU&ab_channel=MollyRocket

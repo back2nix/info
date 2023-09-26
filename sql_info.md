@@ -4,6 +4,7 @@
 - https://sqlbolt.com/lesson/select_queries_introduction
 - https://techtfq.com/blog/top-20-sql-interview-questions
 - https://www.youtube.com/watch?v=AK7_m-aThfw&t=6s&ab_channel=techTFQ
+- https://www.youtube.com/watch?v=fhwEFZ34c7g&ab_channel=PlanetScale
 
 # pgamdin
 
