@@ -38,6 +38,10 @@ nix-env -i --dry-run neovim
 - https://www.youtube.com/watch?v=VqUKpNXnRxs&ab_channel=SwitchedtoLinux
 - Packaging copier for Nixpkgs 
 - https://www.youtube.com/watch?v=6P5kuRADlb8&ab_channel=JonRinger
+- hub https://www.nixhub.io/
+- https://www.youtube.com/watch?v=yQwW8dkuHqw&ab_channel=Vimjoyer
+- devbox
+- https://www.jetpack.io/devbox/docs/quickstart/
 
 # command
 
