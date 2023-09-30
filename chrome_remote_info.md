@@ -1,13 +1,16 @@
 # Чтобы google chrome подключался к текущему рабочему столу linux
 
-touch ~/.chrome-remote-desktop-session
+- touch ~/.chrome-remote-desktop-session
 
 # содержиме файла .chrome-remote-desktop-session
+#
+```
 [Desktop Entry]
 Name=Lubuntu
 Comment=Chrome remote desktop Lubuntu 17.03
 exec /usr/sbin/lightdm-session "/usr/bin/lxsession -s Lubuntu -e LXDE"
 Type=Application
+```
 
 # изменить в файле 
 # sudo vim /opt/google/chrome-remote-desktop/chrome-remote-desktop
@@ -30,3 +33,4 @@ def launch_session(self, keep_env, x_args):
 
 # рестартим сервис и радуемся
 sudo service chrome-remote-desktop restart
+
