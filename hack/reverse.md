@@ -9,3 +9,8 @@
 
 ### тунели
 - https://github.com/sysdream/ligolo
+
+# debug
+
+- debug + trace
+- https://github.com/geohot/qira
