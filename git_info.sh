@@ -80,7 +80,7 @@ git revert  [тот хэш]
 
 git revert -m 1 23232323
 
-git add -p # добавить только некоторые изменения из файла
+git add -p # interactive интерактив добавить только некоторые изменения из файла
 
 git submodule add git@github.com:REPO_DEPRECATED/lfs_test0.git # добавить submodule
 git submodule update --init --recursive # без коментариев
