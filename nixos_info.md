@@ -42,6 +42,29 @@ nix-env -i --dry-run neovim
 - https://www.youtube.com/watch?v=yQwW8dkuHqw&ab_channel=Vimjoyer
 - devbox
 - https://www.jetpack.io/devbox/docs/quickstart/
+- nix build, nix develop unpackPhase
+- https://www.youtube.com/watch?v=xXlCcdPz6Vc&ab_channel=OpenTechLab
+
+
+
+# unpackPhase
+
+- https://www.youtube.com/watch?v=xXlCcdPz6Vc&ab_channel=OpenTechLab
+- https://nixos.wiki/wiki/Packaging/Tutorial
+
+```
+git clone https://github.com/jhol/otl-nix-cxx-example
+cd otl-nix-cxx-example
+nix develop
+
+unpackPhase
+cd $sourceRoot # $sourceRoot is created in unpack phase, see https://nixos.org/manual/nixpkgs/stable/#ssec-unpack-phase for details.
+patchPhase
+configurePhase
+buildPhase
+
+eval "$configurePhase"
+```
 
 # command
 
