@@ -5,3 +5,4 @@
 - leadership principles
 - cracking coding interview
 - cracking tpm interview
+- https://github.com/xizhengszhang/Leetcode_company_frequency
