@@ -48,6 +48,7 @@ nix-env -i --dry-run neovim
 - https://nixos.wiki/wiki/Nixpkgs/Create_and_debug_packages
 - virt-manager libvirt
 - https://www.youtube.com/watch?v=r8qM6Vw571Y&ab_channel=JohannesSchickling
+- https://github.com/ghuntley/ghuntley/blob/trunk/services/dev-ghuntley/templates/nix/Dockerfile
 
 
 
