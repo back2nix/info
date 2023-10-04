@@ -44,6 +44,10 @@ nix-env -i --dry-run neovim
 - https://www.jetpack.io/devbox/docs/quickstart/
 - nix build, nix develop unpackPhase
 - https://www.youtube.com/watch?v=xXlCcdPz6Vc&ab_channel=OpenTechLab
+- https://zimbatm.com/
+- https://nixos.wiki/wiki/Nixpkgs/Create_and_debug_packages
+- virt-manager libvirt
+- https://www.youtube.com/watch?v=r8qM6Vw571Y&ab_channel=JohannesSchickling
 
 
 
@@ -63,8 +67,12 @@ dontPath = true;
 
 genericBuild
 
+# $sourceRoot is created in unpack phase, see https://nixos.org/manual/nixpkgs/stable/#ssec-unpack-phase for details.
+
+nix-shell '<nixpkgs>' -A opencv
+
 unpackPhase
-cd $sourceRoot # $sourceRoot is created in unpack phase, see https://nixos.org/manual/nixpkgs/stable/#ssec-unpack-phase for details.
+cd $sourceRoot 
 patchPhase
 cmakeConfigurePhase
 configurePhase

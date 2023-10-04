@@ -6,3 +6,5 @@
 - cracking coding interview
 - cracking tpm interview
 - https://github.com/xizhengszhang/Leetcode_company_frequency
+- cs162
+- https://www.youtube.com/watch?v=pPzVV2kkGHc&list=PLF2K2xZjNEf97A_uBCwEl61sdxWVP7VWC&ab_channel=JohnKubiatowicz
