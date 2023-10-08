@@ -3,3 +3,6 @@
 
 - как фейсбук переписал все на rust
 - https://www.youtube.com/watch?v=x2EOOJg8FkA&ab_channel=MollyRocket
+
+- path finding visualisation
+- https://www.youtube.com/watch?v=CgW0HPHqFE8&ab_channel=onesandzeros
