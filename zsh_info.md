@@ -1,0 +1,3 @@
+- zsh profile
+- https://www.youtube.com/watch?v=cYmKRCUn96I&ab_channel=GregHurrell
+- https://github.com/wincent/wincent/blob/85fc42d9e96d408a/aspects/dotfiles/files/.zshrc
