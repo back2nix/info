@@ -11,3 +11,5 @@
 - leetcode
 - https://github.com/ganeshskudva/Leetcode-Golang
 - https://www.boot.dev/
+- уровни зарплат 
+- https://www.levels.fyi/?compare=Yandex,Sberbank,OZON&track=Software%20Engineer
