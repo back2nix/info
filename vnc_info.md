@@ -1,0 +1,2 @@
+- лучше чем vnc
+- https://github.com/moonlight-stream/moonlight-qt
