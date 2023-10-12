@@ -1,2 +1,4 @@
 - лучше чем vnc
 - https://github.com/moonlight-stream/moonlight-qt
+- host for moonlight
+- https://github.com/LizardByte/Sunshine
