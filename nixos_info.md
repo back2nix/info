@@ -135,6 +135,20 @@ nix-build -E 'with import <nixpkgs> {}; enableDebugging st'
 nix-build '<nixpkgs>' --arg crossSystem '(import <nixpkgs> {}).lib.systems.examples.aarch64-multiplatform' -A tinc
 ```
 
+# patchelf use
+
+```bash
+#! /usr/bin/env nix-shell
+#! nix-shell -i bash -p patchelf
+
+for binary in ${@}; do
+	patchelf \
+		--set-interpreter "$(cat ${NIX_CC}/nix-support/dynamic-linker)" \
+		"${binary}"
+done
+```
+
+
 # overlay
 
 - https://github.com/igsha/nix-overlays
