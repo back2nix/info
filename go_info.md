@@ -143,6 +143,13 @@ import _ "net/http/pprof"
 go tool pprof -seconds 5 http://server/debug/pprof/profile
 go tool pprof -seconds 5 http://server/debug/pprof/heap
 
+# profile line by line
+- https://go.dev/blog/pprof
+
+```bash
+go tool profile cpu.pprof
+list dfs
+```
 
 # уменьшить размер бинарника upx
 upx new last
@@ -193,6 +200,7 @@ go tool pprof -seconds 5 http://localhost:8080/debug/pprof/heap
 
 curl http://localhost:8080/debug/pprof/heap > heap.0.pprof
 curl http://localhost:8080/debug/pprof/cpu > cpu.0.pprof
+curl http://localhost:8080/debug/pprof/trace > trace.0.pprof
 go tool pprof heap.0.pprof
 HEAP=heap.7.pprof && curl http://localhost:8080/debug/pprof/heap > $HEAP && go tool pprof -nodefraction=0 -inuse_objects $HEAP
 
