@@ -147,7 +147,7 @@ go tool pprof -seconds 5 http://server/debug/pprof/heap
 - https://go.dev/blog/pprof
 
 ```bash
-go tool profile cpu.pprof
+go tool profile prog.pprof mprog.mprof
 list dfs
 ```
 
