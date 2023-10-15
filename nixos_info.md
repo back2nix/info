@@ -148,6 +148,9 @@ for binary in ${@}; do
 done
 ```
 
+- get path to libraries
+- nix eval --raw nixpkgs#sqlit
+
 
 # overlay
 

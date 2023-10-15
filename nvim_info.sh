@@ -156,7 +156,9 @@ set shiftwidth=2
 
 - Переход из состояни команды : в состояние bash
 - жеме : и жмем shift-1
-
 - сохранить все файлы сразу :wall
-
 - включить прозрачно :TransparentToggle
+- TodolocList
+- Trouble
+- ctr+w (h,j,k,l) преходы по буферам
+
