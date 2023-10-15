@@ -149,7 +149,7 @@ done
 ```
 
 - get path to libraries
-- nix eval --raw nixpkgs#sqlite
+- echo $(nix-instantiate --eval -E '(import <nixpkgs> {}).sqlite.out+""')
 
 
 # overlay
