@@ -450,3 +450,7 @@ go run github.com/antonmedv/countdown@latest 25m
 # golang debuuger nvim
 
 - https://www.youtube.com/watch?v=RziPWdTzSV8&ab_channel=DevOpsToolbox
+
+# nvim plugin glonag multi combain
+
+- https://github.com/ray-x/go.nvim
