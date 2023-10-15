@@ -152,3 +152,7 @@ set noexpandtab
 set tabstop=2
 set shiftwidth=2
 ````
+
+
+- Переход из состояни команды : в состояние bash
+- жеме : и жмем shift-1
