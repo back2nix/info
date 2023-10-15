@@ -17,3 +17,8 @@
 - https://www.youtube.com/watch?v=1Wl-rtew1_E&ab_channel=High-PerformanceProgramming
 - таблица
 - https://docs.google.com/spreadsheets/d/1A2PaQKcdwO_lwxz9bAnxXnIQayCouZP6d-ENrBz_NXc/edit#gid=0
+
+
+# math
+- map math
+- https://www.youtube.com/watch?v=OmJ-4B-mS-Y&ab_channel=DomainofScience
