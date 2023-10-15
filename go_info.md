@@ -446,3 +446,7 @@ sudo apt install -y libvulkan-dev libxkbcommon-x11-dev
 # timer
 
 go run github.com/antonmedv/countdown@latest 25m
+
+# golang debuuger nvim
+
+- https://www.youtube.com/watch?v=RziPWdTzSV8&ab_channel=DevOpsToolbox
