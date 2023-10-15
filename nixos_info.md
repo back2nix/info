@@ -151,6 +151,14 @@ done
 - get path to libraries
 - echo $(nix-instantiate --eval -E '(import <nixpkgs> {}).sqlite.out+""')
 
+```lua
+local command = [[$(nix-instantiate --eval -E '(import <nixpkgs> {}).sqlite.out+"/lib/libsqlite3.so"')]]
+-- Выполнение команды и считывание вывода
+local handle = io.popen(command)
+local result = handle:read "*a"
+handle:close()
+```
+
 
 # overlay
 
