@@ -149,7 +149,7 @@ done
 ```
 
 - get path to libraries
-- nix eval --raw nixpkgs#sqlit
+- nix eval --raw nixpkgs#sqlite
 
 
 # overlay
