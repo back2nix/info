@@ -161,4 +161,18 @@ set shiftwidth=2
 - TodolocList
 - Trouble
 - ctr+w (h,j,k,l) преходы по буферам
+- <leader>pp yank history
+- <leader>j развернуть структуру или свернуть в линию
+- жеме " и выбираем какой буфер yank будет активным после можно вставлять
+- заградвные буквы это метки которые дествуют между файлами
 
+```go
+// NOTE: test notification
+// HACK: test hack commment
+// FIX: test fix commment
+// BUG: test bug commment
+// PERF: test preformance commment
+// TODO: test todo comment
+// WARN: test warning commment
+// WARNING:
+````
