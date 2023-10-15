@@ -158,3 +158,5 @@ set shiftwidth=2
 - жеме : и жмем shift-1
 
 - сохранить все файлы сразу :wall
+
+- включить прозрачно :TransparentToggle
