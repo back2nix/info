@@ -165,3 +165,11 @@ handle:close()
 - https://github.com/igsha/nix-overlays
 - https://github.com/mozilla/nixpkgs-mozilla
 - https://github.com/back2nix/nix-shell/tree/main/overlay
+
+# update
+
+```bash
+sudo nix-channel --update
+
+a. (declarative/NixOS) sudo nixos-rebuild switch
+```
