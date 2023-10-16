@@ -171,5 +171,7 @@ handle:close()
 ```bash
 sudo nix-channel --update
 
-a. (declarative/NixOS) sudo nixos-rebuild switch
+sudo nixos-rebuild switch
+home-manager switch
+nix flake update
 ```

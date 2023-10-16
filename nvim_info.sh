@@ -177,3 +177,4 @@ set shiftwidth=2
 // WARNING:
 ````
 - Neorg export to-file my-file.md
+- DBUI ./base.sqlite
