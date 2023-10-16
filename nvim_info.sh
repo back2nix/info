@@ -176,3 +176,4 @@ set shiftwidth=2
 // WARN: test warning commment
 // WARNING:
 ````
+- Neorg export to-file my-file.md
