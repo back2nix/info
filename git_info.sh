@@ -175,3 +175,7 @@ git rebase -i --autosquash HEAD~4
 # Russian sumbol
 git config --global core.quotepath false
 export LANG='C.UTF-8'
+
+
+# creat pull pull-request
+hub pull-request -b main
