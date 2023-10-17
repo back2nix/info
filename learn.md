@@ -22,3 +22,10 @@
 # math
 - map math
 - https://www.youtube.com/watch?v=OmJ-4B-mS-Y&ab_channel=DomainofScience
+
+# golang
+- go by example
+- https://gobyexample.com/
+- https://www.youtube.com/shorts/AXS6CMgRLMk
+- https://gophercises.com/
+- https://courses.calhoun.io/courses
