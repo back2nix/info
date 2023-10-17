@@ -458,14 +458,23 @@ go run github.com/antonmedv/countdown@latest 25m
 # 
 
 - https://www.youtube.com/watch?v=ptCNC9lrg8U&ab_channel=iSpringTech
-
-```
+```bash
 go list -f '{{ .XTestGoFiles }}' strings
-
 go run github.com/quasilyte/gogrep/cmd/gogrep@latest main.go 'if _, ok := $_; !ok { $_ }'
+```
 
+- https://www.youtube.com/watch?v=kClQ7rM5uBY&ab_channel=FIXGroupofCompanies
+```bash
 - escaped heap
 go tool compile -m main.go
 go build -gcflags="-m=2"
+```
 
+```go
+bytes.Index(hashstack, []byte(needle)) // бесплатно если needle < 32 byte
+
+concatLen(x, y string) int {
+	result := x + y // тоже бесплатно если < 32 байт
+	return len(result) 
+}
 ```
