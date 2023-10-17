@@ -112,7 +112,7 @@ ssh -i id_rsa ubuntu@$host
 - https://github.com/natefinch/lumberjack
 
 - live download updater terminal
-_ https://github.com/gosuri/uilive
+- https://github.com/gosuri/uilive
 
 - скрывать окна golang
 - https://github.com/inconshreveable/go-update/blob/master/hide_windows.go
@@ -266,7 +266,7 @@ go build -o main main.go && LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libtcmalloc.so.
 - http://devs.cloudimmunity.com/gotchas-and-common-mistakes-in-go-golang/?ref=hackernoon.com
 
 ### stack trace info
-_ https://www.ardanlabs.com/blog/2015/01/stack-traces-in-go.html
+- https://www.ardanlabs.com/blog/2015/01/stack-traces-in-go.html
 
 ```bash
 go tool pprof "http://localhost:8081/debug/pprof/profile?seconds=10"
