@@ -478,3 +478,22 @@ concatLen(x, y string) int {
 	return len(result) 
 }
 ```
+
+- bench
+```go
+go test -bench=Benchmark* -benchmem -benchtime=3s -run=^a -cpuprofile=cpu -memprofile=mem
+go tool pprof -alloc_space mem
+go tool pprof -alloc_objects mem
+go tool pprof cpu
+```
+
+- wrk becnhmark http
+- https://github.com/wg/wrk
+
+- bech stat
+```go
+go test -bench=Benchmark* -run=^a -count=10  | tee old.txt
+go test -bench=Benchmark* -run=^a -count=10  | tee new.txt
+
+go run golang.org/x/perf/cmd/benchstat@latest
+```
