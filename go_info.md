@@ -1,4 +1,4 @@
-##### каталог библиотек для golang
+### каталог библиотек для golang
 - https://github.com/avelino/awesome-go#audio-and-music
 
 - компилировать библиотеку для линковки с С/C++
