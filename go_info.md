@@ -454,3 +454,14 @@ go run github.com/antonmedv/countdown@latest 25m
 # nvim plugin glonag multi combain
 
 - https://github.com/ray-x/go.nvim
+
+# 
+
+- https://www.youtube.com/watch?v=ptCNC9lrg8U&ab_channel=iSpringTech
+
+```
+go list -f '{{ .XTestGoFiles }}' strings
+
+go run github.com/quasilyte/gogrep/cmd/gogrep@latest main.go 'if _, ok := $_; !ok { $_ }'
+
+```
