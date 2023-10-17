@@ -509,3 +509,12 @@ curl http://localhost:8080/stopProfile
 go tool pprof -http=:8080 cpu
 go tool pprof -http=:8080 mem
 ```
+
+- no inline for becnhmark
+
+```go
+//go:noinline
+func foo() {
+	return
+}
+```
