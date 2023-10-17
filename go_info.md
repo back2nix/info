@@ -464,4 +464,8 @@ go list -f '{{ .XTestGoFiles }}' strings
 
 go run github.com/quasilyte/gogrep/cmd/gogrep@latest main.go 'if _, ok := $_; !ok { $_ }'
 
+- escaped heap
+go tool compile -m main.go
+go build -gcflags="-m=2"
+
 ```
