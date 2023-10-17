@@ -479,6 +479,7 @@ concatLen(x, y string) int {
 }
 ```
 
+- https://www.youtube.com/watch?v=tmrqqk0q22g&ab_channel=FIXGroupofCompanies
 - bench
 ```go
 go test -bench=Benchmark* -benchmem -benchtime=3s -run=^a -cpuprofile=cpu -memprofile=mem
@@ -487,13 +488,24 @@ go tool pprof -alloc_objects mem
 go tool pprof cpu
 ```
 
-- wrk becnhmark http
-- https://github.com/wg/wrk
-
 - bech stat
 ```go
 go test -bench=Benchmark* -run=^a -count=10  | tee old.txt
 go test -bench=Benchmark* -run=^a -count=10  | tee new.txt
 
-go run golang.org/x/perf/cmd/benchstat@latest
+go run golang.org/x/perf/cmd/benchstat@latest new.txt old.tx
+```
+
+- wrk becnhmark http
+- https://github.com/wg/wrk
+
+```bash
+curl http://localhost:8080/startProfile
+wrk "$@"
+curl http://localhost:8080/stopProfile
+```
+
+```bash
+go tool pprof -http=:8080 cpu
+go tool pprof -http=:8080 mem
 ```
