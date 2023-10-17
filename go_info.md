@@ -1,11 +1,15 @@
-# каталог библиотек для golang
-https://github.com/avelino/awesome-go#audio-and-music
+##### каталог библиотек для golang
+- https://github.com/avelino/awesome-go#audio-and-music
 
-#компилировать библиотеку для линковки с С/C++
+- компилировать библиотеку для линковки с С/C++
+```bash
 go build -o lib.so -buildmode=c-archive lib.go
-#скомпилировать либу для Visual studio
+```
+- скомпилировать либу для Visual studio
+```bash
 cd C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\amd64
 lib.exe /def:lib.def /OUT:lib.lib /MACHINE:x64
+```
 
 ```
 [lib.def]
@@ -13,13 +17,13 @@ EXPORTS
 MyFunction
 ```
 
-# cross compile ubuntu for windows
+### cross compile ubuntu for windows
 
-```
+```bash
 CC=i686-w64-mingw32-gcc GOOS=windows GOARCH=386 CGO_ENABLED=1 go build -o golib.lib -buildmode=c-shared golib.go
 ```
 
-```
+```go
 switch item {
     case 1:
         fallthrough // Позволяет провалиться в следующий case
@@ -30,30 +34,20 @@ switch item {
 }
 ```
 
-dep init
-# применить все зависимости
-dep ensure
-# обновить одну зависимость
-dep ensure -update github.com/user/project
-# обвноть все зависимости
-dep ensure -update
-# фик go dep
-# Удаляем закешированый репозиторий
-rm -rf $GOPATH/pkg/dep/sources/https---github.com-mediocregopher-radix
+### Передать русский текст в C++
 
-
-# Передать русский текст в C++
-
-```
+```cpp
 cStr = C.CString("Привет")
 ret, _, _ = Speak.Call(uintptr(unsafe.Pointer(cStr)))
 C.free(unsafe.Pointer(cStr))
 ```
 
-# golang arm compile
-# Установить из бинарника
-#gvm install go1.13.3 -B
-```
+### golang arm compile
+### Установить из бинарника
+
+- gvm install go1.13.3 -B
+
+```bash
 cd $(go env GOROOT)/src
 export CC="gcc -Wimplicit-fallthrough=0 -Wno-error=shift-negative-value -Wno-shift-negative-value" && CGO_ENABLED=0 gvm install go1.13.3
 gvm list
@@ -61,15 +55,19 @@ gvm use go1.13.3
 sudo GOROOT_BOOTSTRAP=/home/user/.gvm/gos/go1.13.3 GOOS=linux GOARCH=arm CGO_ENABLED=0 ./make.bash --no-clean
 ```
 
-# Компиляци приложения приложение под arm
+### Компиляци приложения приложение под arm
+
+```bash
 GOOS=linux GOARCH=arm go build check_port.go
 
 go mod init
 go mod edit -replace github.com/REPO_DEPRECATED/helloworld=../helloworld
+```
 
-# go 1.12
-# https://gophp.io/how-to-install-go-1-12-on-ubuntu-18/
+### go 1.12
+-  https://gophp.io/how-to-install-go-1-12-on-ubuntu-18/
 
+```bash
 golang уже предварительно установлен на машине. Для примера возьмем go version 1.13.3 но можно взять другую
 
 Установить gwm
@@ -94,56 +92,66 @@ sudo systemctl enable my_ssh_remote
 sudo systemctl start my_ssh_remote
 Подключится к ubuntu aws
 ssh -i id_rsa ubuntu@$host
+```
 
-https://insomnia.rest/
+- https://insomnia.rest/
 
-# gdb for golang 
+### gdb for golang 
 
 - https://github.com/derekparker/delve
 - https://github.com/sebdah/vim-delve
 
 
-# bug arm
-type Payload struct
-`/home/user/go/pkg/mod/github.com/googollee/go-engine.io@v1.4.3-0.20200220091802-9b2ab104b298/payload/payload.go`
-https://github.com/googollee/go-socket.io/issues/236
-https://github.com/googollee/go-engine.io/pull/86/commits/3d906e43a03fd355d6f60c6ce103acf7cafd0159#diff-fff052930dc3dc5b0639def327826223
+- bug arm
+- type Payload struct
+- /home/user/go/pkg/mod/github.com/googollee/go-engine.io@v1.4.3-0.20200220091802-9b2ab104b298/payload/payload.go
+- https://github.com/googollee/go-socket.io/issues/236
+- https://github.com/googollee/go-engine.io/pull/86/commits/3d906e43a03fd355d6f60c6ce103acf7cafd0159#diff-fff052930dc3dc5b0639def327826223
 
-# logrotate logrus
-https://github.com/natefinch/lumberjack
+- logrotate logrus
+- https://github.com/natefinch/lumberjack
 
-# live download updater terminal
-https://github.com/gosuri/uilive
+- live download updater terminal
+_ https://github.com/gosuri/uilive
 
-# скрывать окна golang
-https://github.com/inconshreveable/go-update/blob/master/hide_windows.go
+- скрывать окна golang
+- https://github.com/inconshreveable/go-update/blob/master/hide_windows.go
 
-# go update
-https://github.com/inconshreveable/go-update/blob/master/doc.go
-# go update from github
-github.com/rhysd/go-github-selfupdate/selfupdate
+- go update
+- https://github.com/inconshreveable/go-update/blob/master/doc.go
+- go update from github
+- github.com/rhysd/go-github-selfupdate/selfupdate
 
-# Установка lint
-https://golangci-lint.run/usage/install/
+- Установка lint
+- https://golangci-lint.run/usage/install/
+```bash
 golangci-lint --version
 curl -sSfL https://raw.githubusercontent.com/golangci/golangci-lint/master/install.sh | sh -s -- -b $(go env GOPATH)/bin v1.27.
-# golang lint chech error
-https://www.youtube.com/watch?v=VlnxsfSs1ms
+```
+
+- golang lint chech error
+- https://www.youtube.com/watch?v=VlnxsfSs1ms
+- https://golangci-lint.run/
+```bash
 go get -u github.com/golangci/golangci-lint
-https://golangci-lint.run/
 golangci-lint run --fix
 golangci-lint run --fix --enable-all
 golangci-lint run --fix --enable-all  -new
+```
 
-# change const in golang from build -ldflags
+- change const in golang from build -ldflags
+```bash
 go build -ldflags='-X main.version="$TAG"' -o hello-updater src/hello-updater/main.go
+```
 
-# profile go https://www.youtube.com/watch?v=a8oEETIRpCk
+- profile go https://www.youtube.com/watch?v=a8oEETIRpCk
+```bash
 import _ "net/http/pprof"
 go tool pprof -seconds 5 http://server/debug/pprof/profile
 go tool pprof -seconds 5 http://server/debug/pprof/heap
+```
 
-# profile line by line
+- profile line by line
 - https://go.dev/blog/pprof
 
 ```bash
@@ -151,16 +159,21 @@ go tool profile prog.pprof mprog.mprof
 list dfs
 ```
 
-# уменьшить размер бинарника upx
+- уменьшить размер бинарника upx
+```
 upx new last
 bincmp -no-symtab old new
+```
 
-# sudo: furious: command not found
+- sudo: furious: command not found
+```bash
 sudo env "PATH=$PATH" furious
+```
 
-# gogrep
-# https://github.com/mvdan/gogrep
- # gogrep -r -x 'if $x != nil { $*_ }' cmd/apiserver/main.go
+### gogrep
+- https://github.com/mvdan/gogrep
+```bash
+gogrep -r -x 'if $x != nil { $*_ }' cmd/apiserver/main.go
  find -name '*.go' -exec gogrep -x 'if $x != nil { $*_ }' {} \;
 gogrep -x '$b.($x)' ./...
 gogrep -x 'if $x := $_.Create($_).Error; $x != nil { $*_ }' ./...
@@ -168,18 +181,21 @@ gogrep -x 'if $x := $_.Create($_).Error; $x != nil { $*_ }' ./...
 go test -cpuprofile=cpu.out
 go tool pprof cpu.out
 >>> web
+```
 
-https://flaviocopes.com/golang-profiling/
+- https://flaviocopes.com/golang-profiling/
 
-# go auto test https://github.com/cweill/gotests
+- go auto test https://github.com/cweill/gotests
+```bash
 go get -u github.com/cweill/gotests/...
+```
 
-# gui golang gio https://gioui.org/
+- gui golang gio https://gioui.org/
 
-# memory leak
-https://unix.stackexchange.com/questions/36450/how-can-i-find-a-memory-leak-of-a-running-process
+- memory leak
+- https://unix.stackexchange.com/questions/36450/how-can-i-find-a-memory-leak-of-a-running-process
 
-# memory leak prifle
+- memory leak prifle
 ```go
 import(
 	"net/http"
@@ -193,6 +209,7 @@ func main() {
 	}()
 }
 ```
+
 ```bash
 go tool pprof -seconds 5 http://localhost:8080/debug/pprof/profile
 
@@ -229,55 +246,63 @@ func main() {
 }
 ```
 
-# go robot https://gobot.io/
+- go robot https://gobot.io/
 
-# https://habr.com/ru/post/337098/
+- https://habr.com/ru/post/337098/
 Создатель Node.js: «Для серверов я не могу представить другой язык кроме Go»
 
-# вывести структуру go красиво в консоль
+- вывести структуру go красиво в консоль
+```go
 spew.Dump(outRes)
+```
 
+```bash
 go build -o main main.go && LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libtcmalloc.so.4 HEAPCHECK=normal HEAPPROFILE=gpt-heapprofile.log ./main
-https://dashboard.stackimpact.com/#/hotspots/memory
-https://www.instana.com/docs/profiling/
+```
+- https://dashboard.stackimpact.com/#/hotspots/memory
+- https://www.instana.com/docs/profiling/
 
-# 50 подводных камней
-http://devs.cloudimmunity.com/gotchas-and-common-mistakes-in-go-golang/?ref=hackernoon.com
+### 50 подводных камней
+- http://devs.cloudimmunity.com/gotchas-and-common-mistakes-in-go-golang/?ref=hackernoon.com
 
-# stack trace info
-https://www.ardanlabs.com/blog/2015/01/stack-traces-in-go.html
+### stack trace info
+_ https://www.ardanlabs.com/blog/2015/01/stack-traces-in-go.html
 
-#
+```bash
 go tool pprof "http://localhost:8081/debug/pprof/profile?seconds=10"
+```
 
-cgo траблы
-https://www.youtube.com/watch?v=bdx8W_gxS3E
+- cgo траблы
+- https://www.youtube.com/watch?v=bdx8W_gxS3E
 
-# vegete
-https://www.youtube.com/watch?v=TVe8pIFn2mY
+### vegete
+- https://www.youtube.com/watch?v=TVe8pIFn2mY
 
-# оптимизации
-https://www.youtube.com/watch?v=DvkArdKQjBI
+### оптимизации
+- https://www.youtube.com/watch?v=DvkArdKQjBI
 
-# linter revgrep orig/master
-https://www.youtube.com/watch?v=VlnxsfSs1ms
+### linter revgrep orig/master
+- https://www.youtube.com/watch?v=VlnxsfSs1ms
+```bash
 glonagci-lint run --new-from-rev=orign/master
 
 go get golang.org/x/tools/gopls@latest
+```
 
+### линтер делает ревью в pull request
+- reviewdog
 
-# линтер делает ревью в pull request
-reviewdog
-
-# ~/.bashrc
+### ~/.bashrc
+```bash
 export GO111MODULE=on
 export GOPROXY=direct
 export GOSUMDB=off
 
 #И выполнить команду
 git config --global url."ssh://git@github.com".insteadOf "https://github.com"
+```
 
-# Установить экспеременатальную go
+### Установить экспеременатальную go
 https://golang.org/doc/install/source
 
 ```bash
@@ -287,19 +312,20 @@ git checkout go1.16beta1
 #./make.bash  177,56s user 39,59s system 591% cpu 36,681 total
 ```
 
-# performance go
-https://dave.cheney.net/high-performance-go
+### performance go
+- https://dave.cheney.net/high-performance-go
 
-
-#/lib64/libc.so.6: version `GLIBC_2.32' not found (required by ./server)
-# fix
+- ERROR: /lib64/libc.so.6: version `GLIBC_2.32' not found (required by ./server)
+### fix
+```bash
 CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -o server *.go"
+```
 
-# docker build kit
-https://www.docker.com/blog/containerize-your-go-developer-environment-part-1/
+### docker build kit
+- https://www.docker.com/blog/containerize-your-go-developer-environment-part-1/
 
 
-#### WrapPanic stack trace
+### WrapPanic stack trace
 - https://stackoverflow.com/questions/52103182/how-to-get-the-stacktrace-of-a-panic-and-store-as-a-variable
 ```bash
 defer func() {
@@ -312,7 +338,7 @@ logrus.WithFields(logrus.Fields{
 }()
 ```
 
-#### WrapPanic stack trace
+### WrapPanic stack trace
 ```bash
 exitStatus, err := panicwrap.BasicWrap(panicHandler)
 if err != nil {
@@ -326,16 +352,16 @@ if exitStatus >= 0 {
 }
 ```
 
-# fix
+### fix
 go mod vendor
 
 ```bash
 godef: err: exit status 1: stderr: go: inconsistent vendoring in
 ```
 
-# python golang
+### python golang
 https://www.ardanlabs.com/blog/2020/08/packaging-python-code.html
-# duration
+### duration
 
 ```
 start := time.Now()
@@ -364,7 +390,7 @@ func Stream() {
 }
 ```
 
-#### Cross platform gui
+### Cross platform gui
 
 - https://www.youtube.com/watch?v=4qiHYE81nIE
 - https://gioui.org/doc/contribute
@@ -384,12 +410,12 @@ func Stream() {
 Видео по gio
 - https://www.youtube.com/watch?v=faySIH26NCs
 
-#### GUI fyne
+### GUI fyne
 - https://github.com/fyne-io/fyne
 - https://apps.fyne.io/all
 - https://github.com/fyne-io/examples/
 
-### gif
+##### gif
 
 ```
 convert original.gif -coalesce unoptimized.gif
@@ -397,36 +423,36 @@ convert original.gif -coalesce unoptimized.gif
 
 - http://tech.nitoyon.com/en/blog/2016/01/07/go-animated-gif-gen/
 - https://github.com/srinathh/goanigiffy
-#### Authentication
+### Authentication
 
 - https://www.ory.sh/kratos/docs/quickstart
 
-#### Run test
+### Run test
 
 ```
 go clean -testcache
 go test --race ./cmd/testing_runner/main_test.go -run "^TestRunner" -v
 ```
 
-#### 
+### 
 
 ```
 echo 0 > /proc/sys/kernel/yama/ptrace_scope
 ```
 
-#### Go gio arm64
+### Go gio arm64
 sudo apt install -y libvulkan-dev libxkbcommon-x11-dev
 
-#### go generic
+### go generic
 
 - https://go.dev/doc/tutorial/generics
 
-#### golang dev
+### golang dev
 
 - build tag, go:build constraint
 - https://pkg.go.dev/cmd/go#hdr-Build_constraints
 
-#### list gorelase users
+### list gorelase users
 
 - https://goreleaser.com/users/
 
@@ -443,19 +469,21 @@ sudo apt install -y libvulkan-dev libxkbcommon-x11-dev
 
 
 
-# timer
+### timer
 
+```bash
 go run github.com/antonmedv/countdown@latest 25m
+```
 
-# golang debuuger nvim
+### golang debuuger nvim
 
 - https://www.youtube.com/watch?v=RziPWdTzSV8&ab_channel=DevOpsToolbox
 
-# nvim plugin glonag multi combain
+### nvim plugin glonag multi combain
 
 - https://github.com/ray-x/go.nvim
 
-# 
+### 
 
 - https://www.youtube.com/watch?v=ptCNC9lrg8U&ab_channel=iSpringTech
 ```bash
@@ -517,4 +545,10 @@ go tool pprof -http=:8080 mem
 func foo() {
 	return
 }
+```
+
+- gorutine trace
+
+```bash
+go tool trace ...
 ```
