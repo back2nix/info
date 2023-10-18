@@ -210,6 +210,9 @@ func main() {
 }
 ```
 
+- cpu profile cheatsheat
+- https://gist.github.com/slok/33dad1d0d0bae07977e6d32bcc010188
+
 ```bash
 go tool pprof -seconds 5 http://localhost:8080/debug/pprof/profile
 
