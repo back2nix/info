@@ -291,6 +291,8 @@ glonagci-lint run --new-from-rev=orign/master
 
 go get golang.org/x/tools/gopls@latest
 ```
+- staticcheck
+- https://github.com/dominikh/go-tools
 
 ### линтер делает ревью в pull request
 - reviewdog
@@ -555,3 +557,6 @@ func foo() {
 ```bash
 go tool trace ...
 ```
+
+- go leak 
+- https://github.com/uber-go/goleak
