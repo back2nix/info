@@ -178,3 +178,8 @@ set shiftwidth=2
 ````
 - Neorg export to-file my-file.md
 - DBUI ./base.sqlite
+
+- current file
+```vim
+:echo expand('%:p')
+````
