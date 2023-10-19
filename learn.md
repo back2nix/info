@@ -17,6 +17,8 @@
 - https://www.youtube.com/watch?v=1Wl-rtew1_E&ab_channel=High-PerformanceProgramming
 - таблица
 - https://docs.google.com/spreadsheets/d/1A2PaQKcdwO_lwxz9bAnxXnIQayCouZP6d-ENrBz_NXc/edit#gid=0
+- как учится
+- https://www.youtube.com/watch?v=9qQ7Fv17sT0&ab_channel=Helio
 
 
 # math
