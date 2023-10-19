@@ -560,3 +560,10 @@ go tool trace ...
 
 - go leak 
 - https://github.com/uber-go/goleak
+
+- staticcheck
+- https://github.com/dominikh/go-tools
+- go-tools
+```bash
+staticcheck ./...
+```
