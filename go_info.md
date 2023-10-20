@@ -488,7 +488,37 @@ go run github.com/antonmedv/countdown@latest 25m
 
 - https://github.com/ray-x/go.nvim
 
-### 
+### tips tricks
+- https://joshrendek.com/2015/09/golang-performance-tips/
+- DANGER performace mutex
+- https://texlution.com/post/golang-lock-free-values-with-atomic-value/
+- https://hashrocket.com/blog/posts/go-performance-observations
+```go
+# bed performance
+n, err := strconv.ParseInt(s, 10, 32)
+# good performance
+binary.BigEndian.PutUint32(buf, 12345678)
+```
+- https://studygolang.com/articles/1794
+```go
+for k, v := range m {
+	// k, v := k, v   // copy for capturing by the goroutine
+   	x := struct{ k, v string }{k, v}   // copy for capturing by the goroutine
+   go func() {
+      // use x.k and x.v
+   }()
+}
+```
+- https://studygolang.com/articles/1794
+```bash
+go test --blockprofile=block.out
+# net/http/pprof via http://myserver:6060:/debug/pprof/block or by callingruntime/pprof.Lookup("block").WriteTo.
+#runtime.SetBlockProfileRate(1)
+go tool pprof -http=:8080 block.out # --ignore
+```
+- 
+
+### ?
 
 - https://www.youtube.com/watch?v=ptCNC9lrg8U&ab_channel=iSpringTech
 ```bash
@@ -539,11 +569,12 @@ curl http://localhost:8080/stopProfile
 ```
 
 ```bash
-go test -bench=Benchmark* -benchmem -benchtime=3s -run=^a -cpuprofile=cpu.out -memprofile=mem.out -mutexprofile=mutex.out pkg/trie2/*.go
+go test -bench=Benchmark* -benchmem -benchtime=3s -run=^a -cpuprofile=cpu.out -memprofile=mem.out -mutexprofile=mutex.out -blockprofile=block.out pkg/trie2/*.go
 
 go tool pprof -http=:8080 cpu.out
 go tool pprof -http=:8080 mem.out
 go tool pprof -http=:8080 mutex.out
+go tool pprof -http=:8080 block.out # --ignore
 
 go tool pprof <test.binary> -http=:8080 ?.out
 ```
@@ -578,3 +609,36 @@ staticcheck ./...
 
 - protobuf best performace lib
 - https://github.com/gogo/protobuf
+
+- https://betterprogramming.pub/6-ways-to-boost-the-performance-of-your-go-applications-5382bb7532d7
+- byte -> string
+```go
+// For Go 1.20 and higher
+func StringToBytes(s string) []byte {
+ return unsafe.Slice(unsafe.StringData(s), len(s))
+}
+
+func BytesToString(b []byte) string {
+ return unsafe.String(unsafe.SliceData(b), len(b))
+}
+```
+
+- best json
+- import jsoniter "github.com/json-iterator/go"
+
+- memset
+- https://stackoverflow.com/questions/30614165/is-there-analog-of-memset-in-go
+- https://github.com/tmthrgd/go-memset
+
+```go
+func memsetRepeat(a []int, v int) {
+    if len(a) == 0 {
+        return
+    }
+    a[0] = v
+    for bp := 1; bp < len(a); bp *= 2 {
+        copy(a[bp:], a[:bp])
+    }
+}
+```
+

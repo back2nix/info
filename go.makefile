@@ -1,14 +1,22 @@
 test:
 	go test -v -race -count=1  ./...
 
+test_malloc_show:
+	go test -v -race -count=1 -gcflags=-m ./...
+
 becnhmark_without_test:
-	go test -bench=Benchmark* -benchmem -benchtime=3s -run=^a -cpuprofile=cpu -memprofile=mem pkg/trie2/*.go
+	go test -bench=Benchmark* -benchmem -benchtime=3s -run=^a \
+		-cpuprofile=cpu.out \
+		-memprofile=mem.out \
+		-blockprofile=block.out \
+		pkg/trie/*.go
 
 BenchmarkAlloc:
 	go test -bench=BenchmarkAlloc -benchmem -benchtime=3s -run=^a \
 		-cpuprofile=cpu.out \
 		-memprofile=mem.out \
 		-mutexprofile=mutex.out \
+		-blockprofile=block.out \
 		pkg/trie/*.go
 
 
