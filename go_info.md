@@ -575,3 +575,6 @@ staticcheck ./...
 
 - https://github.com/cweill/gotests
 - https://github.com/golang/go/wiki/TableDrivenTests
+
+- protobuf best performace lib
+- https://github.com/gogo/protobuf
