@@ -11,6 +11,11 @@ becnhmark_without_test:
 		-blockprofile=block.out \
 		pkg/trie/*.go
 
+# go tool cover -func=coverage.out
+# go tool cover -html=coverage.out
+cover:
+	go test -coverprofile=coverage.out ./...
+
 BenchmarkAlloc:
 	go test -bench=BenchmarkAlloc -benchmem -benchtime=3s -run=^a \
 		-cpuprofile=cpu.out \

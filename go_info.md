@@ -569,12 +569,18 @@ curl http://localhost:8080/stopProfile
 ```
 
 ```bash
-go test -bench=Benchmark* -benchmem -benchtime=3s -run=^a -cpuprofile=cpu.out -memprofile=mem.out -mutexprofile=mutex.out -blockprofile=block.out pkg/trie2/*.go
+go test -bench=Benchmark* -benchmem -benchtime=3s -run=^a \
+	-cpuprofile=cpu.out \
+	-memprofile=mem.out \
+	-mutexprofile=mutex.out \
+	-coverprofile=coverage.out \
+	-blockprofile=block.out pkg/trie/*.go
 
 go tool pprof -http=:8080 cpu.out
 go tool pprof -http=:8080 mem.out
 go tool pprof -http=:8080 mutex.out
 go tool pprof -http=:8080 block.out # --ignore
+go tool cover -html=coverage.out
 
 go tool pprof <test.binary> -http=:8080 ?.out
 ```
@@ -642,3 +648,9 @@ func memsetRepeat(a []int, v int) {
 }
 ```
 
+
+- tls serts freeo
+- https://smallstep.com/hello-mtls/doc/server/go
+```bash
+step ca certificate "myserver.internal.net" server.crt server.key
+```
