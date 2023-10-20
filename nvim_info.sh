@@ -183,3 +183,21 @@ set shiftwidth=2
 ```vim
 :echo expand('%:p')
 ````
+
+- fix nix paths
+- ~/.local/share/nvim/lazy/sqlite.lua/lua/sqlite/defs.lua
+```lua
+-- local command = [[$(nix-instantiate --eval -E '(import <nixpkgs> {}).sqlite.out+"/lib/libsqlite3.so"')]]
+-- local handle = io.popen(command)
+-- local result = handle:read "*a"
+-- handle:close()
+-- local mypath = result:match "^%s*(.-)%s*$"
+
+local linux_paths = {
+"/usr/lib/x86_64-linux-gnu/libsqlite3.so",
+"/usr/lib/x86_64-linux-gnu/libsqlite3.so.0",
+"/usr/lib64/libsqlite3.so",
+"/usr/lib/libsqlite3.so",
+"/nix/store/n12a68qch9s85k6ni4m4r4xxr8lwys1i-sqlite-3.41.2/lib/libsqlite3.so",
+}
+````
