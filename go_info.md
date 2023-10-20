@@ -539,8 +539,13 @@ curl http://localhost:8080/stopProfile
 ```
 
 ```bash
-go tool pprof -http=:8080 cpu
-go tool pprof -http=:8080 mem
+go test -bench=Benchmark* -benchmem -benchtime=3s -run=^a -cpuprofile=cpu.out -memprofile=mem.out -mutexprofile=mutex.out pkg/trie2/*.go
+
+go tool pprof -http=:8080 cpu.out
+go tool pprof -http=:8080 mem.out
+go tool pprof -http=:8080 mutex.out
+
+go tool pprof <test.binary> -http=:8080 ?.out
 ```
 
 - no inline for becnhmark
@@ -567,3 +572,6 @@ go tool trace ...
 ```bash
 staticcheck ./...
 ```
+
+- https://github.com/cweill/gotests
+- https://github.com/golang/go/wiki/TableDrivenTests
