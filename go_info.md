@@ -654,3 +654,18 @@ func memsetRepeat(a []int, v int) {
 ```bash
 step ca certificate "myserver.internal.net" server.crt server.key
 ```
+
+- best practics go
+- https://dave.cheney.net/practical-go/presentations/gophercon-singapore-2019.html
+
+- https://github.com/google/go-cmp
+```go
+type T struct {
+	I int
+}
+x := []*T{{1}, {2}, {3}}
+y := []*T{{1}, {2}, {4}}
+
+diff := cmp.Diff(x, y)
+fmt.Printf(diff) // (1)
+```

@@ -148,6 +148,10 @@ for binary in ${@}; do
 done
 ```
 
+```bash
+#!/usr/bin/env bash
+```
+
 - get path to libraries
 - echo $(nix-instantiate --eval -E '(import <nixpkgs> {}).sqlite.out+""')
 
