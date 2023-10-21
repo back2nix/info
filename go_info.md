@@ -570,19 +570,19 @@ curl http://localhost:8080/stopProfile
 
 ```bash
 go test -bench=Benchmark* -benchmem -benchtime=3s -run=^a \
-	-cpuprofile=cpu.out \
-	-memprofile=mem.out \
-	-mutexprofile=mutex.out \
-	-coverprofile=coverage.out \
-	-blockprofile=block.out pkg/trie/*.go
+	-cpuprofile=pprof/cpu.out \
+	-memprofile=pprof/mem.out \
+	-mutexprofile=pprof/mutex.out \
+	-coverprofile=pprof/coverage.out \
+	-blockprofile=pprof/block.out pkg/trie/*.go
 
-go tool pprof -http=:8080 cpu.out
-go tool pprof -http=:8080 mem.out
-go tool pprof -http=:8080 mutex.out
-go tool pprof -http=:8080 block.out # --ignore
-go tool cover -html=coverage.out
+go tool pprof -http=:8080 pprof/cpu.out
+go tool pprof -http=:8080 pprof/mem.out
+go tool pprof -http=:8080 pprof/mutex.out
+go tool pprof -http=:8080 pprof/block.out # --ignore
+go tool cover -html=pprof/coverage.out
 
-go tool pprof <test.binary> -http=:8080 ?.out
+go tool pprof <test.binary> -http=:8080 pprof/?.out
 ```
 
 - no inline for becnhmark
