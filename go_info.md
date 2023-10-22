@@ -669,3 +669,18 @@ y := []*T{{1}, {2}, {4}}
 diff := cmp.Diff(x, y)
 fmt.Printf(diff) // (1)
 ```
+- pre allocate
+
+```go
+func Make2D[T any](n, m int) [][]T {
+    matrix := make([][]T, n)
+    rows := make([]T, n*m)
+    for i, startRow := 0, 0; i < n; i, startRow = i+1, startRow+m {
+        endRow := startRow + m
+        matrix[i] = rows[startRow:endRow:endRow]
+    }
+    return matrix
+}
+
+a := Make2D[uint8](dy, dx)
+```
