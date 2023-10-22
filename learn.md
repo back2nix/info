@@ -19,6 +19,11 @@
 - https://docs.google.com/spreadsheets/d/1A2PaQKcdwO_lwxz9bAnxXnIQayCouZP6d-ENrBz_NXc/edit#gid=0
 - как учится
 - https://www.youtube.com/watch?v=9qQ7Fv17sT0&ab_channel=Helio
+- Strivers A2Z DSA Course/Sheet. Data Structures and Algorithms
+- https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/
+- system-design
+- https://takeuforward.org/system-design/complete-system-design-roadmap-with-videos-for-sdes/
+- https://github.com/InterviewReady/system-design-resources
 
 
 # math
