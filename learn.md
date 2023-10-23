@@ -24,6 +24,8 @@
 - system-design
 - https://takeuforward.org/system-design/complete-system-design-roadmap-with-videos-for-sdes/
 - https://github.com/InterviewReady/system-design-resources
+- binary search
+- https://topswe.substack.com/p/leetcode-killer-pattern-1-binary
 
 
 # math
