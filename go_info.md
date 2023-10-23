@@ -684,3 +684,6 @@ func Make2D[T any](n, m int) [][]T {
 
 a := Make2D[uint8](dy, dx)
 ```
+
+- про orm go
+- https://www.youtube.com/watch?v=MBfjQBDZqt8&ab_channel=EvroneDevelopment
