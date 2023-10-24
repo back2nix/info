@@ -26,6 +26,7 @@
 - https://github.com/InterviewReady/system-design-resources
 - binary search
 - https://topswe.substack.com/p/leetcode-killer-pattern-1-binary
+- Алгоритмы. Построение и анализ
 
 
 # math
