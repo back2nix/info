@@ -27,6 +27,12 @@
 - binary search
 - https://topswe.substack.com/p/leetcode-killer-pattern-1-binary
 - Алгоритмы. Построение и анализ
+- переговоры о зарплате
+- https://www.youtube.com/watch?v=fyn0CKPuPlA&ab_channel=Exponent
+- улучшенный алгоритм bfs A* Algorithms
+- https://www.youtube.com/watch?v=A60q6dcoCjw&ab_channel=polylog
+- ИБ Безопасно golang
+- https://www.youtube.com/watch?v=UfeZ-bPFs10&ab_channel=%D0%AD%D0%B9%D1%87%D0%9D%D0%B0%D0%B2%D1%8B%D0%BA%D0%B8%E2%80%94%D0%BC%D0%B5%D0%BD%D1%82%D0%BE%D1%80%D1%81%D0%BA%D0%B0%D1%8F%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B0
 
 
 # math
