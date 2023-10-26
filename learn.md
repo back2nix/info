@@ -33,6 +33,12 @@
 - https://www.youtube.com/watch?v=A60q6dcoCjw&ab_channel=polylog
 - ИБ Безопасно golang
 - https://www.youtube.com/watch?v=UfeZ-bPFs10&ab_channel=%D0%AD%D0%B9%D1%87%D0%9D%D0%B0%D0%B2%D1%8B%D0%BA%D0%B8%E2%80%94%D0%BC%D0%B5%D0%BD%D1%82%D0%BE%D1%80%D1%81%D0%BA%D0%B0%D1%8F%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B0
+- "Clean" Code, Horrible Performance
+- https://www.youtube.com/watch?v=tD5NrevFtbU&t=1084s&ab_channel=MollyRocket
+- linux performance observability tools
+- https://medium.com/@chrishantha/linux-performance-observability-tools-19ae2328f87f
+- SOLID Robert C. Martin Agile, Clean code
+- https://www.youtube.com/watch?v=ZLxazlP7Ppo&ab_channel=gingerBill
 
 
 # math
