@@ -51,6 +51,13 @@ nix-env -i --dry-run neovim
 - https://github.com/ghuntley/ghuntley/blob/trunk/services/dev-ghuntley/templates/nix/Dockerfile
 - как создать конфиг и развернуть его
 - https://www.youtube.com/watch?v=6WLaNIlDW0M&t=1s&ab_channel=LibrePhoenix
+- Batterylife
+- https://www.youtube.com/watch?v=pmuubmFcKtg&ab_channel=TechSupportOnHold
+- https://github.com/TechsupportOnHold/Batterylife/blob/main/laptop.nix
+- Dualboot Refind
+- https://www.youtube.com/watch?v=xPfqTWL5jIk&list=UULFgwgHqEsJLFzRO5pRxXs4Bw&ab_channel=TechSupportOnHold
+- virt-manager windows 11
+- https://www.youtube.com/watch?v=rCVW8BGnYIc&list=UULFgwgHqEsJLFzRO5pRxXs4Bw&index=11&ab_channel=TechSupportOnHold
 
 
 
