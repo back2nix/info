@@ -49,6 +49,8 @@ nix-env -i --dry-run neovim
 - virt-manager libvirt
 - https://www.youtube.com/watch?v=r8qM6Vw571Y&ab_channel=JohannesSchickling
 - https://github.com/ghuntley/ghuntley/blob/trunk/services/dev-ghuntley/templates/nix/Dockerfile
+- как создать конфиг и развернуть его
+- https://www.youtube.com/watch?v=6WLaNIlDW0M&t=1s&ab_channel=LibrePhoenix
 
 
 
