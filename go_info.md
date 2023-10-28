@@ -691,3 +691,14 @@ a := Make2D[uint8](dy, dx)
 - dependency injection
 - https://github.com/uber-go/fx
 - https://www.youtube.com/watch?v=KRdrH9a98HQ&ab_channel=%D0%AD%D0%B9%D1%87%D0%9D%D0%B0%D0%B2%D1%8B%D0%BA%D0%B8%E2%80%94%D0%BC%D0%B5%D0%BD%D1%82%D0%BE%D1%80%D1%81%D0%BA%D0%B0%D1%8F%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B0
+
+- Dave Cheney
+- https://dave.cheney.net/
+
+```
+env GOSSAFUNC=main go build
+env "GOSSAFUNC=(*Numbers).Add" go build
+```
+
+- GMP Model for Go Scheduler
+- 
