@@ -1,5 +1,4 @@
-# 
-
+### any
 - https://www.youtube.com/watch?v=E3E2V1R4PrA&t=3702s&ab_channel=VictoriaBorodina
 - behavioral interview
 - leadership principles
@@ -37,8 +36,14 @@
 - https://www.youtube.com/watch?v=UfeZ-bPFs10&ab_channel=%D0%AD%D0%B9%D1%87%D0%9D%D0%B0%D0%B2%D1%8B%D0%BA%D0%B8%E2%80%94%D0%BC%D0%B5%D0%BD%D1%82%D0%BE%D1%80%D1%81%D0%BA%D0%B0%D1%8F%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B0
 - heapify play list
 - https://www.youtube.com/watch?v=RU08pp_VPSs&list=PLEJXowNB4kPyP2PdMhOUlTY6GrRIITx28&ab_channel=Techdose
+- Рекомендуют почитать blind
+- https://www.teamblind.com/
+- смотреть зарплаты
+- https://www.levels.fyi/?compare=Sberbank,Yandex,OZON&track=Software%20Engineer
+- какие книжки читать, кабанчик и грокаем
+- https://youtu.be/DGP86mLZ9bs?t=2348
 
-# Холивар про SOLID и Clean Code
+### Холивар про SOLID и Clean Code
 - "Clean" Code, Horrible Performance
 - https://www.youtube.com/watch?v=tD5NrevFtbU&t=1084s&ab_channel=MollyRocket
 - linux performance observability tools
@@ -48,13 +53,17 @@
 - SOLID кто измерял реальный эффект этих советов?
 - https://www.youtube.com/watch?v=7YpFGkG-u1w&ab_channel=MollyRocket
 
-# math
+### math
 - map math
 - https://www.youtube.com/watch?v=OmJ-4B-mS-Y&ab_channel=DomainofScience
 
-# golang
+### golang
 - go by example
 - https://gobyexample.com/
 - https://www.youtube.com/shorts/AXS6CMgRLMk
 - https://gophercises.com/
 - https://courses.calhoun.io/courses
+
+### system-design
+- Два генерала
+- https://www.youtube.com/watch?v=s9Wbt0b8bwY&ab_channel=Finematics
