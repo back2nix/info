@@ -43,6 +43,7 @@
 - какие книжки читать, кабанчик и грокаем
 - https://youtu.be/DGP86mLZ9bs?t=2348
 
+
 ### Холивар про SOLID и Clean Code
 - "Clean" Code, Horrible Performance
 - https://www.youtube.com/watch?v=tD5NrevFtbU&t=1084s&ab_channel=MollyRocket
@@ -67,3 +68,11 @@
 ### system-design
 - Два генерала
 - https://www.youtube.com/watch?v=s9Wbt0b8bwY&ab_channel=Finematics
+- isolation levels
+- https://www.youtube.com/watch?v=4EajrPgJAk0&ab_channel=TECHSCHOOL
+
+### интервью
+
+- https://habr.com/ru/articles/670974/
+- golang algo
+- https://github.com/hoanhan101/algo
