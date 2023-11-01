@@ -42,6 +42,8 @@
 - https://www.levels.fyi/?compare=Sberbank,Yandex,OZON&track=Software%20Engineer
 - какие книжки читать, кабанчик и грокаем
 - https://youtu.be/DGP86mLZ9bs?t=2348
+- system-design crash cources ByteByteGo
+- https://www.youtube.com/watch?v=lX4CrbXMsNQ&list=PLCRMIe5FDPsd0gVs500xeOewfySTsmEjf&ab_channel=ByteByteGo
 
 
 ### Холивар про SOLID и Clean Code
