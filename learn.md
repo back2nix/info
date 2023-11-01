@@ -40,11 +40,15 @@
 - https://www.teamblind.com/
 - смотреть зарплаты
 - https://www.levels.fyi/?compare=Sberbank,Yandex,OZON&track=Software%20Engineer
-- какие книжки читать, кабанчик и грокаем
-- https://youtu.be/DGP86mLZ9bs?t=2348
-- system-design crash cources ByteByteGo
-- https://www.youtube.com/watch?v=lX4CrbXMsNQ&list=PLCRMIe5FDPsd0gVs500xeOewfySTsmEjf&ab_channel=ByteByteGo
-
+- Algorithms
+- https://www.youtube.com/@isarwarfp/playlists
+- young&&yandex
+- https://www.youtube.com/@Young_and_Yandex/playlists
+- yandex backend
+- https://www.youtube.com/watch?v=SGhdeWlgPTo&list=PLZvfMc-lVSSO2zhyyxQLFmio8NxvQqZoN&ab_channel=Young%26%26Yandex%3A%D0%B1%D1%8D%D0%BA%D0%B5%D0%BD%D0%B4-%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0
+- How Dijkstra's Algorithm Works
+- https://www.youtube.com/watch?v=EFg3u_E6eHU&t=407s&ab_channel=SpanningTree
+- https://www.youtube.com/@SpanningTree/videos
 
 ### Холивар про SOLID и Clean Code
 - "Clean" Code, Horrible Performance
@@ -72,6 +76,13 @@
 - https://www.youtube.com/watch?v=s9Wbt0b8bwY&ab_channel=Finematics
 - isolation levels
 - https://www.youtube.com/watch?v=4EajrPgJAk0&ab_channel=TECHSCHOOL
+- какие книжки читать, кабанчик и грокаем
+- https://youtu.be/DGP86mLZ9bs?t=2348
+- system-design crash cources ByteByteGo
+- https://www.youtube.com/watch?v=lX4CrbXMsNQ&list=PLCRMIe5FDPsd0gVs500xeOewfySTsmEjf&ab_channel=ByteByteGo
+- https://blog.bytebytego.com/
+- https://www.youtube.com/@codeKarle/playlists
+- https://www.youtube.com/@hayk.simonyan/playlists
 
 ### интервью
 
