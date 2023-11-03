@@ -49,6 +49,8 @@
 - How Dijkstra's Algorithm Works
 - https://www.youtube.com/watch?v=EFg3u_E6eHU&t=407s&ab_channel=SpanningTree
 - https://www.youtube.com/@SpanningTree/videos
+- Our Recommended Materials For Cracking Your Next Tech Interview
+- https://www.youtube.com/watch?v=wAMc7NyL4tQ&ab_channel=ByteByteGo
 
 ### Холивар про SOLID и Clean Code
 - "Clean" Code, Horrible Performance
