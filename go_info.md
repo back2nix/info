@@ -585,6 +585,9 @@ go tool cover -html=pprof/coverage.out
 go tool pprof <test.binary> -http=:8080 pprof/?.out
 ```
 
+- diff pprof `-diff_base= profile`
+- https://youtu.be/OEUIzg-IeyM?si=I5g6yvfP-jSpfiZv
+
 - no inline for becnhmark
 
 ```go
