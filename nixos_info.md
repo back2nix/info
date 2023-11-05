@@ -59,8 +59,6 @@ nix-env -i --dry-run neovim
 - virt-manager windows 11
 - https://www.youtube.com/watch?v=rCVW8BGnYIc&list=UULFgwgHqEsJLFzRO5pRxXs4Bw&index=11&ab_channel=TechSupportOnHold
 
-
-
 # unpackPhase
 
 - https://www.youtube.com/watch?v=xXlCcdPz6Vc&ab_channel=OpenTechLab
@@ -171,7 +169,6 @@ local handle = io.popen(command)
 local result = handle:read "*a"
 handle:close()
 ```
-
 
 # overlay
 
