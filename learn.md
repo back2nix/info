@@ -88,7 +88,9 @@
 - https://www.youtube.com/watch?v=R_agd5qZ26Y&list=PLPkuArhPxxQGkbl-_STo8FFxBBB4ri-tl&ab_channel=InterviewPen
 
 ### интервью
-
 - https://habr.com/ru/articles/670974/
 - golang algo
 - https://github.com/hoanhan101/algo
+
+### english
+- https://hdwatch.stream/
