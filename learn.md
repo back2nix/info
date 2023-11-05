@@ -86,6 +86,8 @@
 - https://www.youtube.com/@codeKarle/playlists
 - https://www.youtube.com/@hayk.simonyan/playlists
 - https://www.youtube.com/watch?v=R_agd5qZ26Y&list=PLPkuArhPxxQGkbl-_STo8FFxBBB4ri-tl&ab_channel=InterviewPen
+- websocket webrtc
+- https://www.youtube.com/watch?v=G32ThJakeHk&ab_channel=codeKarle
 
 ### интервью
 - https://habr.com/ru/articles/670974/
