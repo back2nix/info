@@ -29,3 +29,6 @@ sudo netplan apply
 - https://w3c.github.io/p2p-webtransport/
 - https://rsocket.io/
 - https://github.com/rsocket/rsocket-go
+- https://www.youtube.com/watch?v=XypSs2uhNmk&ab_channel=MoscowPython
+- Media over QUIC ultra low latency proof of concept demo
+- https://www.youtube.com/watch?v=adckQdZHECQ&ab_channel=JordiCenzano
