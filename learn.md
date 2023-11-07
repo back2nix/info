@@ -96,3 +96,8 @@
 
 ### english
 - https://hdwatch.stream/
+
+### sql
+- https://www.youtube.com/watch?v=AK7_m-aThfw&t=428s&ab_channel=techTFQ
+- top 25 Questions
+- https://techtfq.com/blog/top-20-sql-interview-questions

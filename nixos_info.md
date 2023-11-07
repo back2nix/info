@@ -58,6 +58,8 @@ nix-env -i --dry-run neovim
 - https://www.youtube.com/watch?v=xPfqTWL5jIk&list=UULFgwgHqEsJLFzRO5pRxXs4Bw&ab_channel=TechSupportOnHold
 - virt-manager windows 11
 - https://www.youtube.com/watch?v=rCVW8BGnYIc&list=UULFgwgHqEsJLFzRO5pRxXs4Bw&index=11&ab_channel=TechSupportOnHold
+- nix-init
+- https://github.com/nix-community/nix-init
 
 # unpackPhase
 
