@@ -38,8 +38,6 @@
 - https://www.youtube.com/watch?v=RU08pp_VPSs&list=PLEJXowNB4kPyP2PdMhOUlTY6GrRIITx28&ab_channel=Techdose
 - Рекомендуют почитать blind
 - https://www.teamblind.com/
-- смотреть зарплаты
-- https://www.levels.fyi/?compare=Sberbank,Yandex,OZON&track=Software%20Engineer
 - Algorithms
 - https://www.youtube.com/@isarwarfp/playlists
 - young&&yandex
@@ -76,7 +74,7 @@
 ### system-design
 - Два генерала
 - https://www.youtube.com/watch?v=s9Wbt0b8bwY&ab_channel=Finematics
-- isolation levels
+- isolation levels sql
 - https://www.youtube.com/watch?v=4EajrPgJAk0&ab_channel=TECHSCHOOL
 - какие книжки читать, кабанчик и грокаем
 - https://youtu.be/DGP86mLZ9bs?t=2348
@@ -101,3 +99,9 @@
 - https://www.youtube.com/watch?v=AK7_m-aThfw&t=428s&ab_channel=techTFQ
 - top 25 Questions
 - https://techtfq.com/blog/top-20-sql-interview-questions
+- типы баз данных
+- https://www.youtube.com/watch?v=oDS5CPyWhbU&ab_channel=PythonHubStudio
+- b-tree
+- https://www.youtube.com/watch?v=WXXetwePSRk&ab_channel=VolodyaMozhenkov
+- basic
+- https://www.youtube.com/watch?v=Hl4NZB1XR9c&list=PLavw5C92dz9HQQ_COgGb7kf_1H8UWUBxO&ab_channel=techTFQ
