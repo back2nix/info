@@ -63,6 +63,8 @@
 ### math
 - map math
 - https://www.youtube.com/watch?v=OmJ-4B-mS-Y&ab_channel=DomainofScience
+- дискретная математика
+- https://www.youtube.com/watch?v=IzFV_dqPPh0&list=PLAyGZSpiecFrbfQxm_YiKNmkXwW7k0i_m&ab_channel=%D0%98%D0%BD%D1%81%D1%82%D0%B8%D1%82%D1%83%D1%82%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%BD%D1%8B%D1%85%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BCI%D0%99%D0%BE%D1%88%D0%BA%D0%B0%D1%80-%D0%9E%D0%BB%D0%B0
 
 ### golang
 - go by example
@@ -116,3 +118,4 @@
 - LeetCode (for practicing simple SQL queries): https://leetcode.com/
 
 - https://habr.com/ru/companies/otus/articles/461067/
+- https://www.youtube.com/watch?v=A2wt1Bgn_M4&list=PLAyGZSpiecFrZx_qX6em16P9lIuoaOG-Y&ab_channel=%D0%98%D0%BD%D1%81%D1%82%D0%B8%D1%82%D1%83%D1%82%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%BD%D1%8B%D1%85%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BCI%D0%99%D0%BE%D1%88%D0%BA%D0%B0%D1%80-%D0%9E%D0%BB%D0%B0
