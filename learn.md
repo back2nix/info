@@ -95,6 +95,9 @@
 ### english
 - https://hdwatch.stream/
 
+### avito
+- https://github.com/avito-tech/playbook/blob/master/developer-profile.md
+
 ### sql
 - https://www.youtube.com/watch?v=AK7_m-aThfw&t=428s&ab_channel=techTFQ
 - top 25 Questions
@@ -105,3 +108,11 @@
 - https://www.youtube.com/watch?v=WXXetwePSRk&ab_channel=VolodyaMozhenkov
 - basic
 - https://www.youtube.com/watch?v=Hl4NZB1XR9c&list=PLavw5C92dz9HQQ_COgGb7kf_1H8UWUBxO&ab_channel=techTFQ
+
+- SQL Learning Resource mentioned in the video:
+- W3Schools (for SQL syntax): https://www.w3schools.com/sql/
+- LearnSQL.com (for SQL course): https://learnsql.com/?ref=thoufiqmoha...
+- StrataScratch (for practicing SQL queries): https://www.stratascratch.com/?via=te...
+- LeetCode (for practicing simple SQL queries): https://leetcode.com/
+
+- https://habr.com/ru/companies/otus/articles/461067/
