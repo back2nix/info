@@ -96,6 +96,9 @@
 
 ### english
 - https://hdwatch.stream/
+- https://watchsomuch.tv/Watch/9603212-HQ-Bluray/Mission-Impossible-Dead-Reckoning-Part-One-2023#Play
+- http://filmy.zetflix-hd1080.online/
+- https://www.youtube.com/watch?v=oWgLjhM-6XE&list=PLrS21S1jm43igE57Ye_edwds_iL7ZOAG4&ab_channel=PavelMavrin
 
 ### avito
 - https://github.com/avito-tech/playbook/blob/master/developer-profile.md
@@ -103,12 +106,14 @@
 ### algo
 - `[-1,2,5,-5] * / + -` - примени операторы и найди максимум из этого массива
 - https://www.youtube.com/watch?v=1izpX0p9jBw&ab_channel=VladMishustin
+- https://www.youtube.com/@pavelmavrin/playlists
 
 ### relocate
 - 10% от зп 2 года
 - https://outtalent.com/
 - 100k
 - https://ocitizens.com/en/
+- https://www.youtube.com/watch?v=5jilb2UgxWc
 
 ### sql
 - https://www.youtube.com/watch?v=AK7_m-aThfw&t=428s&ab_channel=techTFQ
@@ -136,5 +141,10 @@
 - репликация postgres
 - https://www.youtube.com/watch?v=KepwRnk8ELw&list=PLknJ4Vr6efQFHIBKN_igl7Zl6nMbcjrsd&index=2&ab_channel=AvitoTech
 
+### lang
+- идиомы программирования
+- https://programming-idioms.org/all-idioms
+
 ### books
 - https://t.me/proglibrary
+- https://t.me/progbook2
