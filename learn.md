@@ -90,6 +90,8 @@
 - https://www.youtube.com/watch?v=a6MARo70YBg&list=PL8l8VZo7PbSYnTcBTvAhYwQMs_R7DDdWe&ab_channel=%D0%90%D0%B9%D0%A2%D0%B8%D0%9A%D1%80%D0%B0%D1%81%D0%B0%D0%B2%D1%87%D0%B8%D0%BA
 - example callback
 - https://github.com/evt/callback
+- https://gitmoji.dev/
+- https://github.com/golang-standards/project-layout
 
 
 ### system-design
