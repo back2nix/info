@@ -710,3 +710,6 @@ env "GOSSAFUNC=(*Numbers).Add" go build
 - go-pg
 - analog redis
 - KeyDB
+
+- callback
+- https://github.com/evt/callback
