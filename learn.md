@@ -72,6 +72,25 @@
 - https://www.youtube.com/shorts/AXS6CMgRLMk
 - https://gophercises.com/
 - https://courses.calhoun.io/courses
+- append
+- https://youtu.be/X792YDgMNaw?si=FMSVnjuI6DRelCNI
+- change pointer
+- https://www.youtube.com/watch?v=z7MsXS4puO8&ab_channel=%D0%90%D0%B9%D0%A2%D0%B8%D0%9A%D1%80%D0%B0%D1%81%D0%B0%D0%B2%D1%87%D0%B8%D0%BA
+- typed nil
+- https://www.youtube.com/watch?v=d29W3mZ7Rvw&ab_channel=%D0%90%D0%B9%D0%A2%D0%B8%D0%9A%D1%80%D0%B0%D1%81%D0%B0%D0%B2%D1%87%D0%B8%D0%BA
+- loopvar
+- https://www.youtube.com/watch?v=QdfiU1khTTs&ab_channel=%D0%90%D0%B9%D0%A2%D0%B8%D0%9A%D1%80%D0%B0%D1%81%D0%B0%D0%B2%D1%87%D0%B8%D0%BA
+- каналы и горутины
+- https://www.youtube.com/watch?v=Cdoq5_kL8F0&ab_channel=%D0%90%D0%B9%D0%A2%D0%B8%D0%9A%D1%80%D0%B0%D1%81%D0%B0%D0%B2%D1%87%D0%B8%D0%BA
+- GOMAXPROCS и defer
+- https://www.youtube.com/watch?v=Cdoq5_kL8F0&ab_channel=%D0%90%D0%B9%D0%A2%D0%B8%D0%9A%D1%80%D0%B0%D1%81%D0%B0%D0%B2%D1%87%D0%B8%D0%BA
+- golang it красавчик
+- https://www.youtube.com/watch?v=a6MARo70YBg&list=PL8l8VZo7PbSYnTcBTvAhYwQMs_R7DDdWe&ab_channel=%D0%90%D0%B9%D0%A2%D0%B8%D0%9A%D1%80%D0%B0%D1%81%D0%B0%D0%B2%D1%87%D0%B8%D0%BA
+- pprof resp.Body.Close()
+- https://www.youtube.com/watch?v=a6MARo70YBg&list=PL8l8VZo7PbSYnTcBTvAhYwQMs_R7DDdWe&ab_channel=%D0%90%D0%B9%D0%A2%D0%B8%D0%9A%D1%80%D0%B0%D1%81%D0%B0%D0%B2%D1%87%D0%B8%D0%BA
+- example callback
+- https://github.com/evt/callback
+
 
 ### system-design
 - Два генерала
