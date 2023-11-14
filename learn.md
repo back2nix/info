@@ -92,6 +92,16 @@
 - https://github.com/evt/callback
 - https://gitmoji.dev/
 - https://github.com/golang-standards/project-layout
+- https://github.com/GoesToEleven/learn-to-code-go-version-03/blob/main/000-bm-interview-questions/main.go
+- https://goplay.space/
+- Maps in Golang | Intermediate level
+- https://www.youtube.com/watch?v=1LnzCtcfsFc&ab_channel=Sreekanth
+- Internals of Maps in Golang
+- https://www.youtube.com/watch?v=ACQs6mdylxo&ab_channel=Sreekanth
+- Array Slice Golang | intermediate level
+- https://www.youtube.com/watch?v=RVTfPy_NELc&list=PLSozy2hb5kKPpIJnpZ2sSMfjVjP0tyJYG&index=1&ab_channel=Sreekanth
+- utf-32 utf-8
+- https://www.youtube.com/watch?v=wIVmDPc16wA&ab_channel=Sreekanth
 
 
 ### system-design
