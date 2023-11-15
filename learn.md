@@ -130,6 +130,8 @@
 - https://watchsomuch.tv/Watch/9603212-HQ-Bluray/Mission-Impossible-Dead-Reckoning-Part-One-2023#Play
 - http://filmy.zetflix-hd1080.online/
 - https://www.youtube.com/watch?v=oWgLjhM-6XE&list=PLrS21S1jm43igE57Ye_edwds_iL7ZOAG4&ab_channel=PavelMavrin
+- Англиский слушать
+- https://www.youtube.com/watch?v=fV3iB7a0Q0U&ab_channel=Kendra%27sLanguageSchool
 
 ### avito
 - https://github.com/avito-tech/playbook/blob/master/developer-profile.md
