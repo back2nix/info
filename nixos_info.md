@@ -185,3 +185,6 @@ sudo nixos-rebuild switch
 home-manager switch
 nix flake update
 ```
+
+### mac
+- https://www.youtube.com/watch?v=1dzgVkgQ5mE&ab_channel=JohannesSchickling
