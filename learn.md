@@ -134,6 +134,9 @@
 - https://www.youtube.com/watch?v=fV3iB7a0Q0U&ab_channel=Kendra%27sLanguageSchool
 - рассказы
 - https://youtu.be/MoZVnwa-p0I?si=qwfPKesG8f5lBSIV
+- фразы
+- https://www.youtube.com/watch?v=xG2DdUypQyo&list=PL41R2vH_CL41qCRI4LowQH58s7LbgxYzb&ab_channel=Kendra%27sLanguageSchool
+- https://www.youtube.com/watch?v=U5_NPmJaask&ab_channel=Kendra%27sLanguageSchool
 - временя
 - https://www.youtube.com/watch?v=l8VYxUA2shM&ab_channel=LearnEnglish
 
