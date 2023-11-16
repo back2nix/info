@@ -17,9 +17,7 @@ nix-env -u neovim
 nix-env -i --dry-run neovim
 ```
 
-
 # youtube
-
 - Грязный способо с pip
 - https://www.youtube.com/watch?v=USDbjmxEZ_I&ab_channel=Enthought
 - чувак показывает как он работает на пакетами nixos `nixpkgs-review wip`
