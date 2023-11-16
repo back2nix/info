@@ -132,6 +132,10 @@
 - https://www.youtube.com/watch?v=oWgLjhM-6XE&list=PLrS21S1jm43igE57Ye_edwds_iL7ZOAG4&ab_channel=PavelMavrin
 - Англиский слушать
 - https://www.youtube.com/watch?v=fV3iB7a0Q0U&ab_channel=Kendra%27sLanguageSchool
+- рассказы
+- https://youtu.be/MoZVnwa-p0I?si=qwfPKesG8f5lBSIV
+- временя
+- https://www.youtube.com/watch?v=l8VYxUA2shM&ab_channel=LearnEnglish
 
 ### avito
 - https://github.com/avito-tech/playbook/blob/master/developer-profile.md
