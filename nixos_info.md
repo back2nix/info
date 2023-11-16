@@ -186,6 +186,10 @@ home-manager switch
 nix flake update
 ```
 
+### dotfiles
+- https://github.com/schickling/dotfiles
+- https://github.com/shaunsingh/nix-darwin-dotfiles/tree/main
+
 ### mac
 - https://www.youtube.com/watch?v=1dzgVkgQ5mE&ab_channel=JohannesSchickling
 - https://github.com/shaunsingh/nix-darwin-dotfiles/tree/main
