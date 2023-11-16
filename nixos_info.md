@@ -188,3 +188,4 @@ nix flake update
 
 ### mac
 - https://www.youtube.com/watch?v=1dzgVkgQ5mE&ab_channel=JohannesSchickling
+- https://github.com/shaunsingh/nix-darwin-dotfiles/tree/main
