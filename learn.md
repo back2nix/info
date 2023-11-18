@@ -139,6 +139,7 @@
 - https://www.youtube.com/watch?v=U5_NPmJaask&ab_channel=Kendra%27sLanguageSchool
 - временя
 - https://www.youtube.com/watch?v=l8VYxUA2shM&ab_channel=LearnEnglish
+- https://youtu.be/oP275KwzQaI?si=3eQ2jSuJw9lc8E83
 
 ### avito
 - https://github.com/avito-tech/playbook/blob/master/developer-profile.md
