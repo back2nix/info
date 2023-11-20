@@ -140,6 +140,8 @@
 - временя
 - https://www.youtube.com/watch?v=l8VYxUA2shM&ab_channel=LearnEnglish
 - https://youtu.be/oP275KwzQaI?si=3eQ2jSuJw9lc8E83
+- https://www.youtube.com/watch?v=ktyDegFk4Y8&list=PLebNPZQJNpCDeukiJ8aGojudadRGA_nGX&ab_channel=SHERIFF19
+- https://www.youtube.com/watch?v=2-hEwn_OH9w&list=PLB3yEPsvT0qKjEapQj6BC2qjY4xg5htdn&ab_channel=%D0%90%D0%9D%D0%93%D0%9B%D0%98%D0%99%D0%A1%D0%9A%D0%98%D0%99%D0%AF%D0%97%D0%AB%D0%9A%D0%9F%D0%95%D0%A0%D0%95%D0%94%D0%A1%D0%9D%D0%9E%D0%9C%F0%9F%87%BA%F0%9F%87%B8
 
 ### avito
 - https://github.com/avito-tech/playbook/blob/master/developer-profile.md
