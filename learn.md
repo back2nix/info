@@ -160,6 +160,8 @@
 - 100k
 - https://ocitizens.com/en/
 - https://www.youtube.com/watch?v=5jilb2UgxWc
+- как искать валютную удаленку
+- https://www.youtube.com/watch?v=Ub4Vgio530s&ab_channel=AntonNazarov
 
 ### sql
 - https://www.youtube.com/watch?v=AK7_m-aThfw&t=428s&ab_channel=techTFQ
