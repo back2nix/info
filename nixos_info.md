@@ -189,7 +189,18 @@ nix flake update
 ### dotfiles
 - https://github.com/schickling/dotfiles
 - https://github.com/shaunsingh/nix-darwin-dotfiles/tree/main
+- https://github.com/librephoenix/nixos-config
 
 ### mac
 - https://www.youtube.com/watch?v=1dzgVkgQ5mE&ab_channel=JohannesSchickling
 - https://github.com/shaunsingh/nix-darwin-dotfiles/tree/main
+- https://www.youtube.com/watch?v=KJgN0lnA5mk&ab_channel=junxan
+- https://github.com/gwarf/dotfiles#macos-aka-darwin-using-flakes-and-home-manager
+- https://github.com/ereslibre/dotfiles
+- https://www.youtube.com/watch?v=r0Y7s1sRSUY&ab_channel=MyNixOS
+- https://mynixos.com/mynixos/demo-macos
+- https://github.com/LnL7/nix-darwin
+
+- Заработало вот это но не полностью и крякнулось совсем
+- https://www.youtube.com/watch?v=r0Y7s1sRSUY&ab_channel=MyNixOS
+- https://mynixos.com/back-2-nix/demo/outputs
