@@ -203,4 +203,4 @@ nix flake update
 
 - Заработало вот это но не полностью и крякнулось совсем
 - https://www.youtube.com/watch?v=r0Y7s1sRSUY&ab_channel=MyNixOS
-- https://mynixos.com/back-2-nix/demo/outputs
+- https://mynixos.com/back-2-nix/m1pro/meta
