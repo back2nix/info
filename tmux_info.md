@@ -1,3 +1,7 @@
+- touchID tmux
+- https://www.hein.dev/blog/2020/01/using-touchid-tmux-pam_reattach/
+
+```
 CTRL+A %  разделить окно по вертикали
 CTRL+A "   разделить окно по горизонтали
 CTRL+A <UP ARROW>  двигаться по окнам
@@ -25,3 +29,4 @@ CTRL+A s # вызываются какое окно
 # open terminal failed: missing or unsuitable terminal: xterm-256color
 # можно пофиксить
 export TERM=xterm
+```
