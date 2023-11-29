@@ -145,6 +145,7 @@
 - https://www.youtube.com/watch?v=0508vscCbX8&ab_channel=Kendra%27sLanguageSchool
 - https://www.youtube.com/watch?v=13-kwLYV1L0&ab_channel=Kendra%27sLanguageSchool
 - https://www.youtube.com/watch?v=1SpfZlZrfo0&ab_channel=Kendra%27sLanguageSchool
+- https://www.youtube.com/watch?v=woXT93nc2YU&ab_channel=SVETLANAKONSTANTINOVA
 
 ### avito
 - https://github.com/avito-tech/playbook/blob/master/developer-profile.md
