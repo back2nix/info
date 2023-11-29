@@ -1,4 +1,5 @@
 - touchID tmux
+- сломался sudo
 - https://www.hein.dev/blog/2020/01/using-touchid-tmux-pam_reattach/
 
 ```
