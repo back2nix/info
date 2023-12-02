@@ -1,6 +1,8 @@
 - touchID tmux
 - сломался sudo
 - https://www.hein.dev/blog/2020/01/using-touchid-tmux-pam_reattach/
+- возможное решение
+- https://superuser.com/questions/1342926/sudo-with-auth-sufficient-pam-tid-so-does-not-work-with-tmux
 
 ```
 CTRL+A %  разделить окно по вертикали
