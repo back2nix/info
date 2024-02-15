@@ -186,6 +186,21 @@ home-manager switch
 nix flake update
 ```
 
+### clean garbage
+
+```bash
+nix-store --gc
+```
+
+### delete generations
+
+```bash
+sudo nix-env --list-generations --profile /nix/var/nix/profiles/system
+sudo nix-env --profile /nix/var/nix/profiles/system --delete-generations 10 11 12 13 14 15 16 17 18 19 20 21
+sudo nix-collect-garbage --delete-old
+sudo nix-env -p /nix/var/nix/profiles/system --delete-generations old
+```
+
 ### dotfiles
 - https://github.com/schickling/dotfiles
 - https://github.com/shaunsingh/nix-darwin-dotfiles/tree/main
