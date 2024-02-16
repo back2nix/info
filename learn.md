@@ -154,6 +154,11 @@
 - `[-1,2,5,-5] * / + -` - примени операторы и найди максимум из этого массива
 - https://www.youtube.com/watch?v=1izpX0p9jBw&ab_channel=VladMishustin
 - https://www.youtube.com/@pavelmavrin/playlists
+- Плейтисли
+- https://www.youtube.com/playlist?list=PLlb7e2G7aSpTZN_zRrbpVJUvB-pTuM_VL
+- https://www.youtube.com/playlist?list=PLlb7e2G7aSpRMDLGXOYutKAsDc6rrIrbl
+- https://www.youtube.com/playlist?list=PLlb7e2G7aSpQwdlpw6FLj3wHUJQJKkH7D
+- https://www.youtube.com/playlist?list=PLlb7e2G7aSpTm9ImoDYK_m0Qzibgq9Bbs
 
 ### relocate
 - 10% от зп 2 года
