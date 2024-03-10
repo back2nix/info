@@ -10,5 +10,5 @@ Services Framework Proxy
 com.google.android.gms-hw
 com.android.vending-hw
 ```
-- замет
+- затем
 https://auroraoss.com/
