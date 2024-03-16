@@ -77,3 +77,7 @@ https://ru.wordpress.org/plugins/yookassa/
     padding: 0 0 0 3.25em!important;
 }
 ```
+
+### настройка почты
+
+https://www.youtube.com/watch?v=jry6TemkcCU&ab_channel=DmitriyRaspel
