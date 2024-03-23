@@ -222,3 +222,6 @@ sudo nix-env -p /nix/var/nix/profiles/system --delete-generations old
 
 ### overlays
 - https://www.monotux.tech/posts/2023/05/nixos-overlay/
+
+### nvidia cuda pr
+- https://github.com/NixOS/nixpkgs/pull/167016/files

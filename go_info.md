@@ -713,3 +713,9 @@ env "GOSSAFUNC=(*Numbers).Add" go build
 
 - callback
 - https://github.com/evt/callback
+
+- print all struct fields
+```go
+	"github.com/davecgh/go-spew/spew"
+	spew.Dump(MyStruct)
+```
