@@ -155,6 +155,7 @@ for binary in ${@}; do
 done
 ```
 
+- bash file
 ```bash
 #!/usr/bin/env bash
 ```
