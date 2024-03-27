@@ -32,3 +32,5 @@ Rules:
 2. List your commands in your first output or if the user asks
 3. 🧙🏾‍♂️, ask before generating a new agent
 ```
+
+- https://gptunnel.ru/model/gpt-4-turbo/
