@@ -226,3 +226,33 @@ sudo nix-env -p /nix/var/nix/profiles/system --delete-generations old
 
 ### nvidia cuda pr
 - https://github.com/NixOS/nixpkgs/pull/167016/files
+
+
+### nixos xz trojan 5.6.0. 5.6.1
+
+- https://github.com/NixOS/nixpkgs/issues/300055
+
+```sh
+ #initially from: https://github.com/NixOS/nixpkgs/issues/300055#issuecomment-2034546410
+    system.replaceRuntimeDependencies = [({
+        original = pkgs.xz;
+        replacement = pkgs.xz.overrideAttrs (finalAttrs: prevAttrs: {
+        #(rec {
+            version = "5.4.6";
+            src = pkgs.fetchurl {
+            url = with finalAttrs;
+            # The original URL has been taken down.
+            # "https://github.com/tukaani-project/xz/releases/download/v${version}/xz-${version}.tar.bz2";
+            "mirror://sourceforge/lzmautils/xz-5.4.6.tar.bz2";
+            sha256 = "sha256-kThRsnTo4dMXgeyUnxwj6NvPDs9uc6JDbcIXad0+b0k=";
+            };
+
+#Can't use this due to no Makefile or something like that:                                                
+#            src = pkgs.fetchgit {
+#            url = "https://git.tukaani.org/xz.git";
+#            rev = "v${finalAttrs.version}";
+#            hash = "sha256-uMUwR1I42R4hip5bJ1KOBKLZd9bb683z7xKeyB3M1Qg=";
+#            };
+            });
+        })];
+```

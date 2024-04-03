@@ -34,3 +34,6 @@ Rules:
 ```
 
 - https://gptunnel.ru/model/gpt-4-turbo/
+
+- seo "aiprm" pluggins for chrome 
+- https://www.youtube.com/watch?v=YfSHpRYBL-Q&ab_channel=OlegShestakov
