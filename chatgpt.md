@@ -37,3 +37,6 @@ Rules:
 
 - seo "aiprm" pluggins for chrome 
 - https://www.youtube.com/watch?v=YfSHpRYBL-Q&ab_channel=OlegShestakov
+
+- android
+- https://4pda.to/forum/index.php?showtopic=1073274&view=findpost&p=129451875
