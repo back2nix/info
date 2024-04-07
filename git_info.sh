@@ -50,6 +50,7 @@ git log --follow -- linaro # Показать комиты для одного �
 
 git rebase -i HEAD~3 # изменить в интерактивном режиме последние три коммита
 git rebase --continue
+git rebase -Xtheirs b1
 
 git filter-branch --tree-filter 'rm -f passwords.txt' HEAD # удалить файл passwords.txt из всех коммитов
 
