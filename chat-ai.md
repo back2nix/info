@@ -4,3 +4,6 @@ https://www.yeschat.ai/
 
 - расширить изображение
 https://clipdrop.co/uncrop
+
+- vue js ai
+- https://www.locofy.ai/
