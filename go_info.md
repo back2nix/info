@@ -719,3 +719,13 @@ env "GOSSAFUNC=(*Numbers).Add" go build
 	"github.com/davecgh/go-spew/spew"
 	spew.Dump(MyStruct)
 ```
+
+### чтобы увидеть исходники
+
+- просмотреть профиль опираясь на бинарник епарсера ./bin/main
+pprof/open: 
+    go tool pprof -http=localhost:8085 ./bin/main pprof/pprof.main.samples.cpu.001.pb.gz
+
+- считать profile
+pprof/read: 
+    PPROF_TMPDIR=./pprof go tool pprof -seconds 120 http://localhost:7777/debug/pprof/profile
