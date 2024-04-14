@@ -33,6 +33,7 @@
 !*.dockerfile
 !Dockerfile
 !Makefile
+!docker-compose.yaml
 !*.yml
 !pre-commit
 !.clang-format

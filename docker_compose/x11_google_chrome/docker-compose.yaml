@@ -1,0 +1,13 @@
+version: "3"
+
+# https://www.howtogeek.com/devops/how-to-run-gui-applications-in-a-docker-container/
+services:
+  app:
+    image: my-app:latest
+    build: .
+    environment:
+      - DISPLAY=${DISPLAY}
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      - /run/user/1000/gdm/Xauthority:/tmp/.Xauthority
+    command: bash -c "xauth add $DISPLAY . $(xauth -f /tmp/.Xauthority list | rev | cut -d ' ' -f 1 | rev | head -1) && google-chrome --no-sandbox"
