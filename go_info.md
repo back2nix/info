@@ -729,3 +729,7 @@ pprof/open:
 - считать profile
 pprof/read: 
     PPROF_TMPDIR=./pprof go tool pprof -seconds 120 http://localhost:7777/debug/pprof/profile
+
+### json to go no inline
+
+https://mholt.github.io/json-to-go/
