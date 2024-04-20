@@ -185,3 +185,6 @@ nvidia-smi topo --matrix
 
 - https://github.com/NVIDIA-AI-IOT/jetson-min-disk
 - https://nvidia-ai-iot.github.io/jetson-min-disk/
+
+- table compare
+- https://docs.google.com/spreadsheets/d/1DOHMLQnt9FT0gclPGLKaaSSBQkXT8yOe/edit#gid=1187446092
