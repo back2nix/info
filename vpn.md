@@ -14,3 +14,8 @@ sudo ss-local -v -c /etc/shadowsocks-libev/config.json
 
 - https://github.com/XTLS/Xray-core
 nix-shell -p xray v2raya
+
+https://www.nomachine.com/
+
+- geoip us
+https://pq.hosting/vps-vds-usa-new-jersey-secaucus
