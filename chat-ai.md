@@ -7,3 +7,6 @@ https://clipdrop.co/uncrop
 
 - vue js ai
 - https://www.locofy.ai/
+
+- ускорение llm
+- https://groq.com/
