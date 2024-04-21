@@ -7,3 +7,8 @@ http://mary.dfki.de/
 
 # Крутые русские голоса
 https://www.readspeaker.com/solutions/text-to-speech-software/
+
+- en
+- https://www.naturalreaders.com/online/
+- ru
+- https://yandex.cloud/ru/services/speechkit#demo
