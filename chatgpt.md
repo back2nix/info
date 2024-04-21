@@ -46,5 +46,6 @@ Rules:
 - https://continue.dev/
 
 
+- https://www.youtube.com/watch?v=ySwJT3Z1MFI
 - groq api llama3
 - https://console.groq.com/docs/quickstart
