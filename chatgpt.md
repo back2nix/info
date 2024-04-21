@@ -40,3 +40,11 @@ Rules:
 
 - android
 - https://4pda.to/forum/index.php?showtopic=1073274&view=findpost&p=129451875
+
+- code
+- https://www.youtube.com/watch?v=1VY4A5fG4ZY
+- https://continue.dev/
+
+
+- groq api llama3
+- https://console.groq.com/docs/quickstart
