@@ -49,3 +49,6 @@ Rules:
 - https://www.youtube.com/watch?v=ySwJT3Z1MFI
 - groq api llama3
 - https://console.groq.com/docs/quickstart
+
+- yandex gpt
+https://console.yandex.cloud/folders/b1g4at3g4gtfr1i2af62/foundation-models/chat
