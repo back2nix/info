@@ -206,3 +206,7 @@ local linux_paths = {
 
 - configur for c++
 - https://www.youtube.com/watch?v=lsFoZIg-oDs&ab_channel=DreamsofCode
+
+- cr pr code review
+https://github.com/pwntester/octo.nvim
+https://github.com/AstroNvim/astrocommunity/blob/93b0b67cbd156636df5d4789bd26c52270671f98/lua/astrocommunity/git/diffview-nvim/README.md?plain=1#L2
