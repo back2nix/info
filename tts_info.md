@@ -12,6 +12,7 @@ https://www.readspeaker.com/solutions/text-to-speech-software/
 - https://www.naturalreaders.com/online/
 - ru
 - https://yandex.cloud/ru/services/speechkit#demo
+- https://yandex.cloud/ru/services/speechkit#demo
 
 - tts russ
 - https://elevenlabs.io/
