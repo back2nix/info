@@ -19,3 +19,6 @@ https://www.nomachine.com/
 
 - geoip us
 https://pq.hosting/vps-vds-usa-new-jersey-secaucus
+
+- best USA
+- https://pq.hosting/
