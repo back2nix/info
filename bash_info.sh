@@ -1037,3 +1037,7 @@ https://github.com/89luca89/distrobox
 
 # linux tutorial
 https://linuxjourney.com/lesson/samba
+
+# mac os
+terminal mac os
+https://warp.dev
