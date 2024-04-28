@@ -591,6 +591,8 @@ exiftool file
 
 # узнать внешний ip
 curl ifconfig.me
+proxychains4 curl ifconfig.me
+proxychains4 curl ipinfo.io
 
 # создать торрент torrent
 sudo apt-get install ctorrent
