@@ -210,3 +210,12 @@ local linux_paths = {
 - cr pr code review
 https://github.com/pwntester/octo.nvim
 https://github.com/AstroNvim/astrocommunity/blob/93b0b67cbd156636df5d4789bd26c52270671f98/lua/astrocommunity/git/diffview-nvim/README.md?plain=1#L2
+
+- мульти замена
+https://www.youtube.com/watch?v=YzVmdJ41Xkg
+
+:Telescope live_grep glob_pattern=*.{go}
+:fW
+ctrl+q # отправить в быстрое исправление
+cdo %s/Start/Launch/g
+cdo %s/Start/Launch/gc
