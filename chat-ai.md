@@ -10,3 +10,6 @@ https://clipdrop.co/uncrop
 
 - ускорение llm
 - https://groq.com/
+
+- 
+- https://gorilla.cs.berkeley.edu/
