@@ -13,3 +13,11 @@ https://clipdrop.co/uncrop
 
 - 
 - https://gorilla.cs.berkeley.edu/
+
+- 
+- https://devinai.ai/
+- https://preview.devin.ai/
+- https://crushon.ai/character/38f379a4-17cc-4ec9-85ec-684f5a45463c/chat
+
+- create mobile app
+- https://uizard.io/

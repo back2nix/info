@@ -187,6 +187,15 @@ home-manager switch
 nix flake update
 ```
 
+### upgrade version
+
+- https://nixos.org/manual/nixos/stable/index.html#sec-upgrading
+
+```bash
+sudo nix-channel --add https://channels.nixos.org/nixos-unstable nixos
+nixos-rebuild switch --upgrade
+```
+
 ### clean garbage
 
 ```bash
