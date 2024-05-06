@@ -4,6 +4,17 @@
 - возможное решение
 - https://superuser.com/questions/1342926/sudo-with-auth-sufficient-pam-tid-so-does-not-work-with-tmux
 
+```bash
+# brew install fabianishere/personal/pam_reattach
+brew install pam_reattach
+sudo vim /etc/pam.d/sudo
+```
+
+```/etc/pam.d/sudo
+auth       optional       /opt/homebrew/lib/pam/pam_reattach.so
+auth       sufficient     pam_tid.so
+```
+
 ```
 CTRL+A %  разделить окно по вертикали
 CTRL+A "   разделить окно по горизонтали
@@ -33,3 +44,5 @@ CTRL+A s # вызываются какое окно
 # можно пофиксить
 export TERM=xterm
 ```
+
+``
