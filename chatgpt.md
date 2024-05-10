@@ -59,3 +59,8 @@ https://console.yandex.cloud/folders/b1g4at3g4gtfr1i2af62/foundation-models/chat
 
 - сравнивать чаты
 https://chat.lmsys.org/
+
+- voice
+https://github.com/myshell-ai/OpenVoice
+https://research.myshell.ai/open-voice
+https://huggingface.co/myshell-ai/OpenVoice
