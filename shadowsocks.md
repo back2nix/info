@@ -17,7 +17,7 @@ apt install -y shadowsocks-libev
 
 ```/etc/shadowsocks-libev/config.json
 {
-    "server":["::1", "?.?.?.?"],
+    "server":["::1", "0.0.0.0"],
     "mode":"tcp_and_udp",
     "server_port":8388,
     "local_port":1080,
@@ -30,6 +30,7 @@ apt install -y shadowsocks-libev
 ```bash
 systemctl restart shadowsocks-libev
 wget -qO- eth0.me
+curl ipinfo.io
 ```
 
 ### Client
