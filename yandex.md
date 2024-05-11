@@ -1,3 +1,6 @@
+### plugin for chrome yandex
+https://github.com/ilyhalight/voice-over-translation
+
 ### стебные фразы которые выдает yandex переводчик при переводе ютуба
 
 ```
