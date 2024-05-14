@@ -13,3 +13,7 @@ jadx
 
 https://r2wiki.readthedocs.io/en/latest/analysis/android/
 https://github.com/nowsecure/r2frida/
+
+
+расшарить android на экран linux
+nix-shell - p scrcpy
