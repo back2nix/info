@@ -265,3 +265,6 @@ sudo nix-env -p /nix/var/nix/profiles/system --delete-generations old
             });
         })];
 ```
+
+- create package
+- https://www.youtube.com/watch?v=CqFcl4BmbN4
