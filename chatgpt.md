@@ -64,3 +64,7 @@ https://chat.lmsys.org/
 https://github.com/myshell-ai/OpenVoice
 https://research.myshell.ai/open-voice
 https://huggingface.co/myshell-ai/OpenVoice
+
+- imagefx google
+- https://aitestkitchen.withgoogle.com/tools/image-fx
+
