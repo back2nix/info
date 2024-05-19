@@ -271,3 +271,10 @@ sudo nix-env -p /nix/var/nix/profiles/system --delete-generations old
 
 - if else options
 - https://www.youtube.com/watch?v=Qull6TMQm4Q
+
+
+```mac
+sudo ip link set dev wlp0s20f3 down
+sudo ip link set dev wlp0s20f3 address 00:00:11:22:33:44
+sudo ip link set dev wlp0s20f3 up
+```
