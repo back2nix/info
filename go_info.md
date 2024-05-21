@@ -733,3 +733,8 @@ pprof/read:
 ### json to go no inline
 
 https://mholt.github.io/json-to-go/
+
+
+- get header show header
+- https://httpbin.org/headers
+- https://github.com/zMrKrabz/fhttp
