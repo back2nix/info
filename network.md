@@ -32,3 +32,8 @@ sudo netplan apply
 - https://www.youtube.com/watch?v=XypSs2uhNmk&ab_channel=MoscowPython
 - Media over QUIC ultra low latency proof of concept demo
 - https://www.youtube.com/watch?v=adckQdZHECQ&ab_channel=JordiCenzano
+
+- network tcpdump
+- https://mobile-security.gitbook.io/mobile-security-testing-guide/general-mobile-app-testing-guide/0x04f-testing-network-communication
+- borring ssl
+- https://hackmag.com/security/ssl-sniffing/
