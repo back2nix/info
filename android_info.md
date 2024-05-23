@@ -17,3 +17,6 @@ https://github.com/nowsecure/r2frida/
 
 расшарить android на экран linux
 nix-shell - p scrcpy
+
+- tcpdump android
+https://www.androidtcpdump.com/android-tcpdump/downloads

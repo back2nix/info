@@ -257,3 +257,13 @@ make V=1
 ri # relocation sumbol
 
 iO r/.text/1200 # resize section
+
+- radrare2 gdb and RAP Remote Access Protocol
+https://r2wiki.readthedocs.io/en/latest/home/misc/usage-examples/
+
+```bash
+r2 rap://:9999
+r2 rap://localhost:9999//bin/ls
+```
+- R2con CTF Android CrackMe: Radare2 Pay v1.0
+https://enovella.github.io/android/reverse/2020/09/03/r2pay-android-crackmes-radare2con.html
