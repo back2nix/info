@@ -267,3 +267,5 @@ r2 rap://localhost:9999//bin/ls
 ```
 - R2con CTF Android CrackMe: Radare2 Pay v1.0
 https://enovella.github.io/android/reverse/2020/09/03/r2pay-android-crackmes-radare2con.html
+
+https://qbdi.quarkslab.com/
