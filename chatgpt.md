@@ -68,3 +68,5 @@ https://huggingface.co/myshell-ai/OpenVoice
 - imagefx google
 - https://aitestkitchen.withgoogle.com/tools/image-fx
 
+https://github.com/xqdoo00o/ChatGPT-to-API
+https://github.com/dsdanielpark/Gemini-API

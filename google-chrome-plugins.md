@@ -93,3 +93,9 @@ map  ЮЮ moveTabRight
 map  м enterVisualMode
 map  М enterVisualLineMode
 ```
+
+- automation ai chrome extestion
+https://github.com/OthersideAI/self-operating-computer
+https://github.com/TaxyAI/browser-extension?tab=readme-ov-file#writing-an-essay-in-the-openai-playground
+https://github.com/unconv/gpt4v-browsing
+https://www.youtube.com/watch?v=IXRkmqEYGZA
