@@ -738,3 +738,6 @@ https://mholt.github.io/json-to-go/
 - get header show header
 - https://httpbin.org/headers
 - https://github.com/zMrKrabz/fhttp
+
+-Internals of Maps in Golang
+https://www.youtube.com/watch?v=ACQs6mdylxo
