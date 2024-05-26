@@ -282,3 +282,15 @@ sudo ip link set dev wlp0s20f3 up
 
 - secrests sops
 https://www.youtube.com/watch?v=gdxlc5a6ne0
+
+
+- https://blog.yaymukund.com/posts/nixos-overriding-packages/
+- packages in master
+```nix
+# in packages/neovim-mukund.nix
+let neovim-master = (import (fetchTarball "https://github.com/NixOS/nixpkgs/archive/master.tar.gz") {}).neovim
+in
+  environment.systemPackage = [
+    neovim-master
+  ]
+```

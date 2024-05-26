@@ -65,7 +65,7 @@ def response(flow: http.HTTPFlow) -> None:
 
 Запустите MITM Proxy с использованием этого скрипта:
 ```sh
-SSLKEYLOGFILE="/tmp/sslkeylogfile.txt" mitmproxy --mode transparent -s modify_headers.py  -p 1080
+SSLKEYLOGFILE="/tmp/sslkeylogfile.txt" mitmproxy --mode transparent -p 1081 --showhost -s modify_headers.py 
 ```
 
 Эти шаги помогут настроить MITM Proxy так, чтобы минимизировать вероятность его обнаружения сервером【68†source】【69†source】【70†source】.
