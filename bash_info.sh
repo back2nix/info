@@ -498,6 +498,17 @@ iptables -t nat -A PREROUTING -p udp -d 192.168.0.102 --dport 1234 -j DNAT --to-
 sudo iptables -t nat -L
 sudo iptables -L -v -n --line-numbers
 
+sudo iptables-save > ~/Downloads/rules.v4
+sudo ip6tables-save > ~/Downloads/rules.v6
+
+sudo iptables-restore < ~/Downloads/rules.v4
+sudo ip6tables-restore < ~/Downloads/rules.v6
+
+iptables -t nat -A PREROUTING -i wlp0s20f3 -p tcp --dport 80 -j REDIRECT --to-port 1081
+iptables -t nat -A PREROUTING -i wlp0s20f3 -p tcp --dport 443 -j REDIRECT --to-port 1081
+ip6tables -t nat -A PREROUTING -i wlp0s20f3 -p tcp --dport 80 -j REDIRECT --to-port 1081
+ip6tables -t nat -A PREROUTING -i wlp0s20f3 -p tcp --dport 443 -j REDIRECT --to-port 1081
+
 # Удалить все правила
 sudo iptables -t nat -F
 

