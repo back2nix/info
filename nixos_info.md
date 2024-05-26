@@ -146,7 +146,8 @@ nix-build '<nixpkgs>' --arg crossSystem '(import <nixpkgs> {}).lib.systems.examp
 
 ```bash
 #! /usr/bin/env nix-shell
-#! nix-shell -i bash -p patchelf
+#! nix-shell -i bash
+#! nix-shell -p patchelf
 
 for binary in ${@}; do
 	patchelf \
