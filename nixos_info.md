@@ -294,3 +294,6 @@ in
     neovim-master
   ]
 ```
+
+- sound settings
+helvum, qpwgraph, pavucontrol, pwvucontrol
