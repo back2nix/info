@@ -188,6 +188,12 @@ home-manager switch
 nix flake update
 ```
 
+```bash
+sudo nix-channel --list
+sudo nix-channel --add https://nixos.org/channels/nixos-23.11 nixos 
+sudo nix-channel --add https://nixos.org/channels/nixos-24.05 nixos 
+```
+
 ### upgrade version
 
 - https://nixos.org/manual/nixos/stable/index.html#sec-upgrading
