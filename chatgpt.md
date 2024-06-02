@@ -70,3 +70,6 @@ https://huggingface.co/myshell-ai/OpenVoice
 
 https://github.com/xqdoo00o/ChatGPT-to-API
 https://github.com/dsdanielpark/Gemini-API
+
+- codestral
+https://chat.mistral.ai/chat/eb7fbf47-07c2-44f9-a116-7a267e816ec3
