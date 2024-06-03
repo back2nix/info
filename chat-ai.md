@@ -21,3 +21,6 @@ https://clipdrop.co/uncrop
 
 - create mobile app
 - https://uizard.io/
+
+- copilot nvim 
+https://github.com/supermaven-inc/supermaven-nvim
