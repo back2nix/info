@@ -303,3 +303,19 @@ in
 
 - sound settings
 helvum, qpwgraph, pavucontrol, pwvucontrol
+
+- get path
+
+```bash
+export NIXPKGS_ALLOW_UNFREE=1
+nix repl --expr 'import <nixpkgs>{}'
+nix-repl> cudatoolkit.drvPath
+nix-repl> cudatoolkit.outPath
+```
+
+- ollama
+
+```bash
+export LD_LIBRARY_PATH=/run/opengl-driver/lib/:$LD_LIBRARY_PATH
+ollama server
+```
