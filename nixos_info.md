@@ -190,8 +190,9 @@ nix flake update
 
 ```bash
 sudo nix-channel --list
-sudo nix-channel --add https://nixos.org/channels/nixos-23.11 nixos 
+#sudo nix-channel --add https://nixos.org/channels/nixos-23.11 nixos 
 sudo nix-channel --add https://nixos.org/channels/nixos-24.05 nixos 
+nixos-rebuild switch --upgrade
 ```
 
 ### upgrade version
@@ -242,7 +243,8 @@ sudo nix-env -p /nix/var/nix/profiles/system --delete-generations old
 
 ### nvidia cuda pr
 - https://github.com/NixOS/nixpkgs/pull/167016/files
-
+- nix store prefetch-file --hash-type sha256 --json "$CUDA_RUNFILE_URL" > cuda_runfile_prefetch.json
+- https://github.com/admercs/nixpkgs/commit/6fbd12c2a062abe04528230998f36730287b6fbd
 
 ### nixos xz trojan 5.6.0. 5.6.1
 
@@ -311,6 +313,10 @@ export NIXPKGS_ALLOW_UNFREE=1
 nix repl --expr 'import <nixpkgs>{}'
 nix-repl> cudatoolkit.drvPath
 nix-repl> cudatoolkit.outPath
+
+environment.sessionVariables.LD_LIBRARY_PATH = [
+"/run/opengl-driver/lib/"
+];
 ```
 
 - ollama
@@ -319,3 +325,11 @@ nix-repl> cudatoolkit.outPath
 export LD_LIBRARY_PATH=/run/opengl-driver/lib/:$LD_LIBRARY_PATH
 ollama server
 ```
+
+- cuda custom
+https://github.com/spaceandtimelabs/blitzar/blob/c7e9b40fbe1ec1d612b72d913ade9119ff0fd472/nix/cuda.nix#L10
+
+- error
+- Failed to start transient service unit: Unit nixos-rebuild-switch-to-configuration.service was already loaded or has a fragment file. 
+- fix
+- nixos-generate-config
