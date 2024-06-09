@@ -183,6 +183,7 @@ handle:close()
 ```bash
 sudo nix-channel --update
 
+sudo NIXPKGS_ALLOW_UNFREE=1 nixos-rebuild switch
 sudo nixos-rebuild switch
 home-manager switch
 nix flake update
@@ -324,6 +325,10 @@ environment.sessionVariables.LD_LIBRARY_PATH = [
 ```bash
 export LD_LIBRARY_PATH=/run/opengl-driver/lib/:$LD_LIBRARY_PATH
 ollama server
+```
+
+```bash
+python -c 'import cupy; cupy.show_config()'
 ```
 
 - cuda custom
