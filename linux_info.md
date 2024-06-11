@@ -8,3 +8,7 @@
 
 - разные дистрибутивы в docker
 - distrobox
+
+- kexec
+- qboot
+- binftm
