@@ -22,3 +22,5 @@ https://pq.hosting/vps-vds-usa-new-jersey-secaucus
 
 - best USA
 - https://pq.hosting/
+
+curl https://am.i.mullvad.net/json
