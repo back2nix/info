@@ -34,7 +34,7 @@ nix-env -i --dry-run neovim
 - https://www.youtube.com/watch?v=j9Z55qkTeS4&ab_channel=junxan
 - nixos-build switch, test, boot
 - https://www.youtube.com/watch?v=VqUKpNXnRxs&ab_channel=SwitchedtoLinux
-- Packaging copier for Nixpkgs 
+- Packaging copier for Nixpkgs
 - https://www.youtube.com/watch?v=6P5kuRADlb8&ab_channel=JonRinger
 - hub https://www.nixhub.io/
 - https://www.youtube.com/watch?v=yQwW8dkuHqw&ab_channel=Vimjoyer
@@ -80,7 +80,7 @@ genericBuild
 nix-shell '<nixpkgs>' -A opencv
 
 unpackPhase
-cd $sourceRoot 
+cd $sourceRoot
 patchPhase
 cmakeConfigurePhase
 configurePhase
@@ -98,7 +98,7 @@ nix bundle --bundler bundlers#toDEB nixpkgs#hello
 
 # gist
 
-gh gist create /etc/nixos/* или 
+gh gist create /etc/nixos/* или
 cat /etc/nixos/configuration.nix | curl -F"file=@-" https://0x0.st
 
 
@@ -191,8 +191,8 @@ nix flake update
 
 ```bash
 sudo nix-channel --list
-#sudo nix-channel --add https://nixos.org/channels/nixos-23.11 nixos 
-sudo nix-channel --add https://nixos.org/channels/nixos-24.05 nixos 
+#sudo nix-channel --add https://nixos.org/channels/nixos-23.11 nixos
+sudo nix-channel --add https://nixos.org/channels/nixos-24.05 nixos
 nixos-rebuild switch --upgrade
 ```
 
@@ -266,7 +266,7 @@ sudo nix-env -p /nix/var/nix/profiles/system --delete-generations old
             sha256 = "sha256-kThRsnTo4dMXgeyUnxwj6NvPDs9uc6JDbcIXad0+b0k=";
             };
 
-#Can't use this due to no Makefile or something like that:                                                
+#Can't use this due to no Makefile or something like that:
 #            src = pkgs.fetchgit {
 #            url = "https://git.tukaani.org/xz.git";
 #            rev = "v${finalAttrs.version}";
@@ -335,6 +335,9 @@ python -c 'import cupy; cupy.show_config()'
 https://github.com/spaceandtimelabs/blitzar/blob/c7e9b40fbe1ec1d612b72d913ade9119ff0fd472/nix/cuda.nix#L10
 
 - error
-- Failed to start transient service unit: Unit nixos-rebuild-switch-to-configuration.service was already loaded or has a fragment file. 
+- Failed to start transient service unit: Unit nixos-rebuild-switch-to-configuration.service was already loaded or has a fragment file.
 - fix
 - nixos-generate-config
+
+- flake tutorial
+- https://nixos-and-flakes.thiscute.world/introduction/
