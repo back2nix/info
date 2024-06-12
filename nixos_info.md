@@ -341,3 +341,7 @@ https://github.com/spaceandtimelabs/blitzar/blob/c7e9b40fbe1ec1d612b72d913ade911
 
 - flake tutorial
 - https://nixos-and-flakes.thiscute.world/introduction/
+- отправная точка для настройка mac
+- https://github.com/ryan4yin/nix-darwin-kickstarter
+- find function nix
+- https://noogle.dev/
