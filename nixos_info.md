@@ -346,8 +346,14 @@ https://github.com/spaceandtimelabs/blitzar/blob/c7e9b40fbe1ec1d612b72d913ade911
 - find function nix
 - https://noogle.dev/
 
+- flake docker templates
+- https://github.com/the-nix-way/nix-docker-examples
+
 - flake template for dev
 - https://github.com/nix-community/templates
+- https://github.com/MordragT/nix-templates/
+- https://github.com/the-nix-way/dev-templates
+
 - awensom flake
 - https://github.com/nix-community/awesome-nix?tab=readme-ov-file#development
 
