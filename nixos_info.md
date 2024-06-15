@@ -345,3 +345,19 @@ https://github.com/spaceandtimelabs/blitzar/blob/c7e9b40fbe1ec1d612b72d913ade911
 - https://github.com/ryan4yin/nix-darwin-kickstarter
 - find function nix
 - https://noogle.dev/
+
+- flake template for dev
+- https://github.com/nix-community/templates
+- awensom flake
+- https://github.com/nix-community/awesome-nix?tab=readme-ov-file#development
+
+- ollama + webui
+- https://github.com/juspay/services-flake/blob/86acbd5f04881ba3ea27bdd36c3f9803adc11958/example/llm/flake.nix
+- https://github.com/rosera/nix-shell-pack/tree/e9a25e3c4a339d34d108c2fcdc0292227541954f/applications/ollama-rag
+
+- lorrin init
+
+```bash
+lorri init
+lorri shell
+```
