@@ -361,3 +361,6 @@ https://github.com/spaceandtimelabs/blitzar/blob/c7e9b40fbe1ec1d612b72d913ade911
 lorri init
 lorri shell
 ```
+
+- разные способы исполняемого файл fhs ld NIX_LD_LIBRARY_PATH NIX_LD
+https://unix.stackexchange.com/questions/522822/different-methods-to-run-a-non-nixos-executable-on-nixos
