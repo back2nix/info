@@ -27,3 +27,6 @@ https://github.com/supermaven-inc/supermaven-nvim
 
 - private chat без выравнивания
 - https://venice.ai/home
+
+- агент переводчик
+- https://github.com/andrewyng/translation-agent
