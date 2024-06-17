@@ -371,3 +371,7 @@ lorri shell
 
 - разные способы исполняемого файл fhs ld NIX_LD_LIBRARY_PATH NIX_LD
 https://unix.stackexchange.com/questions/522822/different-methods-to-run-a-non-nixos-executable-on-nixos
+
+### develop with my shell
+nix develop -c $SHELL
+nix develop -c zsh
