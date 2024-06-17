@@ -1,42 +1,48 @@
 
-# https://jdhao.github.io/2020/02/16/ripgrep_cheat_sheet/
+### https://jdhao.github.io/2020/02/16/ripgrep_cheat_sheet/
 
 #Search in a single file utils.py
 rg image utils.py
 #	Search in dir src/ recursively
 rg image src/
-# Search image in current dir recursively
+### Search image in current dir recursively
 rg image
-# Regex searching support (lines starting with We)
+### Regex searching support (lines starting with We)
 rg '^We' test.txt
-# Search image and ignore case (case-insensitive search)
+### Search image and ignore case (case-insensitive search)
 rg -i image
-# Smart case search
+### Smart case search
 rg -s image
-# Search literally, i.e., without using regular expression
+### Search literally, i.e., without using regular expression
 rg -F '(test)'
-# File globing (search in certain files)
+### File globing (search in certain files)
 rg image -g '*.py'
-# Negative file globing (do not search in certain files)
+### Negative file globing (do not search in certain files)
 rg image -g '!*.py'
-# Search image in Python file
+### Search image in Python file
 rg image --type py
-# or
+### or
 rg image -tpy
-# Do not search image in Python file type
+### Do not search image in Python file type
 rg image -Tpy
-# Only show files containing image (Do not show the lines)
+### Only show files containing image (Do not show the lines)
 rg -l image
-# Show files not containing image
+### Show files not containing image
 rg --files-without-match image
-# Inverse search (search files not containing image)
+### Inverse search (search files not containing image)
 rg -v image
-# Search complete word
+### Search complete word
 rg -w image
-# Show the number of matching lines in a file
+### Show the number of matching lines in a file
 rg --count
-# Show the number of matchings in a file
+### Show the number of matchings in a file
 rg --count-matches
+### github analog AND
+rg -l -e "one" -e "two" .
+### AND
+rg --pcre2 '(?=.*foo)(?=.*bar)'
+### OR
+rg --pcre2 '(?=.*foo)(?!.*bar)'
 
-# replace rg sed zshrc
+### replace rg sed zshrc
 replace(){ rg "$1" --files-with-matches | xargs sed -i "s/$1/$2/g" }
