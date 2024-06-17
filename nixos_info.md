@@ -375,3 +375,13 @@ https://unix.stackexchange.com/questions/522822/different-methods-to-run-a-non-n
 ### develop with my shell
 nix develop -c $SHELL
 nix develop -c zsh
+
+### testing
+
+- https://nixcademy.com/2023/10/24/nixos-integration-tests/
+
+```bash
+git clone https://github.com/nixos/nixpkgs --depth=1
+cd nixpkgs
+nix-build -A nixosTests.bittorrent
+```
