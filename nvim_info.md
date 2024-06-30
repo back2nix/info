@@ -29,9 +29,9 @@ sudo apt-get --purge remove "*nvidia*"
 
 ### работа с git
 - https://github.com/airblade/vim-gitgutter
-#stage the hunk with 
+#stage the hunk with
 <Leader>hs or
-#undo it with 
+#undo it with
 <Leader>hu.
 
 ### python3 Autocomplete
@@ -219,3 +219,19 @@ https://www.youtube.com/watch?v=YzVmdJ41Xkg
 ctrl+q # отправить в быстрое исправление
 cdo %s/Start/Launch/g
 cdo %s/Start/Launch/gc
+
+- macros
+https://www.youtube.com/watch?v=b9McCDn3RXY
+
+- remove emty lines
+
+```
+:'<,'>g/\v^ *$/d
+```
+
+- sort
+- нужно нажать 19:
+
+```
+.,.+19!sort
+```
