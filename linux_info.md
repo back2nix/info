@@ -12,3 +12,10 @@
 - kexec
 - qboot
 - binftm
+
+### record terminal
+
+```
+asciinema rec my_session.cast
+asciinema play my_session.castfilename
+```

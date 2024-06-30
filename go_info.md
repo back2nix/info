@@ -96,7 +96,7 @@ ssh -i id_rsa ubuntu@$host
 
 - https://insomnia.rest/
 
-### gdb for golang 
+### gdb for golang
 
 - https://github.com/derekparker/delve
 - https://github.com/sebdah/vim-delve
@@ -224,7 +224,7 @@ curl http://localhost:8080/debug/pprof/trace > trace.0.pprof
 go tool pprof heap.0.pprof
 HEAP=heap.7.pprof && curl http://localhost:8080/debug/pprof/heap > $HEAP && go tool pprof -nodefraction=0 -inuse_objects $HEAP
 
-go tool pprof -nodefraction=0 -inuse_objects http://localhost:8080/debug/pprof/heap 
+go tool pprof -nodefraction=0 -inuse_objects http://localhost:8080/debug/pprof/heap
 nodefraction=0
 
 web
@@ -439,7 +439,7 @@ go clean -testcache
 go test --race ./cmd/testing_runner/main_test.go -run "^TestRunner" -v
 ```
 
-### 
+###
 
 ```
 echo 0 > /proc/sys/kernel/yama/ptrace_scope
@@ -516,7 +516,7 @@ go test --blockprofile=block.out
 #runtime.SetBlockProfileRate(1)
 go tool pprof -http=:8080 block.out # --ignore
 ```
-- 
+-
 
 ### ?
 
@@ -538,7 +538,7 @@ bytes.Index(hashstack, []byte(needle)) // бесплатно если needle < 3
 
 concatLen(x, y string) int {
 	result := x + y // тоже бесплатно если < 32 байт
-	return len(result) 
+	return len(result)
 }
 ```
 
@@ -603,7 +603,7 @@ func foo() {
 go tool trace ...
 ```
 
-- go leak 
+- go leak
 - https://github.com/uber-go/goleak
 
 - staticcheck
@@ -723,11 +723,11 @@ env "GOSSAFUNC=(*Numbers).Add" go build
 ### чтобы увидеть исходники
 
 - просмотреть профиль опираясь на бинарник епарсера ./bin/main
-pprof/open: 
+pprof/open:
     go tool pprof -http=localhost:8085 ./bin/main pprof/pprof.main.samples.cpu.001.pb.gz
 
 - считать profile
-pprof/read: 
+pprof/read:
     PPROF_TMPDIR=./pprof go tool pprof -seconds 120 http://localhost:7777/debug/pprof/profile
 
 ### json to go no inline
@@ -741,3 +741,10 @@ https://mholt.github.io/json-to-go/
 
 -Internals of Maps in Golang
 https://www.youtube.com/watch?v=ACQs6mdylxo
+
+- sqlc
+- https://github.com/sqlc-dev/sqlc
+- https://play.sqlc.dev/
+
+- pgo
+- https://gitlab.com/continuous-profiling/go-pgo-app
