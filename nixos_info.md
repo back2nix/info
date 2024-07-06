@@ -386,3 +386,27 @@ cd nixpkgs
 nix-build -A nixosTests.bittorrent
 ```
 
+### useful linux util
+- json viewer
+https://fx.wtf/key-bindings
+nix-shell -p fx
+
+https://www.youtube.com/watch?v=4IqsqWLqR9Y
+
+- serarch and replace
+nix-shell -p serpl
+
+- удалить зависимости
+nix-shell -p kondo
+
+- сравнивалка difft
+nix-shell -p difftastic
+
+- пакетное рекурсивное переименование
+nix-shell -p rnr
+
+- исправляет не правильно введенную команду
+nix-shell -p thefuck
+
+- lazydocker
+nix-shell -p lazydocker
