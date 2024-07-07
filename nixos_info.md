@@ -424,3 +424,5 @@ https://www.youtube.com/watch?v=gXHG3-CZ7CU&list=PLh1QjGnfC2eTLiadQBo5o_l5aOcYdC
 nix-shell -p hyperfine
 hyperfine --runs 1 'nix-shell -p hello'
 
+- Utilities for analyzing application performance
+nix-shell -p oxtools
