@@ -413,3 +413,6 @@ nix-shell -p lazydocker
 
 - красивый конфиг flake nix
 https://git.voronind.com/voronind/nixos/src/branch/main/flake.nix
+
+- docker-compose to nix
+https://github.com/aksiksi/compose2nix
