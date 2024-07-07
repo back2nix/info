@@ -416,3 +416,11 @@ https://git.voronind.com/voronind/nixos/src/branch/main/flake.nix
 
 - docker-compose to nix
 https://github.com/aksiksi/compose2nix
+
+- play list nix conf
+https://www.youtube.com/watch?v=gXHG3-CZ7CU&list=PLh1QjGnfC2eTLiadQBo5o_l5aOcYdC6aV&index=1
+
+- замер времени
+nix-shell -p hyperfine
+hyperfine --runs 1 'nix-shell -p hello'
+
