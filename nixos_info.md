@@ -115,7 +115,7 @@ cat /etc/nixos/configuration.nix | curl -F"file=@-" https://0x0.st
 
 ```
 
-# overide shell stdenv gcc11
+# override shell stdenv gcc11
 
 ```nix
 pkgs.mkShell.override { stdenv = pkgs.gcc11Stdenv; } {
@@ -426,3 +426,11 @@ hyperfine --runs 1 'nix-shell -p hello'
 
 - Utilities for analyzing application performance
 nix-shell -p oxtools
+
+- transparent vpn ssh
+- https://github.com/sshuttle/sshuttle/tree/master?tab=readme-ov-file
+- https://sshuttle.readthedocs.io/en/stable/usage.html
+nix-shell -p sshuttle
+```bash
+sshuttle --dns -r shadowsocks2 0/0
+```
