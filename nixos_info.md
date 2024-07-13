@@ -40,6 +40,8 @@ nix-env -i --dry-run neovim
 - https://www.youtube.com/watch?v=yQwW8dkuHqw&ab_channel=Vimjoyer
 - devbox
 - https://www.jetpack.io/devbox/docs/quickstart/
+- search devbox
+- https://www.nixhub.io/packages/go
 - nix build, nix develop unpackPhase
 - https://www.youtube.com/watch?v=xXlCcdPz6Vc&ab_channel=OpenTechLab
 - https://zimbatm.com/
@@ -436,3 +438,7 @@ sshuttle --dns -r shadowsocks2 0/0
 ```
 
 - https://devenv.sh/
+
+- собрать пакет в один переносимый пакет
+- https://github.com/matthewbauer/nix-bundle
+- https://github.com/NixOS/bundlers
