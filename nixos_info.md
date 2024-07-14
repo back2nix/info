@@ -466,3 +466,4 @@ podman run -it bash
 - https://nixos.wiki/wiki/Workgroup:DataScience
 - jupyter
 - https://github.com/tweag/jupyenv
+- https://github.com/nix-community/nix-data-science
