@@ -351,6 +351,17 @@ https://github.com/spaceandtimelabs/blitzar/blob/c7e9b40fbe1ec1d612b72d913ade911
 
 - flake docker templates
 - https://github.com/the-nix-way/nix-docker-examples
+- https://www.youtube.com/watch?v=l17oRkhgqHE
+- docker nix example
+- https://github.com/docker/babashka-pod-docker
+- https://ryantm.github.io/nixpkgs/builders/images/dockertools/
+- nix shell image
+```nix
+with import <nixpkgs> {};
+dockerTools.buildNixShellImage {
+  drv = hello;
+}
+```
 
 - flake template for dev
 - https://github.com/nix-community/templates
@@ -442,3 +453,11 @@ sshuttle --dns -r shadowsocks2 0/0
 - собрать пакет в один переносимый пакет
 - https://github.com/matthewbauer/nix-bundle
 - https://github.com/NixOS/bundlers
+
+```bash
+nix run github:nlewo/nix2container#examples.bash.copyToPodman
+podman run -it bash
+```
+
+- docker registry nix
+- https://nixery.dev/
