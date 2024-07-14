@@ -461,3 +461,8 @@ podman run -it bash
 
 - docker registry nix
 - https://nixery.dev/
+
+- Data Science
+- https://nixos.wiki/wiki/Workgroup:DataScience
+- jupyter
+- https://github.com/tweag/jupyenv
