@@ -168,12 +168,12 @@ set shiftwidth=2
 
 ```go
 // NOTE: test notification
-// HACK: test hack commment
-// FIX: test fix commment
-// BUG: test bug commment
-// PERF: test preformance commment
+// HACK: test hack comment
+// FIX: test fix comment
+// BUG: test bug comment
+// PERF: test performance comment
 // TODO: test todo comment
-// WARN: test warning commment
+// WARN: test warning comment
 // WARNING:
 ```
 
@@ -223,7 +223,7 @@ cdo %s/Start/Launch/gc
 - macros
 https://www.youtube.com/watch?v=b9McCDn3RXY
 
-- remove emty lines
+- remove empty lines
 
 ```
 :'<,'>g/\v^ *$/d
@@ -235,3 +235,6 @@ https://www.youtube.com/watch?v=b9McCDn3RXY
 ```
 .,.+19!sort
 ```
+
+- nvim plugin on golang
+https://github.com/lasorda/protobuf-language-server

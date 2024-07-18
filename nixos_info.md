@@ -248,6 +248,10 @@ sudo nix-env -p /nix/var/nix/profiles/system --delete-generations old
 - https://github.com/NixOS/nixpkgs/pull/167016/files
 - nix store prefetch-file --hash-type sha256 --json "$CUDA_RUNFILE_URL" > cuda_runfile_prefetch.json
 - https://github.com/admercs/nixpkgs/commit/6fbd12c2a062abe04528230998f36730287b6fbd
+- https://github.com/SomeoneSerge/nixpkgs-cuda-ci/tree/develop
+```nix
+nix run github:SomeoneSerge/nixpkgs-unfree/nixpkgs-unstable#blender
+```
 
 ### nixos xz trojan 5.6.0. 5.6.1
 
@@ -344,6 +348,7 @@ https://github.com/spaceandtimelabs/blitzar/blob/c7e9b40fbe1ec1d612b72d913ade911
 - flake tutorial
 - https://nixos-and-flakes.thiscute.world/introduction/
 - https://community.flake.parts/services-flake/start
+- https://flake.parts/options/process-compose-flake
 - отправная точка для настройка mac
 - https://github.com/ryan4yin/nix-darwin-kickstarter
 - find function nix
@@ -467,3 +472,7 @@ podman run -it bash
 - jupyter
 - https://github.com/tweag/jupyenv
 - https://github.com/nix-community/nix-data-science
+
+- https://www.youtube.com/watch?v=Atn565V7tt8&list=UUVGuvJBjMyli7v1ggX6Klqg&index=3
+- nix determinate
+- https://install.determinate.systems/

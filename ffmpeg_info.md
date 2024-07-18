@@ -39,6 +39,8 @@ ffmpeg -ss 00:09:13 -t 00:02:18 -i videoplayback_sound.mp4 -vcodec copy -acodec 
 ffmpeg -f concat -i candy_shop.mp3 -c copy videoplayback.mp4
 ffmpeg -i videoplayback.mp4 -i candy_shop.mp3 -map 0 -map 1:a -c:v copy -shortest videoplayback_sound.mp4
 
+ffmpeg -i input.mkv -c:v libx264 -c:a aac output.mp4
+
 ```bash
 	#!/bin/bash
 
