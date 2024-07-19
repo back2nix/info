@@ -238,3 +238,6 @@ https://www.youtube.com/watch?v=b9McCDn3RXY
 
 - nvim plugin on golang
 https://github.com/lasorda/protobuf-language-server
+
+- nvim dlv dap go
+https://github.com/BrotifyPacha/nvim/blob/master/lua/user/plugins-config/dap.lua#L32-L77
