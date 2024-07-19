@@ -17,5 +17,6 @@
 
 ```
 asciinema rec my_session.cast
-asciinema play my_session.castfilename
+asciinema play my_session.cast
+asciinema upload my_session.cast
 ```

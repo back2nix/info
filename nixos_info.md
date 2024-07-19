@@ -476,3 +476,158 @@ podman run -it bash
 - https://www.youtube.com/watch?v=Atn565V7tt8&list=UUVGuvJBjMyli7v1ggX6Klqg&index=3
 - nix determinate
 - https://install.determinate.systems/
+
+- nix from chat
+
+Александр Бантьев, [04.03.2019 10:38]
+Добро пожаловать в русскоязычное сообщество, посвященное Nix и NixOS!
+Scroll down for english...
+Мы готовы вам помочь с вашими проблемами, вопросами или пожеланиями по Nix/NixOS, но просим вас экономить и наше, и ваше время, и выполнять несложные правила:
+0) Личные оскорбления и принижения достоинства других людей запрещены.
+1) Этот чат предназначен для обсуждения Nix, NixOS, nixpkgs и смежных тем. Пожалуйста, постарайтесь не отклоняться от них. Для обсуждения прочих вопросов есть @ru_nixos_flood
+2) Если вы задаёте вопрос или хотите решить проблему с NixOS, то прилагайте ваш конфиг! Вы можете залить его на какой-нибудь pastebin, например с помощью gh gist create /etc/nixos/* или cat /etc/nixos/configuration.nix | curl -F"file=@-" https://0x0.st.
+3) Если вы просите опакетить какое-либо ПО в Nix, то прилагайте ссылку на upstream и (при наличии) уже написанные nix expressions!
+4) Следуйте советам, изложенным в https://sitengine.ru//smart-question-ru.html
+5) Рекрутинг/предложения работы разрешены, при условии релевантности к Nix/NixOS и вашей готовности отвечать на вопросы в чате.
+
+Ищите полезные ссылки и примеры конфигов чуть ниже!
+
+Александр Бантьев, [04.03.2019 11:05]
+Welcome to our russian-speaking Nix and NixOS community!
+We're ready to help you with your NixOS problems and questions, but you are kindly asked to follow these simple rules in order to save both your time and our time:
+0) Insulting others is prohibited.
+1) This is a chat about Nix, NixOS and related topics. Please, stay on those topics. For other discussions, use @ru_nixos_flood
+2) If your question relates to NixOS, please post your NixOS configuration! You can upload it to some pastebin, for example gh gist create /etc/nixos/* or cat /etc/nixos/configuration.nix | curl -F"file=@-" https://0x0.st .
+3) If you ask us to package some piece of software in Nix, add a link to software's upstream!
+4) Please follow the advice outlined in http://www.catb.org/~esr/faqs/smart-questions.html
+5) Recruitment/vacancy announcements are allowed, but they must be relevant to Nix/NixOS and you must be ready to answer questions about them.
+
+Look for useful links below!
+
+Flood/off-topic chat: https://t.me/ru_nixos_flood
+Matrix space: #ru_nixos:balsoft.ru
+ (https://matrix.to/#/%23ru_nixos:balsoft.ru)Bridged Matrix room: #ru:nixos.org (https://matrix.org/#/#ru:nixos.org)
+
+ (https://matrix.to/#/%23nixos:balsoft.ru)Для новичков / For beginners
+Классическое вступление в мир Nix: nixos.org/nixos/nix-pills
+Незаконченный перевод на русский: nix-pills-ru.github.io/00-preface.html
+Официальная документация экосистемы: nix.dev
+
+Мануалы / Manuals
+В консоле: man configuration.nix home-configuration.nix
+Официальный мануал по пакетному менеджеру: nixos.org/nix/manual
+Официальный мануал по репозиторию и написанию своих пакетов: nixos.org/nixpkgs/manual
+Официальный мануал по дистрибутиву: nixos.org/nixos/manual
+Мануал по home-manager: nix-community.github.io/home-manager
+
+Поисковики / Indexers
+Поиск по пакетам nixpkgs и опциям NixOS: search.nixos.org
+ (http://search.nixos.org/)Неофициальный поиск по разным Nix-штукам: mynixos.com
+Неофициальный поиск по home-manager: mipmip.github.io/home-manager-option-search
+Неофициальный поиск старых версий пакетов в nixpkgs: lazamar.co.uk/nix-versions
+Неофициальный поиск по функциям, написанным на Nix: noogle.dev
+
+Справочники / References
+Официальная вики: wiki.nixos.org
+Неофициальная вики: nixos.wiki
+Неофициальный справочник по стандартной библиотеке nixpkgs и встроенным в Nix функциям:  teu5us.github.io/nix-lib.html
+
+Прочее полезное / Other useful stuffs
+Статус PR в nixpkgs после мержа: nixpk.gs/pr-tracker.html
+Краткая инструкция по переделыванию конфига на флейки (на русском): t.me/ru_nixos/119078
+Статьи о Nix (на русском): ruhaskell.org/tags/Nix.html
+stop-using-nix-env.privatevoid.net
+
+Конфиги активных участников / Active user's configs
+@alex3rd github.com/wiedzmin/nixos-config
+@balsoft github.com/balsoft/nixos-config
+@SeTSeR github.com/setser/nixos-config
+@savage42 github.com/vyorkin/nixos-config
+@saksmt https://github.com/saksmt/nix-config
+@termslang https://bitbucket.org/bzz/nixos
+@dump_stack https://code.dumpstack.io/infra
+@kanashimia https://github.com/kanashimia/nixos-config
+@CabiaRangris http://github.com/cab404/nixos-config
+@azahicc  https://git.azahi.cc/nixfiles/
+@voronind_com https://git.voronind.com/voronind/nixos
+@ViZiD https://github.com/ViZiD/dotfiles
+@name_snrl https://github.com/name-snrl/nixos-configuration
+@maxmur https://github.com/TheMaxMur/NixOS-Configuration
+@s0me1newithhand7s https://github.com/s0me1newithhand7s/myNixConf/tree/main
+@fucin_shtrampantunc https://github.com/SHTRAMPANTUNC/MyNixOS
+
+Наши соседи / Next-door chats
+https://t.me/nixos_en
+https://t.me/gnu_guix_ru
+https://t.me/haskellru
+https://t.me/emacs_ru
+
+Welcome to our russian-speaking Nix and NixOS community!
+We're ready to help you with your NixOS problems and questions, but you are kindly asked to follow these simple rules in order to save both your time and our time:
+0) Insulting others is prohibited.
+1) This is a chat about Nix, NixOS and related topics. Please, stay on those topics. For other discussions, use @ru_nixos_flood
+2) If your question relates to NixOS, please post your NixOS configuration! You can upload it to some pastebin, for example gh gist create /etc/nixos/* or cat /etc/nixos/configuration.nix | curl -F"file=@-" https://0x0.st .
+3) If you ask us to package some piece of software in Nix, add a link to software's upstream!
+4) Please follow the advice outlined in http://www.catb.org/~esr/faqs/smart-questions.html
+5) Recruitment/vacancy announcements are allowed, but they must be relevant to Nix/NixOS and you must be ready to answer questions about them.
+
+Look for useful links below!
+
+Александр Бантьев, [04.03.2019 11:08]
+Flood/off-topic chat: https://t.me/ru_nixos_flood
+Matrix space: #ru_nixos:balsoft.ru
+ (https://matrix.to/#/%23ru_nixos:balsoft.ru)Bridged Matrix room: #ru:nixos.org (https://matrix.org/#/#ru:nixos.org)
+
+ (https://matrix.to/#/%23nixos:balsoft.ru)Для новичков / For beginners
+Классическое вступление в мир Nix: nixos.org/nixos/nix-pills
+Незаконченный перевод на русский: nix-pills-ru.github.io/00-preface.html
+Официальная документация экосистемы: nix.dev
+
+Мануалы / Manuals
+В консоле: man configuration.nix home-configuration.nix
+Официальный мануал по пакетному менеджеру: nixos.org/nix/manual
+Официальный мануал по репозиторию и написанию своих пакетов: nixos.org/nixpkgs/manual
+Официальный мануал по дистрибутиву: nixos.org/nixos/manual
+Мануал по home-manager: nix-community.github.io/home-manager
+
+Поисковики / Indexers
+Поиск по пакетам nixpkgs и опциям NixOS: search.nixos.org
+ (http://search.nixos.org/)Неофициальный поиск по разным Nix-штукам: mynixos.com
+Неофициальный поиск по home-manager: mipmip.github.io/home-manager-option-search
+Неофициальный поиск старых версий пакетов в nixpkgs: lazamar.co.uk/nix-versions
+Неофициальный поиск по функциям, написанным на Nix: noogle.dev
+
+Справочники / References
+Официальная вики: wiki.nixos.org
+Неофициальная вики: nixos.wiki
+Неофициальный справочник по стандартной библиотеке nixpkgs и встроенным в Nix функциям:  teu5us.github.io/nix-lib.html
+
+Прочее полезное / Other useful stuffs
+Статус PR в nixpkgs после мержа: nixpk.gs/pr-tracker.html
+Краткая инструкция по переделыванию конфига на флейки (на русском): t.me/ru_nixos/119078
+Статьи о Nix (на русском): ruhaskell.org/tags/Nix.html
+stop-using-nix-env.privatevoid.net
+
+Конфиги активных участников / Active user's configs
+@alex3rd github.com/wiedzmin/nixos-config
+@balsoft github.com/balsoft/nixos-config
+@SeTSeR github.com/setser/nixos-config
+@savage42 github.com/vyorkin/nixos-config
+@saksmt https://github.com/saksmt/nix-config
+@termslang https://bitbucket.org/bzz/nixos
+@dump_stack https://code.dumpstack.io/infra
+@kanashimia https://github.com/kanashimia/nixos-config
+@CabiaRangris http://github.com/cab404/nixos-config
+@azahicc  https://git.azahi.cc/nixfiles/
+@voronind_com https://git.voronind.com/voronind/nixos
+@ViZiD https://github.com/ViZiD/dotfiles
+@name_snrl https://github.com/name-snrl/nixos-configuration
+@maxmur https://github.com/TheMaxMur/NixOS-Configuration
+@s0me1newithhand7s https://github.com/s0me1newithhand7s/myNixConf/tree/main
+@fucin_shtrampantunc https://github.com/SHTRAMPANTUNC/MyNixOS
+
+Наши соседи / Next-door chats
+https://t.me/nixos_en
+https://t.me/gnu_guix_ru
+https://t.me/haskellru
+https://t.me/emacs_ru
