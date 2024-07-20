@@ -35,7 +35,7 @@ git log -L :main:main.cpp  # увидеть все изменения функц
 git log -p myFile.cpp # посмотреть историю одного файла
 git log --no-merges master # показать не смерженное с master
 git log -L 1,1:some-file.txt # показать изменения для некоторых строк в файле
-git log --pretty="%h - %s" --author=REPO_DEPRECATED # посмотреть которкие хеши 
+git log --pretty="%h - %s" --author=REPO_DEPRECATED # посмотреть которкие хеши
 #если хотим найти потерянный файл в истории
 git log --all --full-history -- **/thefile.* # если не знаем путь к искомому файлу
 git log --all --full-history -- <path-to-file> # если знаем полный путь к искомому файлу
@@ -55,7 +55,7 @@ git rebase -Xtheirs b1
 git filter-branch --tree-filter 'rm -f passwords.txt' HEAD # удалить файл passwords.txt из всех коммитов
 
 git reset --soft HEAD~ # удалит предыдущий комит и добавить его в индекс, после чего его можно отредактировать и закомитить снова
-git reset --hard HEAD  # жесткий брос всех изменений, после этого можно потерять свои наработки навсегда 
+git reset --hard HEAD  # жесткий брос всех изменений, после этого можно потерять свои наработки навсегда
 git reset HEAD@{index}
 
 git merge --abort # отменить попытку слияния
@@ -180,3 +180,16 @@ export LANG='C.UTF-8'
 
 # creat pull pull-request
 hub pull-request -b main
+
+- Learn how to rewrite Git history - Amend, Reword, Delete, Reorder, Squash and Split
+https://www.youtube.com/watch?v=ElRzTuYln0M
+
+# добавить еще файлов к последнему сделанному комиту без изменения комментария коммиат
+git commit --amend --no-edit
+git stash -m "comment"
+git stash pop --index 1
+# создадим ветку из стеша с индексом 1
+git stash branch NameBranch 1
+git stash drop stash@{0}
+# delete all stash
+git stash clear
