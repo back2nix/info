@@ -634,3 +634,8 @@ https://t.me/emacs_ru
 
 - классная презентация включая nixos anywehere
 https://www.youtube.com/watch?v=6iviTZfiLGU
+
+показать картинку в терминале
+```bash
+kitten icat qr_code_nixos_presentation.png
+```
