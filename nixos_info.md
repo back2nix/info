@@ -631,3 +631,6 @@ https://t.me/nixos_en
 https://t.me/gnu_guix_ru
 https://t.me/haskellru
 https://t.me/emacs_ru
+
+- классная презентация включая nixos anywehere
+https://www.youtube.com/watch?v=6iviTZfiLGU
