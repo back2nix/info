@@ -595,7 +595,7 @@ Matrix space: #ru_nixos:balsoft.ru
  (http://search.nixos.org/)Неофициальный поиск по разным Nix-штукам: mynixos.com
 Неофициальный поиск по home-manager: mipmip.github.io/home-manager-option-search
 Неофициальный поиск старых версий пакетов в nixpkgs: lazamar.co.uk/nix-versions
-Неофициальный поиск по функциям, написанным на Nix: noogle.dev
+Неофициальный поиск по функциям, написанным на Nix: https://noogle.dev
 
 Справочники / References
 Официальная вики: wiki.nixos.org
