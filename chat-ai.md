@@ -30,3 +30,7 @@ https://github.com/supermaven-inc/supermaven-nvim
 
 - агент переводчик
 - https://github.com/andrewyng/translation-agent
+
+- prompt enginer
+https://console.anthropic.com/
+
