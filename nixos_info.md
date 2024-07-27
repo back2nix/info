@@ -642,3 +642,6 @@ kitten icat qr_code_nixos_presentation.png
 
 - nix shell vs nix develop
 https://blog.ysndr.de/posts/guides/2021-12-01-nix-shells/
+
+- WSL2 nixos
+https://github.com/LGUG2Z/nixos-wsl-starter
