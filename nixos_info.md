@@ -639,3 +639,6 @@ https://www.youtube.com/watch?v=6iviTZfiLGU
 ```bash
 kitten icat qr_code_nixos_presentation.png
 ```
+
+- nix shell vs nix develop
+https://blog.ysndr.de/posts/guides/2021-12-01-nix-shells/
