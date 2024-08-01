@@ -662,8 +662,8 @@ https://github.com/LGUG2Z/nixos-wsl-starter
 2. Создайте каталог вручную:
    Попробуйте создать каталог вручную с помощью sudo:
    ```
-   sudo mkdir -p /nix/var/nix/gcroots/per-user/bg
-   sudo chown $USER:$USER /nix/var/nix/gcroots/per-user/bg
+   sudo mkdir -p /nix/var/nix/gcroots/per-user/$USER
+   sudo chown $USER:$USER /nix/var/nix/gcroots/per-user/$USER
    ```
 
 3. Проверьте настройки Nix:
