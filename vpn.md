@@ -24,3 +24,8 @@ https://pq.hosting/vps-vds-usa-new-jersey-secaucus
 - https://pq.hosting/
 
 curl https://am.i.mullvad.net/json
+
+xray
+https://www.youtube.com/watch?v=W-k93kf-vag
+https://idev-dev.translate.goog/proxy/xray-reality.html?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en
+https://habr.com/ru/articles/731608/
