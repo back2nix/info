@@ -1,0 +1,2 @@
+- https://flipperzero.one/
+- https://greatscottgadgets.com/hackrf/one/
