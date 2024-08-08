@@ -29,3 +29,17 @@ xray
 https://www.youtube.com/watch?v=W-k93kf-vag
 https://idev-dev.translate.goog/proxy/xray-reality.html?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en
 https://habr.com/ru/articles/731608/
+
+
+- android
+```
+Альтернативный обход DPI на Android. Плагин для NekoBox
+
+Установка:
+1. Установить NekoBox: https://github.com/MatsuriDayo/NekoBoxForAndroid/releases/latest
+2. Установить плагин: https://github.com/hufrea/byedpi-neko/releases/latest
+3. Перейти в Настройки → Advanced plugins и включить ByeDPI.
+4. Конфигурация → Добавить (иконка файла с плюсиком) → Advanced plugin → ByeDPI
+
+Если не работает прокси: Настройки → Резолвить адрес назначения
+```
