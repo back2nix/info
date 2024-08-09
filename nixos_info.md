@@ -688,3 +688,6 @@ https://www.youtube.com/watch?v=nc1UtAfcbxI
 
 - NixOS Automated Remote Bootstrapping with Secrets - Part 4/4 Scripting the Order of Operations
 - https://www.youtube.com/watch?v=X9xPgnBR7ow
+
+- Proxy SwitchyOmega
+- ~/.config/google-chrome/Default/Extensions/padekgcemlokbadohgkifijomclgjgif
