@@ -691,3 +691,8 @@ https://www.youtube.com/watch?v=nc1UtAfcbxI
 
 - Proxy SwitchyOmega
 - ~/.config/google-chrome/Default/Extensions/padekgcemlokbadohgkifijomclgjgif
+
+
+Five Terminal Applications I CAN'T Live Without
+- https://www.youtube.com/watch?v=1QqvL-k11NE
+- atac - analog postman
