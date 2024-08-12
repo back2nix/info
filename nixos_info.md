@@ -1,3 +1,9 @@
+### create bash file
+- bash file
+```bash
+#!/usr/bin/env bash
+```
+
 # установка
 - https://www.youtube.com/watch?v=oPymb2-IXbg
 - https://nixos.org/manual/nixos/stable/index.html#sec-installation
@@ -16,6 +22,7 @@ nix-env -e neovim
 nix-env -u neovim
 nix-env -i --dry-run neovim
 ```
+
 
 # youtube
 - Грязный способо с pip
@@ -158,10 +165,6 @@ for binary in ${@}; do
 done
 ```
 
-- bash file
-```bash
-#!/usr/bin/env bash
-```
 
 - get path to libraries
 - echo $(nix-instantiate --eval -E '(import <nixpkgs> {}).sqlite.out+""')
