@@ -46,5 +46,6 @@ https://habr.com/ru/articles/731608/
 
 ### nekobox
 
+https://github.com/MatsuriDayo/NekoBoxForAndroid
 - plugin byedbpi
 https://github.com/hufrea/byedpi-neko/releases/tag/v0.2.0
