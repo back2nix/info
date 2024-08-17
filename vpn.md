@@ -43,3 +43,8 @@ https://habr.com/ru/articles/731608/
 
 Если не работает прокси: Настройки → Резолвить адрес назначения
 ```
+
+### nekobox
+
+- plugin byedbpi
+https://github.com/hufrea/byedpi-neko/releases/tag/v0.2.0
