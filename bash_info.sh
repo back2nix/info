@@ -32,7 +32,7 @@ a='python3.8';b='python3.6' && grep -wl "$a" `find  -type f -name "*CMakeLists.t
 a='Infaterd';b='Two' && grep -l "$a" `find  -type f \( -name "*.toml" -o -name "*.go" \)` | xargs sed -i "s/$a/$b/g"
 
 # Заменить если слово совпадет целиком
-echo "bar embarassment" | sed "s/\bbar\b/no bar/g"
+echo "bar embarrassment" | sed "s/\bbar\b/no bar/g"
 
 
 
@@ -109,7 +109,7 @@ sudo mount -o remount,rw '/rawdata0'
 
 
 # создаем файлы 1G
-dd if=/dev/zero of=./new_img_0 bs=1 count=0 seek=1G; 
+dd if=/dev/zero of=./new_img_0 bs=1 count=0 seek=1G;
 mkfs.ext4 ./new_img_0;
 sudo mount ./new_img_0 ./mounted_img_0 -o loop;
 sudo chown -R $USER:$USER ./mounted_img_0;
@@ -245,11 +245,11 @@ LD_DEBUG=all ./main
 https://github.com/brendangregg/perf-tools
 
 
-# включить адресс барк address bar строку path в selcet file
+# включить адресс барк address bar строку path в select file
 Ctrl + L
 
 # редактор binary бираный elf
-hte prog
+the prog
 
 для VR nvc
 # запускаем и подключаемся к своему рабочему столу 192.168.0.102:5900
@@ -518,11 +518,11 @@ sshpass -p "password" ssh root@192.168.0.102 -p5555 -L 1234:localhost:1234 -N -C
 ssh -i id_rsa -L 0.0.0.0:9223:localhost:9222 nvidia@localhost -N
 
 # сработало
-sshpass -p "passowrd" ssh user@192.168.0.102 -L 5555:localhost:1234 -N -C&
+sshpass -p "password" ssh user@192.168.0.102 -L 5555:localhost:1234 -N -C&
 # слушать
 nc -l -t 1234
 # послать
-echo hellow | ncat -v -t localhost 5555
+echo hello | ncat -v -t localhost 5555
 
 # перенаправить с udp на другой udp
 socat -T15 udp4-recvfrom:1234,reuseaddr,fork udp:127.0.0.1:5555
@@ -711,7 +711,7 @@ sudo add-apt-repository 'deb file:///var/nv-tensorrt-repo-cuda10.1-trt5.1.5.0-ga
 # индефицировать hash what is hash
 hashid -m ''
 
-# scan local netwrok host name
+# scan local network host name
 sudo nmap -sn 192.168.88.0/24
 
 #Auto login ubuntu command line
@@ -859,7 +859,7 @@ timedatectl list-timezones | grep Mosc
 sudo timedatectl set-timezone Europe/Moscow
 cat /etc/timezone
 
-# 
+#
 sudo nmap -sn 192.168.88.0/24 > nmap_00 && cat nmap_00 | grep "Nmap scan report for" > nmap_000
 
 # Read-only file system
@@ -905,7 +905,7 @@ sudo systemctl restart gdm
 screen -S windows -X stuff "^C exit\n"
 
 # multi rename
-# change extention
+# change extension
 mmv "*.png" "#1.jpg"
 
 
@@ -952,7 +952,7 @@ https://itdeer.ru/nastrojka-seti-v-ubuntu-server-18-04/
 nvidia ALL=(ALL) NOPASSWD:ALL
 ```
 
-# 
+#
 sudo grep -i -C2 -E "err|fail|bad|not|fault|denied" /var/log/syslog
 
 # boot who -b
@@ -1000,7 +1000,7 @@ journalctl -f -u pipelinego
 journalctl -f -u panelgo
 journalctl -f -u pipelinego -n 500 --since "6:30" --until "6:50"
 
-# 
+#
 sudo systemctl set-default graphical.target
 
 # create deb from make
@@ -1021,7 +1021,7 @@ ctrl + s # forward
 # uptime
 systemctl status kdm | grep -Po ".*; \K(.*)(?= ago)"
 
-# check open port 
+# check open port
 nc -vn 5.0.1.3 1194
 
 #### How to show all shared libraries used by executables in Linux?
@@ -1052,3 +1052,6 @@ https://linuxjourney.com/lesson/samba
 # mac os
 terminal mac os
 https://warp.dev
+
+title manager
+https://github.com/baskerville/bspwm
