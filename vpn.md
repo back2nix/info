@@ -49,3 +49,8 @@ https://habr.com/ru/articles/731608/
 https://github.com/MatsuriDayo/NekoBoxForAndroid
 - plugin byedbpi
 https://github.com/hufrea/byedpi-neko/releases/tag/v0.2.0
+
+- раздать  локальный 18081 наружу на порт 18082
+```bash
+ssh -L 0.0.0.0:18082:127.0.0.1:18081 bg@localhost -N
+```
