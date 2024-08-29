@@ -699,3 +699,6 @@ https://www.youtube.com/watch?v=nc1UtAfcbxI
 Five Terminal Applications I CAN'T Live Without
 - https://www.youtube.com/watch?v=1QqvL-k11NE
 - atac - analog postman
+
+## unstable
+nix-shell -p chatzone-desktop -I nixpkgs=channel:nixos-unstable
