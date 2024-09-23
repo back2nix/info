@@ -287,7 +287,7 @@ go tool pprof "http://localhost:8081/debug/pprof/profile?seconds=10"
 ### linter revgrep orig/master
 - https://www.youtube.com/watch?v=VlnxsfSs1ms
 ```bash
-glonagci-lint run --new-from-rev=orign/master
+glonagci-lint run --new-from-rev=origin/master
 
 go get golang.org/x/tools/gopls@latest
 ```
@@ -390,7 +390,7 @@ func Stream() {
 
 	mux := http.NewServeMux()
 	mux.Handle("/stream", stream)
-	fmt.Println("http://locahost:8080/stream")
+	fmt.Println("http://localhost:8080/stream")
 	log.Fatal(http.ListenAndServe(":8080", mux))
 }
 ```
@@ -490,7 +490,7 @@ go run github.com/antonmedv/countdown@latest 25m
 
 ### tips tricks
 - https://joshrendek.com/2015/09/golang-performance-tips/
-- DANGER performace mutex
+- DANGER performance mutex
 - https://texlution.com/post/golang-lock-free-values-with-atomic-value/
 - https://hashrocket.com/blog/posts/go-performance-observations
 ```go
@@ -616,7 +616,7 @@ staticcheck ./...
 - https://github.com/cweill/gotests
 - https://github.com/golang/go/wiki/TableDrivenTests
 
-- protobuf best performace lib
+- protobuf best performance lib
 - https://github.com/gogo/protobuf
 
 - https://betterprogramming.pub/6-ways-to-boost-the-performance-of-your-go-applications-5382bb7532d7

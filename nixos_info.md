@@ -388,6 +388,13 @@ dockerTools.buildNixShellImage {
 ```bash
 lorri init
 lorri shell
+
+lorri shell --flake flake.nix
+
+pkill lorri
+rm /run/user/1000/lorri/daemon.socket.lock
+lorri daemon
+
 ```
 
 - разные способы исполняемого файл fhs ld NIX_LD_LIBRARY_PATH NIX_LD
