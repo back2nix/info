@@ -35,3 +35,5 @@ https://github.com/supermaven-inc/supermaven-nvim
 https://console.anthropic.com/
 - prompt example
 https://docs.anthropic.com/en/prompt-library/library
+
+- https://postgres.new/

@@ -383,7 +383,7 @@ dockerTools.buildNixShellImage {
 - https://github.com/juspay/services-flake/blob/86acbd5f04881ba3ea27bdd36c3f9803adc11958/example/llm/flake.nix
 - https://github.com/rosera/nix-shell-pack/tree/e9a25e3c4a339d34d108c2fcdc0292227541954f/applications/ollama-rag
 
-- lorrin init
+- lorri init
 
 ```bash
 lorri init
