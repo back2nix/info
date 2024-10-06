@@ -709,3 +709,13 @@ Five Terminal Applications I CAN'T Live Without
 
 ## unstable
 nix-shell -p chatzone-desktop -I nixpkgs=channel:nixos-unstable
+
+- network reload
+```
+sudo systemctl restart NetworkManager.service
+
+or
+
+sudo ip link set wlp0s20f3 down
+sudo ip link set wlp0s20f3 up
+```
