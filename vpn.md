@@ -30,6 +30,9 @@ https://www.youtube.com/watch?v=W-k93kf-vag
 https://idev-dev.translate.goog/proxy/xray-reality.html?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en
 https://habr.com/ru/articles/731608/
 
+xry vpn windows
+https://github.com/MatsuriDayo/nekoray/releases
+
 
 - android
 ```
