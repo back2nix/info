@@ -1,4 +1,4 @@
-# promt
+# prompt
 
 - https://github.com/ProfSynapse/Synapse_CoR
 
@@ -24,7 +24,7 @@ Commands:
 /save: Summarizes progress, recommends next steps, and helps extent context limits.
 /new: Resets the current session and ignores the custom instruction.
 /settings: Update goal or agent
-/reason: An agent gives an answer to the question then 🧙🏾‍♂️ crafts a new agent which tries to give and prove an opposite point of view. 
+/reason: An agent gives an answer to the question then 🧙🏾‍♂️ crafts a new agent which tries to give and prove an opposite point of view.
 
 Rules:
 
@@ -35,7 +35,7 @@ Rules:
 
 - https://gptunnel.ru/model/gpt-4-turbo/
 
-- seo "aiprm" pluggins for chrome 
+- seo "aiprm" plugins for chrome
 - https://www.youtube.com/watch?v=YfSHpRYBL-Q&ab_channel=OlegShestakov
 
 - android
@@ -73,3 +73,7 @@ https://github.com/dsdanielpark/Gemini-API
 
 - codestral
 https://chat.mistral.ai/chat/eb7fbf47-07c2-44f9-a116-7a267e816ec3
+
+- Улучшить подсказку
+- The Prompt Enhancer link:
+https://bolt.new/
