@@ -16,4 +16,12 @@ default
 
 dns/tls
 dns.qry.name or tls.handshake.extensions_server_name
+
+h1/h2/h3 withCode
+(http or http2 or http3) and
+(
+    (http.request.method in {"GET", "POST"} or http2.headers.method in {"GET", "POST"} or http3.headers.method in {"GET", "POST"})
+    or
+    (http.response.code or http2.headers.status or http3.headers.status)
+)
 ```
