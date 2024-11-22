@@ -37,3 +37,5 @@ https://console.anthropic.com/
 https://docs.anthropic.com/en/prompt-library/library
 
 - https://postgres.new/
+
+- https://chat.deepseek.com/
