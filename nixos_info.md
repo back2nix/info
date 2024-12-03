@@ -719,3 +719,8 @@ or
 sudo ip link set wlp0s20f3 down
 sudo ip link set wlp0s20f3 up
 ```
+
+```bash
+xxh user@hostname +s fish ++ssh-options="-F ~/.ssh/config"
+xxh user@hostname +s fish ++install
+```
