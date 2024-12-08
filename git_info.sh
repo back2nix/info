@@ -119,6 +119,7 @@ git clean -d --force
 git pull --rebase origin master
 
 git rebase origin/master
+git rebase -i --autosquash -Xtheirs main
 
 # Восстанавливаем ветку из репозитори
 git fetch --all
