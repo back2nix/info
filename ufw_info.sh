@@ -23,7 +23,7 @@ sudo ufw allow 443/tcp
 sudo ufw allow 1000:2000/tcp
 sudo ufw allow 1000:2000/udp
 
-# 
+#
 sudo ufw allow from 192.168.255.255
 
 # Запретить

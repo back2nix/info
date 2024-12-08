@@ -138,3 +138,10 @@ $()$(
 https://huecker.io/
 
 - https://www.youtube.com/watch?v=DLvrNkbxZI0
+
+- 10MB
+https://www.youtube.com/watch?v=t779DVjCKCs
+
+Distroless: https://github.com/GoogleContainerToo...
+Dive: https://github.com/wagoodman/dive
+Slim: https://github.com/slimtoolkit/slim
