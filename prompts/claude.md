@@ -39,3 +39,7 @@ Final count: 3
 
 Based on these steps of reasoning, the answer is that there are 3 r's in the word "strawberry".
 ```
+
+```
+Если у тебя не достаточно информации спроси у меня дополнительную информацию, но не делай нугад и не городи костыли
+```
