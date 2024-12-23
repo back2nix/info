@@ -20,3 +20,5 @@ nix-shell - p scrcpy
 
 - tcpdump android
 https://www.androidtcpdump.com/android-tcpdump/downloads
+
+https://github.com/topjohnwu/Magisk

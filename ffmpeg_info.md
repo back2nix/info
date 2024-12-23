@@ -43,6 +43,7 @@ ffmpeg -i input.mkv -c:v libx264 -c:a aac output.mp4
 
 ```bash
 	#!/bin/bash
+    #!/usr/bin/env bash
 
 	# Укажите путь к входной директории
 	input_directory="./video"
