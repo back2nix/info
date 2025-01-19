@@ -10,7 +10,7 @@
 - leetcode
 - https://github.com/ganeshskudva/Leetcode-Golang
 - https://www.boot.dev/
-- уровни зарплат 
+- уровни зарплат
 - https://www.levels.fyi/?compare=Yandex,Sberbank,OZON&track=Software%20Engineer
 - api rest
 - https://www.youtube.com/watch?v=1Wl-rtew1_E&ab_channel=High-PerformanceProgramming
@@ -146,6 +146,8 @@
 - https://www.youtube.com/watch?v=13-kwLYV1L0&ab_channel=Kendra%27sLanguageSchool
 - https://www.youtube.com/watch?v=1SpfZlZrfo0&ab_channel=Kendra%27sLanguageSchool
 - https://www.youtube.com/watch?v=woXT93nc2YU&ab_channel=SVETLANAKONSTANTINOVA
+- https://2sub.pro/
+- https://inoriginal.net
 
 ### avito
 - https://github.com/avito-tech/playbook/blob/master/developer-profile.md
