@@ -40,6 +40,7 @@ https://docs.anthropic.com/en/prompt-library/library
 
 - https://chat.deepseek.com/
 - https://www.hailuo.ai/
+- https://kimi.moonshot.cn/chat/empty
 
 - https://labs.google/videofx
 - Whisk (VPN Сша) - https://labs.google/fx/tools/whisk
