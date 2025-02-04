@@ -44,3 +44,5 @@ https://docs.anthropic.com/en/prompt-library/library
 
 - https://labs.google/videofx
 - Whisk (VPN Сша) - https://labs.google/fx/tools/whisk
+
+- https://deepclaude.com/chat
