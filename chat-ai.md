@@ -47,3 +47,4 @@ https://docs.anthropic.com/en/prompt-library/library
 
 - https://deepclaude.com/chat
 - https://inference.cerebras.ai/
+- https://chat.hix.ai/ru
