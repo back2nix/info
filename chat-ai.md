@@ -50,3 +50,4 @@ https://docs.anthropic.com/en/prompt-library/library
 - https://chat.hix.ai/ru
 - https://chat.notdiamond.ai/
 - https://apps.abacus.ai/chatllm
+- https://grok.com/
