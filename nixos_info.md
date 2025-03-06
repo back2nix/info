@@ -126,6 +126,8 @@ cat /etc/nixos/configuration.nix | curl -F"file=@-" https://0x0.st
 
 # override shell stdenv gcc11
 
+- https://www.youtube.com/watch?v=Gzw1F80Vw7o&ab_channel=SaschaKoenig
+
 ```nix
 pkgs.mkShell.override { stdenv = pkgs.gcc11Stdenv; } {
     name = "my-override-shell";
