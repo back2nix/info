@@ -52,3 +52,4 @@ https://docs.anthropic.com/en/prompt-library/library
 - https://apps.abacus.ai/chatllm
 - https://grok.com/
 - https://getliner.com/
+- https://chat.qwen.ai/
