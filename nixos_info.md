@@ -647,6 +647,9 @@ https://t.me/emacs_ru
 - классная презентация включая nixos anywehere
 https://www.youtube.com/watch?v=6iviTZfiLGU
 
+- Развертывание тоже nixos anywehere
+- https://code.m3tam3re.com/m3tam3re/self-host-playbook
+
 показать картинку в терминале
 ```bash
 kitten icat qr_code_nixos_presentation.png
