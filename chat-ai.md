@@ -57,3 +57,6 @@ https://docs.anthropic.com/en/prompt-library/library
 - https://grok.com/
 - https://getliner.com/
 - https://chat.qwen.ai/
+
+### deepseek
+- https://openrouter.ai/chat?room=orc-1742846377-MUknF7XMHU498YrcrPTE
