@@ -60,3 +60,7 @@ https://docs.anthropic.com/en/prompt-library/library
 
 ### deepseek
 - https://openrouter.ai/chat?room=orc-1742846377-MUknF7XMHU498YrcrPTE
+
+
+### Картики
+https://preview.reve.art/
