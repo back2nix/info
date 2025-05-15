@@ -45,6 +45,7 @@
 !*.nix
 !*.md
 !*.json
+!*.js
 !*.vim
 !*.mk
 !CMakeLists.txt
