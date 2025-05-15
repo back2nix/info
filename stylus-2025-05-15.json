@@ -111,23 +111,6 @@
   },
   {
     "enabled": true,
-    "installDate": 1747300066994,
-    "name": "aistudio.google.com/prompts/new_chat",
-    "sections": [
-      {
-        "code": "/* Стили для блоков кода на Google Gemini - кнопки копирования в верхнем правом углу */\n.syntax-highlighted-code-wrapper {\n  /* Добавляем относительное позиционирование для родительского контейнера */\n  position: relative;\n}\n\n.syntax-highlighted-code-wrapper footer {\n  /* Перемещаем футер в верхний правый угол */\n  position: absolute;\n  top: 4px;\n  right: 4px;\n  /* Полупрозрачный фон для контраста */\n  background-color: rgba(36, 38, 41, 0.7);\n  border-radius: 4px;\n  /* Убираем лишние отступы */\n  margin: 0;\n  padding: 2px;\n  /* Поднимаем над содержимым */\n  z-index: 10;\n  /* Уменьшаем размер и сжимаем элементы */\n  display: flex;\n  width: auto;\n}\n\n/* Скрываем ненужные текстовые элементы */\n.syntax-highlighted-code-wrapper footer .disclaimer,\n.syntax-highlighted-code-wrapper footer .spacer,\n.syntax-highlighted-code-wrapper footer .language {\n  display: none;\n}\n\n/* Уменьшаем кнопки и отступы */\n.syntax-highlighted-code-wrapper footer .mat-mdc-icon-button {\n  width: 28px;\n  height: 28px;\n  padding: 2px;\n}\n\n/* Уменьшаем размер иконок для компактности */\n.syntax-highlighted-code-wrapper footer .material-symbols-outlined {\n  font-size: 18px;\n  color: #e8eaed;\n}\n\n/* Эффект при наведении для лучшей интерактивности */\n.syntax-highlighted-code-wrapper footer .mat-mdc-icon-button:hover {\n  background-color: rgba(255, 255, 255, 0.2);\n}\n\n/* Корректируем область нажатия */\n.syntax-highlighted-code-wrapper footer .mat-mdc-button-touch-target {\n  position: absolute;\n  top: 0;\n  left: 0;\n  height: 100%;\n  width: 100%;\n  transform: none;\n}\n\n/* Добавляем немного отступа для кода, чтобы кнопки не перекрывали */\n.syntax-highlighted-code-wrapper .syntax-highlighted-code {\n  padding-top: 6px;\n}",
-        "domains": [
-          "gemini.google.com"
-        ]
-      }
-    ],
-    "updateDate": 1747301826260,
-    "_id": "9ea24769-1fd8-4422-988e-43f7e0beda82",
-    "_rev": 1747301826260,
-    "id": 1
-  },
-  {
-    "enabled": true,
     "installDate": 1747301867216,
     "sections": [
       {
