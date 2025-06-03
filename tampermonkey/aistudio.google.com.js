@@ -1,10 +1,10 @@
 // ==UserScript==
-// @name         aistudio.google.com/prompts/new_chat - Collapsible Code Blocks (v1.0.7)
+// @name         aistudio.google.com/prompts/new_chat - Collapsible Code Blocks (v1.0.9)
 // @namespace    github.com/openstyles/stylus
-// @version      1.0.7
-// @description  Сворачиваемые блоки кода. Отладка видимости кнопок в свернутом состоянии.
+// @version      1.0.9
+// @description  Сворачиваемые блоки кода. Добавлена кнопка сворачивания/разворачивания.
 // @author       Me (adapted for Tampermonkey by AI)
-// @match        https://aistudio.google.com/prompts/new_chat*
+// @match        https://aistudio.google.com/prompts/new_chat
 // @grant        GM_addStyle
 // @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 // ==/UserScript==
@@ -12,7 +12,7 @@
 (function() {
     'use strict';
 
-    console.log('[AI Studio Code Collapse] Script execution started (v1.0.7).');
+    console.log('[AI Studio Code Collapse] Script execution started (v1.0.9).');
 
     const css = `
         /* Базовые стили для обертки блока кода */
@@ -31,7 +31,6 @@
         .syntax-highlighted-code-wrapper.expanded {
           max-height: 70vh;
           cursor: default;
-          /* overflow: hidden; /* Убираем, т.к. скролл на внутреннем */
         }
 
         /* Контейнер для самого кода (pre) */
@@ -46,15 +45,18 @@
             overflow-y: auto; /* Внутренний скролл при разворачивании */
         }
 
-        /* Отступ для кода, чтобы не перекрывался футером */
-        /* Общий отступ для <pre> теперь один, т.к. футер всегда внутри .syntax-highlighted-code */
-        .syntax-highlighted-code-wrapper .syntax-highlighted-code pre {
-            padding-top: 38px; /* Место для футера, который будет ВНУТРИ .syntax-highlighted-code */
-                               /* Высота футера ~36px + небольшой зазор */
+        /* В развернутом состоянии код не должен сворачиваться при клике */
+        .syntax-highlighted-code-wrapper.expanded .syntax-highlighted-code pre {
+            cursor: text; /* Указывает, что это текст для выделения */
+            pointer-events: auto;
         }
 
+        /* Отступ для кода, чтобы не перекрывался футером */
+        .syntax-highlighted-code-wrapper .syntax-highlighted-code pre {
+            padding-top: 38px; /* Место для футера */
+        }
 
-        /* Градиент-затемнение внизу свёрнутого блока (индикатор "развернуть") */
+        /* Градиент-затемнение внизу свёрнутого блока */
         .syntax-highlighted-code-wrapper:not(.expanded)::after {
           content: "Нажмите чтобы развернуть";
           position: absolute;
@@ -74,7 +76,7 @@
           pointer-events: none;
           border-bottom-left-radius: 7px;
           border-bottom-right-radius: 7px;
-          z-index: 5; /* Ниже футера, если он absolute */
+          z-index: 5;
         }
 
         .syntax-highlighted-code-wrapper.expanded::after {
@@ -82,30 +84,30 @@
           pointer-events: none;
         }
 
-        /* Футер теперь ВСЕГДА ПЕРВЫЙ дочерний элемент .syntax-highlighted-code (перемещается JS) */
+        /* Футер теперь ВСЕГДА ПЕРВЫЙ дочерний элемент .syntax-highlighted-code */
         .syntax-highlighted-code-wrapper .syntax-highlighted-code > footer {
           display: flex;
           align-items: center;
           padding: 4px;
-          z-index: 10; /* Выше чем ::after и сам код */
+          z-index: 10;
           pointer-events: auto;
           box-sizing: border-box;
         }
 
-        /* Футер в СВЕРНУТОМ состоянии: маленький, в углу .syntax-highlighted-code */
+        /* Футер в СВЕРНУТОМ состоянии */
         .syntax-highlighted-code-wrapper:not(.expanded) .syntax-highlighted-code > footer {
           position: absolute;
           top: 4px;
           right: 4px;
           background-color: var(--color-surface-container-low, rgba(30,32,35,0.75));
           border-radius: 6px;
-          width: auto; /* Только по ширине кнопок */
+          width: auto;
         }
         .syntax-highlighted-code-wrapper:not(.expanded) .syntax-highlighted-code > footer .collapse-text-indicator {
-          display: none !important; /* Важно, чтобы текст "свернуть" точно не показывался */
+          display: none !important;
         }
 
-        /* Футер в РАЗВЕРНУТОМ состоянии: sticky, на всю ширину .syntax-highlighted-code */
+        /* Футер в РАЗВЕРНУТОМ состоянии */
         .syntax-highlighted-code-wrapper.expanded .syntax-highlighted-code > footer {
           position: sticky;
           top: 0;
@@ -118,8 +120,8 @@
           padding: 4px 8px;
         }
         .syntax-highlighted-code-wrapper.expanded .syntax-highlighted-code > footer .collapse-text-indicator {
-          display: inline !important; /* Важно, чтобы текст "свернуть" показывался */
-          content: "Нажмите чтобы свернуть"; /* Устанавливаем текст через content для надежности */
+          display: inline !important;
+          content: "Нажмите чтобы свернуть";
           font-size: 12px;
           color: var(--color-primary, #87a9ff);
           margin-right: auto;
@@ -131,20 +133,43 @@
           text-decoration: underline;
         }
 
-        /* Текстовый индикатор по умолчанию скрыт и не имеет текста */
+        /* Текстовый индикатор по умолчанию скрыт */
         .collapse-text-indicator {
             display: none;
         }
 
+        /* Кнопка сворачивания/разворачивания */
+        .collapse-toggle-button {
+          width: 28px !important;
+          height: 28px !important;
+          padding: 2px !important;
+          margin-left: 4px !important;
+          background-color: transparent !important;
+          border: none !important;
+          cursor: pointer !important;
+          border-radius: 4px !important;
+          display: flex !important;
+          align-items: center !important;
+          justify-content: center !important;
+          color: var(--color-on-surface-variant, #c4c7c5) !important;
+          transition: background-color 0.2s ease !important;
+        }
+        .collapse-toggle-button:hover {
+          background-color: rgba(255, 255, 255, 0.15) !important;
+        }
+        .collapse-toggle-button .material-symbols-outlined {
+          font-size: 18px !important;
+          font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 20 !important;
+        }
 
-        /* Скрываем ненужные текстовые элементы из оригинального футера Google */
+        /* Скрываем ненужные элементы из футера */
         .syntax-highlighted-code-wrapper footer .disclaimer,
         .syntax-highlighted-code-wrapper footer .spacer,
         .syntax-highlighted-code-wrapper footer .language {
           display: none !important;
         }
 
-        /* Кнопки в футере (общие стили) */
+        /* Кнопки в футере */
         .syntax-highlighted-code-wrapper footer .mat-mdc-icon-button {
           width: 28px;
           height: 28px;
@@ -176,52 +201,97 @@
         console.error('[AI Studio Code Collapse] Error injecting CSS:', e);
     }
 
+    function createCollapseButton(wrapper) {
+        const button = document.createElement('button');
+        button.className = 'collapse-toggle-button';
+        button.setAttribute('type', 'button');
+        button.setAttribute('aria-label', 'Toggle code block');
+
+        const icon = document.createElement('span');
+        icon.className = 'material-symbols-outlined';
+        updateButtonIcon(icon, wrapper.classList.contains('expanded'));
+
+        button.appendChild(icon);
+
+        button.addEventListener('click', function(event) {
+            event.stopPropagation();
+            wrapper.classList.toggle('expanded');
+            updateButtonIcon(icon, wrapper.classList.contains('expanded'));
+        });
+
+        return button;
+    }
+
+    function updateButtonIcon(icon, isExpanded) {
+        icon.textContent = isExpanded ? 'expand_less' : 'expand_more';
+    }
+
     function prepareCodeBlock(wrapper) {
         const codeContentDiv = wrapper.querySelector('.syntax-highlighted-code');
-        let footer = wrapper.querySelector('footer'); // Ищем футер где угодно внутри wrapper (мог быть перемещен)
+        let footer = wrapper.querySelector('footer');
 
         if (!codeContentDiv) {
             console.warn('[AI Studio Code Collapse] .syntax-highlighted-code not found in wrapper:', wrapper);
             return;
         }
 
-        // Если оригинальный футер еще не перемещен (т.е. он прямой потомок wrapper)
         const originalFooter = wrapper.querySelector(':scope > footer');
         if (originalFooter) {
-            footer = originalFooter; // Используем его
-        } else { // Иначе, он уже должен быть внутри codeContentDiv
+            footer = originalFooter;
+        } else {
             footer = codeContentDiv.querySelector(':scope > footer');
         }
 
         if (!footer) {
             console.error('[AI Studio Code Collapse] CRITICAL: Footer element not found for processing in wrapper:', wrapper);
-            return; // Не можем продолжить без футера
+            return;
         }
 
-        // Перемещаем футер ВНУТРЬ .syntax-highlighted-code, если он еще не там
         if (footer.parentElement !== codeContentDiv) {
             codeContentDiv.insertBefore(footer, codeContentDiv.firstChild);
-            // console.log('[AI Studio Code Collapse] Footer moved inside .syntax-highlighted-code for wrapper:', wrapper.id || wrapper);
         }
 
-        // Теперь футер точно внутри codeContentDiv. Гарантируем наличие индикатора.
         let collapseText = footer.querySelector('.collapse-text-indicator');
         if (!collapseText) {
             collapseText = document.createElement('span');
             collapseText.className = 'collapse-text-indicator';
-            // Вставляем его перед первой кнопкой (или просто в начало, если кнопок нет)
             const firstButtonOrChild = footer.querySelector('.mat-mdc-icon-button, :scope > *:first-child');
             if (firstButtonOrChild) {
                 footer.insertBefore(collapseText, firstButtonOrChild);
             } else {
-                footer.appendChild(collapseText); // Или prepend, если footer пуст
+                footer.appendChild(collapseText);
             }
-            // console.log('[AI Studio Code Collapse] Collapse text indicator SPAN added/ensured for footer in wrapper:', wrapper.id || wrapper);
         }
-        // Текст для индикатора теперь полностью управляется CSS через content свойство,
-        // так что JS не должен его менять. JS только обеспечивает наличие span.
+
+        // Добавляем кнопку сворачивания/разворачивания если её еще нет
+        let collapseButton = footer.querySelector('.collapse-toggle-button');
+        if (!collapseButton) {
+            collapseButton = createCollapseButton(wrapper);
+            // Добавляем кнопку в конец футера
+            footer.appendChild(collapseButton);
+        } else {
+            // Обновляем иконку существующей кнопки
+            const icon = collapseButton.querySelector('.material-symbols-outlined');
+            if (icon) {
+                updateButtonIcon(icon, wrapper.classList.contains('expanded'));
+            }
+        }
     }
 
+    // Функция для проверки, есть ли выделенный текст
+    function hasTextSelection() {
+        const selection = window.getSelection();
+        return selection && selection.toString().length > 0;
+    }
+
+    // Переменные для отслеживания начала клика
+    let mouseDownTarget = null;
+    let mouseDownTime = 0;
+
+    document.addEventListener('mousedown', function(event) {
+        mouseDownTarget = event.target;
+        mouseDownTime = Date.now();
+    }, true);
 
     // Инициализация для существующих блоков
     document.querySelectorAll('.syntax-highlighted-code-wrapper').forEach(prepareCodeBlock);
@@ -230,26 +300,75 @@
         const wrapper = event.target.closest('.syntax-highlighted-code-wrapper');
         if (!wrapper) return;
 
-        const clickedActionButton = event.target.closest('.syntax-highlighted-code > footer .mat-mdc-icon-button');
+        // Проверяем, не кликнули ли на кнопку действия (включая нашу кнопку)
+        const clickedActionButton = event.target.closest('.syntax-highlighted-code > footer .mat-mdc-icon-button, .collapse-toggle-button');
         if (clickedActionButton) {
             return;
         }
 
+        // Проверяем клик на текст "свернуть"
         const clickedCollapseText = event.target.closest('.collapse-text-indicator');
 
-        if (event.target === wrapper ||
-            (wrapper.contains(event.target) && !clickedActionButton) || // Клик внутри wrapper, но не на кнопке
-            clickedCollapseText) {
-
+        // Если кликнули на индикатор сворачивания - сворачиваем
+        if (clickedCollapseText) {
             wrapper.classList.toggle('expanded');
-            // Вызов prepareCodeBlock здесь не нужен, если CSS правильно управляет видимостью и текстом индикатора.
-            // Если же prepareCodeBlock нужен для других целей после toggle, можно раскомментировать.
-            // prepareCodeBlock(wrapper);
-
-            // Отладочный лог
-            // const footerAfterToggle = wrapper.querySelector('.syntax-highlighted-code > footer');
-            // console.log(`[AI Studio Code Collapse] Wrapper ${wrapper.id || 'NO_ID'} toggled. Expanded: ${wrapper.classList.contains('expanded')}. Footer display: ${footerAfterToggle ? getComputedStyle(footerAfterToggle).display : 'not found'}`);
+            // Обновляем иконку кнопки
+            const button = wrapper.querySelector('.collapse-toggle-button');
+            if (button) {
+                const icon = button.querySelector('.material-symbols-outlined');
+                if (icon) {
+                    updateButtonIcon(icon, wrapper.classList.contains('expanded'));
+                }
+            }
+            return;
         }
+
+        // Проверяем, не выделяется ли текст
+        if (hasTextSelection()) {
+            return; // Не сворачиваем, если есть выделение
+        }
+
+        // Проверяем, не кликнули ли на код (pre элемент) в развернутом состоянии
+        const clickedOnCode = event.target.closest('pre');
+        if (clickedOnCode && wrapper.classList.contains('expanded')) {
+            // Дополнительная проверка: если между mousedown и click прошло больше 200ms,
+            // то это вероятно было выделение текста
+            const timeDiff = Date.now() - mouseDownTime;
+            if (timeDiff > 200 || mouseDownTarget !== event.target) {
+                return; // Не сворачиваем
+            }
+        }
+
+        // Разворачиваем только если:
+        // 1. Кликнули прямо на wrapper
+        // 2. Кликнули на пустое место внутри wrapper (но не на код)
+        // 3. Блок свернут
+        if ((event.target === wrapper ||
+             (wrapper.contains(event.target) && !clickedOnCode)) &&
+            !wrapper.classList.contains('expanded')) {
+            wrapper.classList.add('expanded');
+            // Обновляем иконку кнопки
+            const button = wrapper.querySelector('.collapse-toggle-button');
+            if (button) {
+                const icon = button.querySelector('.material-symbols-outlined');
+                if (icon) {
+                    updateButtonIcon(icon, true);
+                }
+            }
+        }
+        // Сворачиваем только если кликнули на wrapper напрямую в развернутом состоянии
+        else if (event.target === wrapper && wrapper.classList.contains('expanded')) {
+            wrapper.classList.remove('expanded');
+            // Обновляем иконку кнопки
+            const button = wrapper.querySelector('.collapse-toggle-button');
+            if (button) {
+                const icon = button.querySelector('.material-symbols-outlined');
+                if (icon) {
+                    updateButtonIcon(icon, false);
+                }
+            }
+        }
+
     }, true);
 
     console.log('[AI Studio Code Collapse] Click listener attached.');
@@ -261,7 +380,6 @@
                     if (node.nodeType === Node.ELEMENT_NODE) {
                         const processNode = (targetNode) => {
                             if (targetNode.matches && targetNode.matches('.syntax-highlighted-code-wrapper')) {
-                                // if (!targetNode.id) targetNode.id = `code-block-${Math.random().toString(36).substr(2, 9)}`; // для отладки
                                 prepareCodeBlock(targetNode);
                             }
                             const newWrappersInNode = targetNode.querySelectorAll(':scope .syntax-highlighted-code-wrapper');
