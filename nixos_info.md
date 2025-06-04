@@ -216,6 +216,7 @@ nixos-rebuild switch --upgrade
 
 ```bash
 nix-store --gc
+nix-store --optimise
 ```
 
 ### delete generations
