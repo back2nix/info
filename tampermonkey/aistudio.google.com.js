@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         aistudio.google.com/prompts/new_chat - Collapsible Code Blocks (v1.0.10)
+// @name         aistudio.google.com/prompts/new_chat - Collapsible Code Blocks (v1.0.11)
 // @namespace    github.com/openstyles/stylus
-// @version      1.0.10
-// @description  Сворачиваемые блоки кода. Добавлена кнопка сворачивания/разворачивания.
+// @version      1.0.11
+// @description  Сворачиваемые блоки кода. Панель с кнопками теперь всегда зафиксирована в углу.
 // @author       Me (adapted for Tampermonkey by AI)
 // @match        https://aistudio.google.com/prompts/new_chat
 // @grant        GM_addStyle
@@ -12,7 +12,7 @@
 (function() {
     'use strict';
 
-    console.log('[AI Studio Code Collapse] Script execution started (v1.0.10).');
+    console.log('[AI Studio Code Collapse] Script execution started (v1.0.11).');
 
     const css = `
         /* Базовые стили для обертки блока кода */
@@ -75,69 +75,19 @@
           display: none;
         }
 
-        /* Футер теперь ВСЕГДА ПЕРВЫЙ дочерний элемент .syntax-highlighted-code */
+        /* Футер (панель с кнопками) - всегда вверху справа */
         .syntax-highlighted-code-wrapper .syntax-highlighted-code > footer {
-          display: flex;
-          align-items: center;
-          padding: 4px;
-          z-index: 10;
-          pointer-events: auto;
-          box-sizing: border-box;
-        }
-
-        /* Футер в СВЕРНУТОМ состоянии */
-        .syntax-highlighted-code-wrapper:not(.expanded) .syntax-highlighted-code > footer {
           position: absolute;
           top: 4px;
           right: 4px;
+          display: flex;
+          align-items: center;
+          padding: 4px;
           background-color: var(--color-surface-container-low, rgba(30,32,35,0.75));
           border-radius: 6px;
-          width: auto;
-        }
-
-        /* Футер в РАЗВЕРНУТОМ состоянии */
-        .syntax-highlighted-code-wrapper.expanded .syntax-highlighted-code > footer {
-          position: sticky;
-          top: 0;
-          left: 0;
-          width: 100%;
-          background-color: var(--color-surface-container-low, rgba(30,32,35,0.92));
-          backdrop-filter: blur(4px);
-          border-bottom: 1px solid var(--color-surface-container-highest, #303134);
-          border-radius: 0;
-          padding: 4px 8px;
-        }
-
-        /* Текстовый индикатор сворачивания/разворачивания */
-        .collapse-text-indicator {
-          font-size: 12px;
-          color: var(--color-primary, #87a9ff);
-          cursor: pointer;
-          user-select: none;
-          transition: opacity 0.2s ease;
-        }
-
-        .collapse-text-indicator:hover {
-          text-decoration: underline;
-        }
-
-        /* В свернутом состоянии показываем индикатор внизу по центру */
-        .syntax-highlighted-code-wrapper:not(.expanded) .collapse-text-indicator {
-          position: absolute;
-          bottom: 8px;
-          left: 50%;
-          transform: translateX(-50%);
-          z-index: 5;
+          z-index: 10;
           pointer-events: auto;
-          padding: 4px 8px;
-          border-radius: 4px;
-          background-color: rgba(0, 0, 0, 0.2);
-        }
-
-        /* В развернутом состоянии показываем индикатор в футере слева */
-        .syntax-highlighted-code-wrapper.expanded .collapse-text-indicator {
-          margin-right: auto;
-          padding-left: 8px;
+          box-sizing: border-box;
         }
 
         /* Кнопка сворачивания/разворачивания */
@@ -230,7 +180,6 @@
     function toggleCodeBlock(wrapper) {
         wrapper.classList.toggle('expanded');
 
-        // Обновляем иконку кнопки
         const button = wrapper.querySelector('.collapse-toggle-button');
         if (button) {
             const icon = button.querySelector('.material-symbols-outlined');
@@ -238,9 +187,6 @@
                 updateButtonIcon(icon, wrapper.classList.contains('expanded'));
             }
         }
-
-        // Обновляем текст
-        // updateCollapseText(wrapper);
     }
 
     function prepareCodeBlock(wrapper) {
@@ -268,25 +214,20 @@
             codeContentDiv.insertBefore(footer, codeContentDiv.firstChild);
         }
 
-        // Добавляем кнопку сворачивания/разворачивания если её еще нет
         let collapseButton = footer.querySelector('.collapse-toggle-button');
         if (!collapseButton) {
             collapseButton = createCollapseButton(wrapper);
             footer.appendChild(collapseButton);
         }
 
-        // Обновляем состояние
         updateButtonIcon(collapseButton.querySelector('.material-symbols-outlined'), wrapper.classList.contains('expanded'));
-        //updateCollapseText(wrapper);
     }
 
-    // Функция для проверки, есть ли выделенный текст
     function hasTextSelection() {
         const selection = window.getSelection();
         return selection && selection.toString().length > 0;
     }
 
-    // Переменные для отслеживания начала клика
     let mouseDownTarget = null;
     let mouseDownTime = 0;
 
@@ -295,25 +236,21 @@
         mouseDownTime = Date.now();
     }, true);
 
-    // Инициализация для существующих блоков
     document.querySelectorAll('.syntax-highlighted-code-wrapper').forEach(prepareCodeBlock);
 
     document.addEventListener('click', function(event) {
         const wrapper = event.target.closest('.syntax-highlighted-code-wrapper');
         if (!wrapper) return;
 
-        // Проверяем, не кликнули ли на кнопку действия или текст сворачивания
-        const clickedActionButton = event.target.closest('.syntax-highlighted-code > footer .mat-mdc-icon-button, .collapse-toggle-button, .collapse-text-indicator');
+        const clickedActionButton = event.target.closest('.syntax-highlighted-code > footer .mat-mdc-icon-button, .collapse-toggle-button');
         if (clickedActionButton) {
-            return; // Эти элементы обрабатывают клики сами
+            return;
         }
 
-        // Проверяем, не выделяется ли текст
         if (hasTextSelection()) {
             return;
         }
 
-        // Проверяем, не кликнули ли на код (pre элемент) в развернутом состоянии
         const clickedOnCode = event.target.closest('pre');
         if (clickedOnCode && wrapper.classList.contains('expanded')) {
             const timeDiff = Date.now() - mouseDownTime;
@@ -322,13 +259,11 @@
             }
         }
 
-        // Разворачиваем только если блок свернут и кликнули не на код
         if ((event.target === wrapper ||
              (wrapper.contains(event.target) && !clickedOnCode)) &&
             !wrapper.classList.contains('expanded')) {
             toggleCodeBlock(wrapper);
         }
-        // Сворачиваем только если кликнули на wrapper напрямую в развернутом состоянии
         else if (event.target === wrapper && wrapper.classList.contains('expanded')) {
             toggleCodeBlock(wrapper);
         }
