@@ -64,3 +64,18 @@ https://docs.anthropic.com/en/prompt-library/library
 
 ### Картики
 https://preview.reve.art/
+
+### aider
+- https://aider.chat/docs/usage/copypaste.html
+
+```bash
+export GEMINI_API_KEY=***
+aider --model gemini/gemini-2.0-flash --copy-paste
+```
+
+```bash
+aider --sonnet --copy-paste
+/copy-context
+/paste
+aider --apply-clipboard-edits flake.nix
+```
