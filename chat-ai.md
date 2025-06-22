@@ -169,7 +169,8 @@ https://www.seaart.ai/
 https://copilot.microsoft.com/chats
 https://dreamina.capcut.com/ai-tool/image/generate
 http://gemini.google.com/
-
+https://www.krea.ai/image
+https://flux-ai.io/flux-kontext/
 
 Видео генераторы:
 https://lumalabs.ai/dream-machine
