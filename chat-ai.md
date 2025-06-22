@@ -171,6 +171,7 @@ https://dreamina.capcut.com/ai-tool/image/generate
 http://gemini.google.com/
 https://www.krea.ai/image
 https://flux-ai.io/flux-kontext/
+https://chat.mistral.ai/chat
 
 Видео генераторы:
 https://lumalabs.ai/dream-machine
