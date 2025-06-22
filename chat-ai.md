@@ -167,13 +167,15 @@ https://www.krea.ai/image
 https://app.leonardo.ai/image-generation
 https://www.seaart.ai/
 https://copilot.microsoft.com/chats
+https://dreamina.capcut.com/ai-tool/image/generate
+http://gemini.google.com/
 
 
 Видео генераторы:
 https://lumalabs.ai/dream-machine
 https://dream-machine-ai.com/
-https://seed.bytedance.com/en/
 https://hailuoai.video/
+# https://seed.bytedance.com/en/
 # из африки нужно зайти чтобы бесплатно было
 https://dreamina.capcut.com/
-
+https://www.krea.ai/video
