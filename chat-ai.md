@@ -172,6 +172,7 @@ http://gemini.google.com/
 https://www.krea.ai/image
 https://flux-ai.io/flux-kontext/
 https://chat.mistral.ai/chat
+https://hailuoai.video/create
 
 Видео генераторы:
 https://lumalabs.ai/dream-machine
@@ -181,3 +182,4 @@ https://hailuoai.video/
 # из африки нужно зайти чтобы бесплатно было
 https://dreamina.capcut.com/
 https://www.krea.ai/video
+https://hailuoai.video/
