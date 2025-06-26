@@ -183,6 +183,7 @@ https://hailuoai.video/
 https://dreamina.capcut.com/
 https://www.krea.ai/video
 https://higgsfield.ai/
+https://www.heygen.com/
 
 Звуки:
 https://www.myinstants.com/en/index/us/
