@@ -182,7 +182,6 @@ https://hailuoai.video/
 # из африки нужно зайти чтобы бесплатно было
 https://dreamina.capcut.com/
 https://www.krea.ai/video
-https://hailuoai.video/
 https://higgsfield.ai/
 
 Звуки:
