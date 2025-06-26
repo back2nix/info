@@ -183,7 +183,7 @@ https://hailuoai.video/
 https://dreamina.capcut.com/
 https://www.krea.ai/video
 https://hailuoai.video/
-
+https://higgsfield.ai/
 
 Звуки:
 https://www.myinstants.com/en/index/us/
