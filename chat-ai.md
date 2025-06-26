@@ -183,3 +183,19 @@ https://hailuoai.video/
 https://dreamina.capcut.com/
 https://www.krea.ai/video
 https://hailuoai.video/
+
+
+Звуки:
+https://www.myinstants.com/en/index/us/
+
+Вырезки из фильмов:
+https://clip.cafe/?srsltid=AfmBOorTX4xQX9B5xWBnRXp407taubx7zwfY9mnFHkw9msnkmNJkQ4wA
+
+Автомонтаж:
+https://www.submagic.co/
+https://klap.app/
+https://www.revid.ai/?aff=KJWpo
+
+
+google-scrapper:
+https://outscraper.com/pricing/
