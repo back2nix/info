@@ -139,6 +139,7 @@ https://console.yandex.cloud/folders/b1g4at3g4gtfr1i2af62/foundation-models/chat
 - gemeni 1.5 pro
 - https://aistudio.google.com/app/prompts/research-assistant
 - https://aistudio.google.com/app/prompts/new_chat
+- https://notebooklm.google.com/notebook/
 
 - сравнивать чаты
 https://chat.lmsys.org/
