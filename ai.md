@@ -200,3 +200,7 @@ https://www.revid.ai/?aff=KJWpo
 
 google-scrapper:
 https://outscraper.com/pricing/
+
+
+векторизатор:
+https://vectormagic.com/
