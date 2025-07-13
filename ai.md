@@ -205,3 +205,7 @@ https://outscraper.com/pricing/
 
 векторизатор:
 https://vectormagic.com/
+
+
+транскрибация:
+https://transcribetext.com/
