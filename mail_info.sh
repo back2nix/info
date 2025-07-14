@@ -9,3 +9,4 @@ https://www.youtube.com/watch?v=NmXWA08ly_s
 
 - duckduckgo mail
 https://duckduckgo.com/email/settings/autofill
+https://simplelogin.io/pricing/
