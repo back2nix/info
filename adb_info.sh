@@ -29,3 +29,9 @@ adb shell pm path com.example.app | sed 's/package://g' | xargs -I {} adb pull {
 ```
 adb exec-out screencap -p | xclip -selection clipboard -t image/png
 ```
+
+```
+adb shell dumpsys window | grep "mCurrentFocus"
+adb shell uiautomator dump
+adb pull /sdcard/window_dump.xml
+```

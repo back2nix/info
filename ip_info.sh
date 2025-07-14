@@ -56,3 +56,7 @@ ping size=1300 interval=0.1 79.174.188.193
 - https://webbrowsertools.com/ip-address/
 - Чтобы не моглий определить мой настоящий proxy
 - webrtc disable https://chrome.google.com/webstore/detail/webrtc-leak-shield/bppamachkoflopbagkdoflbgfjflfnfl/related
+
+
+# coords
+curl --socks5 127.0.0.1:1082 ipinfo.io
