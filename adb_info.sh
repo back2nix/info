@@ -24,3 +24,8 @@ adb pull /data/app/com.example.app-1.apk C:\путь\куда\сохранить
 ```bash
 adb shell pm path com.example.app | sed 's/package://g' | xargs -I {} adb pull {} app.apk
 ```
+
+Скриншот с экрана телефона и сразу в clipboard
+```
+adb exec-out screencap -p | xclip -selection clipboard -t image/png
+```
