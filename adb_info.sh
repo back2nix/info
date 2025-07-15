@@ -35,3 +35,6 @@ adb shell dumpsys window | grep "mCurrentFocus"
 adb shell uiautomator dump
 adb pull /sdcard/window_dump.xml
 ```
+
+
+adb shell am start -a android.intent.action.VIEW -d "http://example.com" com.android.chrome
