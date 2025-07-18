@@ -166,6 +166,7 @@ https://bolt.new/
 
 Генераторы изображений:
 https://www.krea.ai/image
+- https://www.youtube.com/watch?v=NAJ7K_sQN7E&ab_channel=AIVISIONS
 https://app.leonardo.ai/image-generation
 https://www.seaart.ai/
 https://copilot.microsoft.com/chats
@@ -175,6 +176,8 @@ https://www.krea.ai/image
 https://flux-ai.io/flux-kontext/
 https://chat.mistral.ai/chat
 https://hailuoai.video/create
+- lora
+https://fal.ai/
 
 Видео генераторы:
 https://lumalabs.ai/dream-machine
