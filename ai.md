@@ -212,3 +212,7 @@ https://vectormagic.com/
 
 транскрибация:
 https://transcribetext.com/
+
+
+promt:
+https://prompthero.com/prompt/5b506f6cb74-flux-flux-1-1-pro-full-body-view-of-a-young-beautiful-tattooed-nun-with-a-modern-twist-she-wears-traditional-nun-attire-with-a
