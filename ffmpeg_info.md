@@ -31,6 +31,8 @@ https://www.youtube.com/watch?v=7EwTMQ3nyNY
 ### mp4 -> gif
 ffmpeg -i simplescreenrecorder-2021-09-03_12.10.56.mp4 -vf "fps=10,scale=320:-1:flags=lanczos" -c:v pam -f image2pipe - | convert -delay 10 - -loop 0 -layers optimize output.gif
 
+ffmpeg -i "Screencast From 2025-07-20 13-54-02.webm" "Screencast From 2025-07-20 13-54-02.mp4"
+
 ### добавить надпись
 ffmpeg -i gh.mp4 -vf "drawtext=fontfile=/path/to/font.ttf:text='Hello World':fontcolor=white:fontsize=24:box=1:boxcolor=black@0.5:boxborderw=5:x=(w-text_w)/2:y=(h-text_h)/1" -codec:a copy output.mp4
 
