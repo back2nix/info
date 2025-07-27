@@ -178,6 +178,7 @@ https://chat.mistral.ai/chat
 https://hailuoai.video/create
 - lora
 https://fal.ai/
+https://ideogram.ai/t/explore
 
 Видео генераторы:
 https://lumalabs.ai/dream-machine
