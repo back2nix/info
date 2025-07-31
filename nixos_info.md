@@ -731,3 +731,5 @@ xxh user@hostname +s fish ++ssh-options="-F ~/.ssh/config"
 xxh user@hostname +s fish ++install
 xxh user@hostname +s fish
 ```
+
+systemd-inhibit --what=idle:sleep --why="Don't sleep" bash
