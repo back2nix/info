@@ -211,3 +211,6 @@
 
 - Учебник по машинному обучению
 - https://education.yandex.ru/handbook/ml
+
+### learn-to-code-go-version-03
+- avito https://github.com/liquidslr/leetcode-company-wise-problems/blob/main/Avito/5.%20All.csv
