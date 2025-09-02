@@ -66,3 +66,6 @@ ffmpeg -i input.mkv -c:v libx264 -c:a aac output.mp4
 		echo "Конвертация файла $input_file завершена. Результат сохранен в $output_file"
 	done
 ```
+
+ffmpeg -sseof -1 -i input.mp4 -frames:v 1 last_frame.png
+
