@@ -741,3 +741,30 @@ sudo mount /dev/disk/by-label/NIXBOOT /mnt/boot
 
 sudo nixos-enter --root /mnt
 ```
+
+# Ошибка "path is not in the Nix store" при nixos-rebuild
+
+## Проблема
+```
+error: path '/nix/store/...-linux-X.XX.XX-modules-shrunk/lib' is not in the Nix store
+```
+
+Это регрессия в Nix 2.18.5, исправленная в более поздних версиях. Возникает при сборке с flake и новыми версиями nixpkgs.
+
+## Решение
+Создайте `shell.nix`:
+```nix
+{ pkgs ? import (fetchTarball "https://github.com/NixOS/nixpkgs/archive/nixos-unstable.tar.gz") { } }:
+pkgs.mkShell {
+  packages = with pkgs; [
+    nixVersions.latest
+    nixos-rebuild
+  ];
+}
+```
+
+Запустите сборку через обновлённый Nix:
+```bash
+nix-shell
+sudo nixos-rebuild switch --flake .#your-config
+```
