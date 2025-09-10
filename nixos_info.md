@@ -733,3 +733,11 @@ xxh user@hostname +s fish
 ```
 
 systemd-inhibit --what=idle:sleep --why="Don't sleep" bash
+
+```bash
+sudo mount /dev/disk/by-label/NIXROOT /mnt
+sudo mkdir -p /mnt/boot
+sudo mount /dev/disk/by-label/NIXBOOT /mnt/boot
+
+sudo nixos-enter --root /mnt
+```
