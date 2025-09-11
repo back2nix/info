@@ -214,3 +214,6 @@
 
 ### learn-to-code-go-version-03
 - avito https://github.com/liquidslr/leetcode-company-wise-problems/blob/main/Avito/5.%20All.csv
+
+- Ты не все знаешь о массивах и слайсах в Go
+https://www.youtube.com/watch?v=7ij3u-0YsJI&ab_channel=%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%D0%91%D0%B0%D0%BB%D1%83%D0%BD
