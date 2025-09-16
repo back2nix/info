@@ -224,3 +224,7 @@ https://midlibrary.io/
 
 github context
 https://gitingest.com/username/repository
+
+nano banon
+- text photoshop
+https://app.reve.com/
