@@ -220,3 +220,11 @@ https://www.youtube.com/watch?v=7ij3u-0YsJI&ab_channel=%D0%92%D0%BB%D0%B0%D0%B4%
 
 ### 500 pet project machine learning
 https://github.com/ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code
+
+### называть ли зарплату?
+https://www.youtube.com/watch?v=WChxbBSlWnQ
+https://www.youtube.com/watch?v=tPgx9UsYPFY
+https://www.youtube.com/shorts/2uQv8S2pEJc
+https://www.youtube.com/shorts/d2FO0IzSR7k
+https://www.youtube.com/watch?v=eUiNnbdv7c0
+https://www.youtube.com/watch?v=5pNZw92CCAo
