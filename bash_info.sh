@@ -1057,3 +1057,7 @@ https://warp.dev
 
 title manager
 https://github.com/baskerville/bspwm
+
+# посмотреть vfs mount
+mount
+findmnt
