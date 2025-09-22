@@ -179,6 +179,8 @@ https://hailuoai.video/create
 - lora
 https://fal.ai/
 https://ideogram.ai/t/explore
+realtime video generator
+https://github.com/Wan-Video/Wan2.2
 
 Видео генераторы:
 https://lumalabs.ai/dream-machine
