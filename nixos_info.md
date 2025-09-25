@@ -768,3 +768,8 @@ pkgs.mkShell {
 nix-shell
 sudo nixos-rebuild switch --flake .#your-config
 ```
+
+bluetooth samsung
+```
+systemctl --user restart pipewire pipewire-pulse
+```

@@ -230,3 +230,6 @@ https://gitingest.com/username/repository
 nano banon
 - text photoshop
 https://app.reve.com/
+
+- генератор идей
+labs.google.com
