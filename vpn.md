@@ -57,3 +57,11 @@ https://github.com/hufrea/byedpi-neko/releases/tag/v0.2.0
 ```bash
 ssh -L 0.0.0.0:18082:127.0.0.1:18081 bg@localhost -N
 ```
+
+```bash
+# Получить IP диапазоны Google
+curl https://www.gstatic.com/ipranges/goog.json | jq -r '.prefixes[].ipv4Prefix'
+
+# Туннелировать только их
+sshuttle -r google-seoul $(curl -s https://www.gstatic.com/ipranges/goog.json | jq -r '.prefixes[].ipv4Prefix' | grep -v null)
+```
