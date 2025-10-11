@@ -228,3 +228,7 @@ https://www.youtube.com/shorts/2uQv8S2pEJc
 https://www.youtube.com/shorts/d2FO0IzSR7k
 https://www.youtube.com/watch?v=eUiNnbdv7c0
 https://www.youtube.com/watch?v=5pNZw92CCAo
+
+
+# golang за вечер
+https://github.com/ThreeDotsLabs
