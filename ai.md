@@ -233,3 +233,6 @@ https://app.reve.com/
 
 - генератор идей
 labs.google.com
+
+Wan 2.2 Animate: FREE AI Character Swap & Lip-sync | ComfyUI Tutorial
+https://www.youtube.com/watch?v=woCP1Q_Htwo
