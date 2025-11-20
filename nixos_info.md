@@ -773,3 +773,7 @@ bluetooth samsung
 ```
 systemctl --user restart pipewire pipewire-pulse
 ```
+
+docker vs nix   70s vs 15 s
+nix-sidecar
+https://www.youtube.com/watch?v=iPoL03tFBtU
