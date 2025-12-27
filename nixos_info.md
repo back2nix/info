@@ -777,3 +777,22 @@ systemctl --user restart pipewire pipewire-pulse
 docker vs nix   70s vs 15 s
 nix-sidecar
 https://www.youtube.com/watch?v=iPoL03tFBtU
+
+
+смотреть сколько весит пакет
+```
+nix run nixpkgs#nix-tree -- nixpkgs#dbeaver-bin
+
+NIXPKGS_ALLOW_UNFREE=1 nix path-info -Sh nixpkgs#dbeaver-bin --impure
+NIXPKGS_ALLOW_UNFREE=1 nix path-info -Sh nixpkgs#google-chrome --impure
+NIXPKGS_ALLOW_UNFREE=1 nix path-info -Sh nixpkgs#zoom-us --impure
+NIXPKGS_ALLOW_UNFREE=1 nix path-info -Sh nixpkgs#dbeaver-bin --impure
+NIXPKGS_ALLOW_UNFREE=1 nix path-info -Sh nixpkgs#pcmanfm --impure
+NIXPKGS_ALLOW_UNFREE=1 nix path-info -Sh nixpkgs#cheese --impure
+NIXPKGS_ALLOW_UNFREE=1 nix path-info -Sh nixpkgs#telegram-desktop --impure
+NIXPKGS_ALLOW_UNFREE=1 nix path-info -Sh nixpkgs#vim --impure
+NIXPKGS_ALLOW_UNFREE=1 nix path-info -Sh nixpkgs#firefox --impure
+
+nix path-info -Sh ./result
+
+```
