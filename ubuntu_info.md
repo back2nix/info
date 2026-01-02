@@ -141,3 +141,6 @@ gsettings set org.gnome.desktop.wm.keybindings switch-input-source "['<Alt>Shift
 
 
 kooha - запись экрана wayland - почти без настроек
+
+wayland screen recording:
+gpu-screen-recorder -w screen -o video.mp4
