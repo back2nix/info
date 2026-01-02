@@ -797,3 +797,5 @@ nix path-info -Sh ./result
 nix run nixpkgs#nix-tree -- ./result
 
 ```
+
+kooha - запись экрана wayland - почти без настроек
