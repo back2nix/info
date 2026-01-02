@@ -794,5 +794,6 @@ NIXPKGS_ALLOW_UNFREE=1 nix path-info -Sh nixpkgs#vim --impure
 NIXPKGS_ALLOW_UNFREE=1 nix path-info -Sh nixpkgs#firefox --impure
 
 nix path-info -Sh ./result
+nix run nixpkgs#nix-tree -- ./result
 
 ```
