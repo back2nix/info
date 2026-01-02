@@ -138,3 +138,6 @@ shutter
 ### switch keyboard languange
 
 gsettings set org.gnome.desktop.wm.keybindings switch-input-source "['<Alt>Shift_L']"
+
+
+kooha - запись экрана wayland - почти без настроек
