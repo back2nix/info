@@ -69,3 +69,4 @@ ffmpeg -i input.mkv -c:v libx264 -c:a aac output.mp4
 
 ffmpeg -sseof -1 -i input.mp4 -frames:v 1 last_frame.png
 
+ffmpeg -i video.mp4 -c:v libx264 -preset slow -crf 23 -profile:v high -level 4.1 -pix_fmt yuv420p -movflags +faststart -c:a aac -b:a 128k video_h264.mp4
