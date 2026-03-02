@@ -27,3 +27,17 @@ State: NY
 ZIP: 10001
 Country: USA
 ```
+
+
+```
+Number: 5555 5555 5555 4444
+Expiration: 11/31
+CVV: 456
+
+Name: John Smith
+Street: 350 5th Ave
+City: New York
+State: NY
+ZIP: 10001
+Country: USA
+```
