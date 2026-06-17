@@ -802,3 +802,8 @@ kooha - запись экрана wayland - почти без настроек
 
 wayland screen recording:
 gpu-screen-recorder -w screen -o video.mp4
+
+
+```bash
+sudo nixos-rebuild switch --flake ~/Documents/code/github.com/back2nix/nix/my-nix-config-huawei#yoga14 --option http2 false
+```
